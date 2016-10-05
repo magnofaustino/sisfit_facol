@@ -9,11 +9,11 @@ include "menu.php";
 	</head>
 	<body>
 		<h1>Cadastro de Fornecedor</h1>
-		<form action="processa_curso.php" method="GET" >
+		<form action="processa_fornecedor.php" method="GET" >
              
-            	Nome:<input  type="text" name="nome_aluno"><br><br>
+            	Nome:<input  type="text" name="nome_fornecedor"><br><br>
                  CPF ou CNPJ:<input  type="text" name="cpf"><br><br>
-             telefone:<input  type="text" name="telefone"><br><br>
+        //     telefone:<input  type="text" name="telefone"><br><br>
             
             
             <fieldset>
