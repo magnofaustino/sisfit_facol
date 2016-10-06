@@ -10,37 +10,36 @@ include "menu.php";
 require_once "class_funcionario.php"; 
 //conexão com o mysqls.
 
-$con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
-$nome =$_GET['nome'];
-$cpf = $_GET['cpf'];
-$rg = $_GET['rg']; 
-$telefone= $_GET['telefone'];
+$con = mysql_connect("localhost", "root", "sisfit") or die ("Erro ao conectar ao BD");
+$nome_fornecedor = $_GET['nome'];
+$cpf_funcionario = $_GET['cpf'];
+$rg_funcionario = $_GET['rg']; 
+$telefone_funcionario = $_GET['telefone'];
+$matricula_funcionario = $_GET['matricula']; 
+$admissao_funcionario = $_GET['admissao'];
 
 
 //en baixo é a conexão com o banco que ainda p sisfit n foi criado, as informações aqui contidas são referente ao bando do projeto antigo.
 if($con){
-echo("banco conectado com sucesso");   
+ echo("Banco conectado com sucesso");   
 }
 
 // todas as informações aqui a baixo estão desatualizadas, aguardando a criação do banco e de suas respectivas tabelas.
 
- $s= mysql_select_db("txt") or die ("erro ao selecionar o BD PROJETO BAR");
+ $s= mysql_select_db("sisfit") or die ("Erro ao conectar o Sisfit Db");
 if($s){
 
-echo("banco selecionado com sucesso");
+echo("Banco Conectado com Sucesso");
 }
 
-$prd=new funcionario();
+$prd=new Funcionario();
 $prd->setNome($nome);
 $prd->setCpf($cpf);
-$prd->setCurso($curso);
+$prd->setRg($rg);
+$prd->setTelefone($telefone);
+$prd->setMatricula($matricula);
+$prd->setAdmissao($admissao);
 
-// a baixo falta incluir alguns dados no banco, está dessa forma para facilitar os testes..
 
-
-$result = mysql_query("insert into txt(nome_funcionario, cpf_funcionario) values ('".$prd->getNome()."','".$prd->getCpf()."')") or die ("erro ao inserir os dados no bando");
+$result = mysql_query("insert into funcionario(nome, cpf, rg, telefone, matricula, admissao) values ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getRG()."', '".$prd->getMatricula()."', '".$prd->getAdmissao()."', '".$prd->getTelefone()."')") or die ("Erro ao inserir os dados no DB");
 ?>
-
-
-
-   
