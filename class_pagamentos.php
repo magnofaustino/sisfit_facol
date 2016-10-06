@@ -5,7 +5,7 @@ class Pagamento{
 public $nome_do_resposavel;
 public $descricao;
 //public $rg;
-public $telefone
+public $telefone;
 
      
     

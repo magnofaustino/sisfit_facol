@@ -1,6 +1,6 @@
 
 <?php
-include "inicial.php";
+include "menu.php";
 ?>
 <html>
 	<head>

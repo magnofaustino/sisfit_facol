@@ -1,5 +1,5 @@
 <?php
-include "inicial.php";
+include "menu.php";
 ?>
 
 <html>
@@ -12,15 +12,15 @@ include "inicial.php";
 		<form action="processa_fornecedor.php" method="GET" >
              
             	Nome:<input  type="text" name="nome_fornecedor"><br><br>
-                 CPF ou CNPJ:<input  type="text" name="cpf"><br><br>
-        //     telefone:<input  type="text" name="telefone"><br><br>
+                CPF ou CNPJ:<input  type="text" name="cpf"><br><br>
+                Telefone:<input  type="text" name="telefone"><br><br>
             
             
             <fieldset>
                  	Responsável pelo Atendimento:  
 		<select name="Nome">
 		<option value="1">Atendente</option>
-		<option value="2">Poduto</option>
+		<option value="2">Produto</option>
 		
 		
             </select><br><br>  
