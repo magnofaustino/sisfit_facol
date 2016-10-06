@@ -1,5 +1,5 @@
 <?php
-include "menu.php";
+include "inicial.php";
 ?>
 <html>
 	<head>

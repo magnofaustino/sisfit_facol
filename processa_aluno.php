@@ -1,12 +1,10 @@
 
-<?php
-include "menu.php";
-?>
+
 <?php
 
 require_once "class_aluno.php"; 
 $con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
-$nome_aluno =$_GET['nome_aluno'];
+$nome_aluno =$_GET['nome'];
 $cpf = $_GET['cpf'];
 $curso = $_GET['curso']; 
 
@@ -27,7 +25,15 @@ $prd->setCpf($cpf);
 $prd->setCurso($curso);
 
 
-$result = mysql_query("insert into aluno(nome_aluno, cpf, curso) values ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getCurso()."')") or die ("erro ao inserir os dados no bando");
+$result = mysql_query("insert into aluno(nome, cpf, curso) values ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getCurso()."')") or die ("erro ao inserir os dados no bando");
+
+
+if($result){
+    echo("dados inseridos com sucesso");
+    
+}
+
+
 ?>
 
 
