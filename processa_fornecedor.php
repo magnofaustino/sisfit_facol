@@ -1,7 +1,6 @@
 <?php
-include "menu.php";
+include ("conexao.php");
 ?>
-
 <?php
 
 require_once "class_fornecedor.php"; 

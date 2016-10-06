@@ -1,5 +1,6 @@
 <?php
 include "inicial.php";
+include ("conexao.php");
 ?>
 <html>
 <meta charset="UTF-8"/>
@@ -7,17 +8,11 @@ include "inicial.php";
 <body>
 <h1>Informações sobre o aluno</h1>
 <?php
-
-$con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
-
  //função seleciona banco de dados.
     $seleciona_banco = mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
 
 $resoltbusca = mysql_query("select * from curso") or die ("erro executar o select");
 
-if($con){
-     echo("conecção feita");
-     }
 
 ?>
     

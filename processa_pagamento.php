@@ -1,5 +1,6 @@
-
-
+<?php
+include ("conexao.php");
+?>
 <?php
 
 require_once "class_pagamento.php"; 
