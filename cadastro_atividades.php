@@ -13,15 +13,15 @@ include "menu.php";
 	</head>
 	<body>
 		<h1>Cadastro de Atividades</h1>
-		<form action="processa_atividades.php" method="POST" >
+		<form action="processa_atividades.php" method="GET" >
             <fieldset>
 		Atividade:<input  type="text" name="atividade"><br><br>
                 Valor:<input  type="text" name="valor"><br><br>
                 
                 É uma Atividade Temporaria?:  
 		<select name="atvtemp">
-		<option value="1">Não</option>
-                <option value="2">Sim</option></select><br><br>
+		<option value="N">Não</option>
+                <option value="S">Sim</option></select><br><br>
                 Data de Inicio:<input type="date" name="dtini"><br><br>
                 Data de Fim:<input type="date" name="dtfim"><br><br>
          <input type="submit" name="sub" value="Cadastrar">

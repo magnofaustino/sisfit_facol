@@ -5,12 +5,14 @@
 include ("conexao.php");
 ?>
 <?php
+require_once "class_atividades.php"; 
 
-$atividade = $_POST['atividade'];
-$valor = $_POST['valor'];
-$atvtemp = $_POST['atvtemp']; 
-$dtini = $_POST['dtini'];
-$dtfim = $_POST['dtfim']; 
+
+$atividade = $_GET['atividade'];
+$valor = $_GET['valor'];
+$atvtemp = $_GET['atvtemp']; 
+$dtini = $_GET['dtini'];
+$dtfim = $_GET['dtfim']; 
 
 $prd=new Atividades();
 $prd->setAtividade($atividade);
@@ -20,8 +22,17 @@ $prd->setDtini($dtini);
 $prd->setDtfim($dtfim);
 
 
-$result = mysqli_query("insert into atividades(atividade, valor, atvtemp, dtini, dtfim) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."','".$prd->getDtfim()."'") or die ("erro ao inserir os dados no banco");
-mysqli_close($con);
+$result = mysqli_query($mysqli,"insert into atividades(atividade, valor, atvtemp, dtini, dtfim) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."','".$prd->getDtfim()."')");
+
+if($result){
+
+echo("Registro inserido com sucesso");
+}
+else{
+    echo("Erro ao enserir registro");   
+}
+
+mysqli_close($mysqli);
 ?>
 
 
