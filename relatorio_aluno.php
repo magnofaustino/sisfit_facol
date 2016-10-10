@@ -1,43 +1,40 @@
 <?php
-include "inicial.php";
-include ("conexao.php");
-?>
+    $con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");    
+    $s= mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
+    $resoltadobusca = mysql_query("select * from aluno") or die ("erro executar o select");
+ ?>
+
+
 <html>
 <meta charset="UTF-8"/>
 <head> <title>Relatório de Alunos</title> </head>  
 <body>
 <h1>Informações sobre o aluno</h1>
-<?php
- //função seleciona banco de dados.
-    $seleciona_banco = mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
 
-$resoltbusca = mysql_query("select * from curso") or die ("erro executar o select");
-
-
-?>
-    
-     <?php  $resoltadobusca = mysql_query("select * from aluno") or die ("erro executar o select");
    
-   ?> 
-    <table border='2'>
     
-    <tr>
-        
-        <td>Aluno</td>
-        <td>Cpf</td>
+    <table border='2'>
+      <tr> 
+          <td>id</td>
+          <td>Aluno</td>
+          <td>Cpf</td>
+            <td>id</td>
+          
        
         </tr>
     
-    <?php while($ras = mysql_fetch_array($resoltadobusca)){?> 
-      <?php $n = $ras['numero'];
-                                                           ?>
-        <tr>
-        
+    <?php while($ras = mysql_fetch_array($resoltadobusca)){
+        $id = $ras['id_aluno'];
+        ?> 
+      <tr>
+        <td><?php echo $ras['id_aluno']; ?></td>
         <td><?php echo $ras['nome_aluno']; ?></td>
         <td><?php echo $ras['cpf']; ?></td>
-       
-           </tr>
-        <?php } ?>
+        <td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
+     </tr>
+        
+     <?php } ?>
+    
     </table><br><br>
   
 </body>
