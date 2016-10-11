@@ -1,27 +1,14 @@
 <?php
+$con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
 
-/* 
-Conexão ao banco de dados.
- */
-
-$conexao = "localhost";
-$user = "root";
-$senha = "sos101os";
-$alias = "sisfit";
-
-$con = mysql_connect($conexao,$user,$senha);
-
-if (!$con) {
-    die('Não foi possível conectar: ' . mysql_error());
+if($con){
+ echo("banco conectado com sucesso");   
 }
 
-echo 'Conexão bem sucedida';
 
-$s= mysql_select_db("sisfit") or die ("Erro ao Selecionar o Bando de Dados");
-
+ $s= mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
 if($s){
 
 echo("banco selecionado com sucesso");
 }
-
 ?>
