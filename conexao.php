@@ -6,16 +6,22 @@ Conexão ao banco de dados.
 
 $conexao = "localhost";
 $user = "root";
-$senha = "";
+$senha = "sos101os";
 $alias = "sisfit";
 
-$mysqli = new mysqli($conexao,$user,$senha,$alias) or die ("Erro ao conectar ao DB");
+$con = mysql_connect($conexao,$user,$senha);
 
-// Checando Conexão
+if (!$con) {
+    die('Não foi possível conectar: ' . mysql_error());
+}
 
-if ($mysqli->connect_errno)
-  {
-  echo "Falha na conexão com o banco de dados: (".$mysqli->connect_errno.")".$mysqli->connect_error;
-  }
+echo 'Conexão bem sucedida';
 
-  ?>
+$s= mysql_select_db("sisfit") or die ("Erro ao Selecionar o Bando de Dados");
+
+if($s){
+
+echo("banco selecionado com sucesso");
+}
+
+?>
