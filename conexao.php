@@ -1,14 +1,14 @@
 <?php
-$con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
+$conexao = "localhost";
+$user = "root";
+$senha = "sos101os";
+$alias = "escola"; 
+     
+$mysqli = new mysqli($conexao,$user,$senha,$alias) or die ("Erro ao conectar ao DB");
 
-if($con){
- echo("banco conectado com sucesso");   
+if($mysqli){
+    echo ("conectado com sucesso");
+    
 }
 
-
- $s= mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
-if($s){
-
-echo("banco selecionado com sucesso");
-}
-?>
+  ?>   
