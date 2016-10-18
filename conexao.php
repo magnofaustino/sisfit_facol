@@ -1,14 +1,14 @@
 <?php
-$conexao = "localhost";
-$user = "root";
-$senha = "sos101os";
-$alias = "escola"; 
-     
-$mysqli = new mysqli($conexao,$user,$senha,$alias) or die ("Erro ao conectar ao DB");
+$servername = "localhost";
+$username = "root";
+$password = "sos101os";
+$dbname = "escola";
 
-if($mysqli){
-    echo ("conectado com sucesso");
-    
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 
   ?>   

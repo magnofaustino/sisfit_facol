@@ -11,11 +11,11 @@ include "menu.php";
 		<h1>Cadastro de Aluno</h1>
 		<form action="processa_aluno.php" method="GET" >
              <fieldset>
-		Nome:<input  type="text" name="nome_aluno"><br><br>
+		Nome:<input  type="text" name="nome"><br><br>
             
 		      CPF:<input  type="text" name="cpf"><br><br>
                  
-                 Altura:<input  type="text" name="altura"><br><br>
+                 Altura:<input  type="text" name="curso"><br><br>
                  
                  
         
