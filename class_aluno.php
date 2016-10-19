@@ -2,7 +2,7 @@
 class Aluno{
 
     
-public $nome_aluno;
+public $nome;
 public $cpf;
 public $curso;
 

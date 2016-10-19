@@ -22,7 +22,7 @@ $prd->setDtini($dtini);
 $prd->setDtfim($dtfim);
 
 
-$result = mysqli_query($mysqli,"insert into aluno(nome_aluno, , cpf, curso,) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."')");
+$result = mysqli_query($mysqli,"insert into atividades(atividade, valor, atvtemp, dtini, dtfim) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."','".$prd->getDtfim()."')");
 
 if($result){
 
