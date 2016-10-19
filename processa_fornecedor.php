@@ -1,43 +1,48 @@
 <?php
 include ("conexao.php");
 ?>
+
 <?php
 
 require_once "class_fornecedor.php"; 
 
-$razao = $_GET['razao'];
-$nomefantasia = $_GET['nomefantasia'];
-$cpf = $_GET['cpf_cnpj'];
-$telefone = $_GET['telefone']; 
+$razao =$_GET['razao'];
+$nome_fantasia = $_GET['nome_fantasia'];
 $tipo = $_GET['tipo'];
-$email = $GET['email'];
-$endereco = $_GET['endereco']; 
-$bairro = $_GET['bairro'];
-$municipio = $_GET['municipio'];
-$numero = $_GET['numero']; 
-$cep = $_GET['cep'];
+$cpf_cnpj = $_GET['cpf_cnpj'];
+$telefone = $_GET['telefone'];
 
 
-$prd=new fornecedor();
-$prd->setNome($razao);
-$prd->setNomefantasia($nomefantasia);
-$prd->setCpf($cpf_cnpj);
-$prd->setTelefone($telefone);
+
+
+
+
+$prd=new Fornecedor();
+$prd->setRazao($razao);
+$prd->setNome_fantasia($nome_fantasia);
 $prd->setTipo($tipo);
-$prd->setEmail($email);
-$prd->setEndereco($endereco);
-$prd->setBairro($bairro);
-$prd->setMunicipio($municipio);
-$prd->setNumero($numero);
-$prd->setCep($cep);
+$prd->setCpf_cnpj($cpf_cnpj);
+$prd->setTelefone($telefone);
 
 
-$result = mysql_query("insert into fornecedor(nome_fornecedor) values ('".$prd->getNome()."')") or die ("erro ao inserir os dados no bando");
 
-if($result){
+      // $sql = "INSERT INTO aluno(nome_aluno, cpf, curso)
+//VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getCurso()."')";
 
-echo("Registro inserido com sucesso");
+
+$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula)
+VALUES ('".$prd->getRazao()."', '".$prd->getNome_fantasia()."', '".$prd->getTipo()."', '".$prd->getCpf_cnpj()."', '".$prd->getTelefone()."' )";
+
+
+
+if (mysqli_query($conn, $sql)) {
+    echo "New records created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
+
+mysqli_close($conn);
+
 
 ?>
 

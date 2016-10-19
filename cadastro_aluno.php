@@ -32,10 +32,7 @@ include "menu.php";
             </fieldset>
         </form>
      
-        
-        
-        
-		 
+        		 
 	</body>
 </html>
 
