@@ -20,13 +20,7 @@ include "menu.php";
                  
         
             
-        	Sexo:  
-		<select name="sexo">
-		<option value="1">MASCULINO</option>
-		<option value="2">FEMININO</option>
-		
-		
-            </select><br><br>    
+        
             
     <input type="submit" name="sub" value="Enviar!">
             </fieldset>
