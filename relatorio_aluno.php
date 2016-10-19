@@ -5,6 +5,10 @@
  ?>
 
 
+<?php
+include ("menu.php");
+?>
+
 <html>
 <meta charset="UTF-8"/>
 <head> <title>Relatório de Alunos</title> </head>  
