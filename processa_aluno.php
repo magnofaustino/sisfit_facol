@@ -26,7 +26,7 @@ $prd->setCurso($curso);
 //VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getCurso()."')";
 
 
-$sql = "INSERT INTO aluno(nome_aluno, cpf, curso) VALUES ('$nome', '$cpf', '$curso')";
+$sql = "INSERT INTO aluno(nome_aluno, cpf, curso) VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getCurso()."')";
 
 
 

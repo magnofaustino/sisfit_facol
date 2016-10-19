@@ -1,8 +1,12 @@
 <?php
+include ("menu.php");
+?>
+
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "sos101os";
-$dbname = "escola";
+$dbname = "sisfit";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
