@@ -1,13 +1,14 @@
 <?php
+    
+     include ("conexao.php");   
+
     $con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");    
     $s= mysql_select_db("escola") or die ("erro ao selecionar o BD PROJETO BAR");
     $resoltadobusca = mysql_query("select * from aluno") or die ("erro executar o select");
  ?>
 
 
-<?php
-include ("menu.php");
-?>
+
 
 <html>
 <meta charset="UTF-8"/>
@@ -17,9 +18,9 @@ include ("menu.php");
 
    
     
-    <table border='2'>
+    <table border='4'>
       <tr> 
-          <td>id</td>
+          
           <td>Aluno</td>
           <td>Cpf</td>
             <td>id</td>
@@ -31,7 +32,7 @@ include ("menu.php");
         $id = $ras['id_aluno'];
         ?> 
       <tr>
-        <td><?php echo $ras['id_aluno']; ?></td>
+  
         <td><?php echo $ras['nome_aluno']; ?></td>
         <td><?php echo $ras['cpf']; ?></td>
         <td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
