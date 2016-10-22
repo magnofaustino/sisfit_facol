@@ -22,7 +22,7 @@ $prd->setDtini($dtini);
 $prd->setDtfim($dtfim);
 
 
-$result = mysqli_query($mysqli,"insert into atividades(atividade, valor, atvtemp, dtini, dtfim) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."','".$prd->getDtfim()."')");
+$result = mysqli_query($conn,"insert into atividades(atividade, valor, atvtemp, dtini, dtfim) values ('".$prd->getAtividade()."', '".$prd->getValor()."', '".$prd->getAtvtemp()."','".$prd->getDtini()."','".$prd->getDtfim()."')");
 
 if($result){
 
@@ -32,7 +32,7 @@ else{
     echo("Erro ao enserir registro");   
 }
 
-mysqli_close($mysqli);
+mysqli_close($conn);
 ?>
 
 
