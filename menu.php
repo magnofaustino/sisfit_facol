@@ -35,6 +35,9 @@
               <li>
                   <a href="relatorio_aluno.php">Relatorio Alunos</a>
               </li>
+                 <li>
+                  <a href="cadastro_plano.php">Cadastro Plano</a>
+              </li>
             </ul>
           </div>
         </div>
