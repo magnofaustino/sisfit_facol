@@ -23,15 +23,6 @@ include "menu.php";
                  Numero :<input  type="text" name="numero"><br><br>
                  CEP :<input  type="text" name="cep"><br><br>
                  
-            
-                 
-                
-                 
-                 
-        
-            
-        
-            
     <input type="submit" name="sub" value="Enviar!">
             </fieldset>
         </form>
