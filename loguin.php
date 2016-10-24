@@ -17,8 +17,7 @@
         
         <div class="col-xs-6 col-md-3">
         <img src="imagens\Logo2.png" alt="132" class="center-block img-responsive">
-        </div></div> 
-            </div>    
+        </div></div>  
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Entrar</h2>

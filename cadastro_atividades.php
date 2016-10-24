@@ -11,16 +11,15 @@ include "menu.php";
 		<title>Cadastro de Atividades</title>
 		<meta charset="UTF-8"></meta>
 	</head>
-	<body>
-		
-            <h2></h2><br><br>
-	    
-            <div class="panel panel-primary">
-            <div class="panel-heading"><h4>Cadastro de Atividades</h4></div>
-            <div class="panel-body">
-            
+        <body>
+                
+            <div class="container">
+            <div class="row">
             <form action="processa_atividades.php" method="GET" >
             <fieldset>
+                <div class="panel panel-primary">
+                <div class="panel-heading"><h4>Cadastro de Atividades</h4></div>
+                <div class="panel-body">
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -37,12 +36,12 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
                     <input type="date" class="form-control" name="dtini">
-                    <span class="input-group-addon">01/01/2016</span>
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Fim:</span>
                     <input type="date" class="form-control" name="dtfim">
-                    <span class="input-group-addon">01/01/2016</span>
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
                 </div><br>
@@ -59,9 +58,9 @@ include "menu.php";
                 </div><br><br>
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
+                </div></div>
             </fieldset>
             </form>
-            </div>
-            </div>
+        </div></div>
         </body>
 </html>
