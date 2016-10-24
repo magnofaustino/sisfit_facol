@@ -1,45 +1,159 @@
 <?php
 include "menu.php";
 ?>
+
 <html>
 	<head>
-		<title>Cadastro de Funcionarios</title>
+		<title>Cadastro de Funcionario</title>
 		<meta charset="UTF-8"></meta>
 	</head>
-	<body>
-		<h1>Cadastro de Funcionário</h1>
-		<form action="processa_funcionario.php" method="GET" >
-             <fieldset>
-		Nome:<input  type="text" name="nome"><br><br>
-                CPF:<input  type="text" name="cpf"><br><br>
-                RG:<input  type="text" name="rg"><br><br>
-                Telefone:<input type="telefone" name="telefone"><br><br>
-                Matricula:<input  type="text" name="matricula"><br><br>
-                Data de Admissão:<input type="date" name="admissao"><br><br>
-                Data de Nascimento:<input  type="date" name="nascimento"><br><br>
-                Sexo:<input  type="text" name="sexo"><br><br>
-                Estado civil:<input  type="text" name="estadocivil"><br><br>
-                Nacionalidade:<input  type="text" name="nacionalidade"><br><br>
-                Uf Naturalidade:<input  type="text" name="ufnaturalidade"><br><br>
-                Naturalidade:<input  type="text" name="naturalidade"><br><br>
-                Deficiente:<input  type="text" name="deficiente"><br><br>
-                Obs da deficiencia:<input  type="text" name="obsdeficiente"><br><br>
-                Nome do pai:<input  type="text" name="nomepai"><br><br>
-                Nome da mae:<input  type="text" name="nomemae"><br><br>
-                Apelido:<input  type="text" name="apelido"><br><br>
-                Funcao:<input  type="text" name="funcao"><br><br>
-                Num. Carteira:<input  type="text" name="numcarteira"><br><br>
-                Serie da carteira:<input  type="text" name="seriecarteira"><br><br>
-                Uf Carteira:<input  type="text" name="ufcarteira"><br><br>
-                Turno Trabalho:<input  type="text" name="turnotrab"><br><br>
-                Tipo Trabalho:<input  type="text" name="tipotrab"><br><br>
-            
-         <input type="submit" name="sub" value="Cadastrar">
+        <body>
+                
+            <div class="container">
+            <div class="row">
+            <form action="processa_funcionario.php" method="GET" >
+            <fieldset>
+                <div class="panel panel-primary">
+                <div class="panel-heading"><h4>Cadastro de Funcionario</h4></div>
+                <div class="panel-body">
+                
+                <div class="input-group">
+                    <span class="input-group-addon">Nome:</span>
+                    <input type="text" class="form-control" name="nome">
+                </div><br>
+                    
+		<div class="form-inline">
+                <div class="form-group">   
+                <div class="input-group">
+                    <span class="input-group-addon">CPF:</span>
+                    <input type="text" class="form-control" name="cpf">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Rg:</span>
+                    <input type="text" class="form-control" name="rg">
+                </div>                
+                </div></div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Telefone:</span>
+                    <input type="tel" class="form-control" name="telefone">
+                </div> 
+                <div class="input-group">
+                    <span class="input-group-addon">Matricula:</span>
+                    <input type="text" class="form-control" name="matricula">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Estado civil:</span>
+                    <input type="text" class="form-control" name="estadocivil">
+                </div>
+                </div></div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Nacionalidade:</span>
+                    <input type="text" class="form-control" name="nacionalidade">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Uf Naturalidade:</span>
+                    <input type="text" class="form-control" name="ufnaturalidade">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Naturalidade:</span>
+                    <input type="text" class="form-control" name="naturalidade">
+                </div>
+                </div></div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Data de Admissão:</span>
+                    <input type="date" class="form-control" name="admissao">
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Data de Nascimento:</span>
+                    <input type="date" class="form-control" name="nascimento">
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+                </div>
+                </div>
+                </div><br>
+                
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <div class="well">Sexo:
+                        <label class="radio-inline">
+                        <input type="radio" name="sexo" value="M">Masculino
+                        </label>
+                        <label class="radio-inline">
+                        <input type="radio" name="sexo" value="F">Feminino
+                        </label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="well">Deficiente:
+                        <label class="radio-inline">
+                        <input type="radio" name="deficiente" value="N">Não
+                        </label>
+                        <label class="radio-inline">
+                        <input type="radio" name="deficiente" value="S">Sim
+                        </label>
+                    </div>
+                </div></div></div>              
+                <div class="input-group">
+                    <span class="input-group-addon">Obs da deficiencia:</span>
+                    <input type="text" class="form-control" name="obsdeficiente">
+                </div><br>
+                <div class="input-group">
+                    <span class="input-group-addon">Nome do pai:</span>
+                    <input type="text" class="form-control" name="nomepai">
+                </div><br>
+                <div class="input-group">
+                    <span class="input-group-addon">Nome da mãe:</span>
+                    <input type="text" class="form-control" name="nomemae">
+                </div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Apelido:</span>
+                    <input type="text" class="form-control" name="apelido">
+                </div>               
+                <div class="input-group">
+                    <span class="input-group-addon">Funcao:</span>
+                    <input type="text" class="form-control" name="funcao">
+                </div>
+                </div></div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Num. Carteira:</span>
+                    <input type="text" class="form-control" name="numcarteira">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Serie da carteira:</span>
+                    <input type="text" class="form-control" name="seriecarteira">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Uf Carteira:</span>
+                    <input type="text" class="form-control" name="ufcarteira">
+                </div>
+                </div></div><br>
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Turno Trabalho:</span>
+                    <input type="text" class="form-control" name="turnotrab">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Tipo Trabalho:</span>
+                    <input type="text" class="form-control" name="tipotrab">
+                </div></div></div>
+                <br><br>
+                <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+                <button type="reset" class="btn btn-default">Limpar</button>
+                </div></div></div>
             </fieldset>
-        </form>
-        
-        
-        
-		 
-	</body>
+            </form>
+        </div></div>
+        </body>
 </html>
