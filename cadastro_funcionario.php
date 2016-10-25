@@ -38,6 +38,7 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
                     <input type="tel" class="form-control" name="telefone">
+                    <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matricula:</span>
@@ -46,8 +47,7 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
                     <input type="text" class="form-control" name="estadocivil">
-                </div>
-                </div></div><br>
+                </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -55,13 +55,46 @@ include "menu.php";
                     <input type="text" class="form-control" name="nacionalidade">
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div>
-                <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" name="naturalidade">
                 </div>
+                <!-- <div class="input-group">
+                    <span class="input-group-addon">Uf Naturalidade:</span>
+                    <input type="text" class="form-control" name="ufnaturalidade">
+                </div> -->
+                <div class="form-group">
+                         <div class="well well-sm">Uf Naturalidade:
+                         <select class="form-control" name="ufnaturalidade">
+                         <option value="">Selecione ...</option>
+                         <option value="AC">Acre</option>
+                         <option value="AL">Alagoas</option>
+                         <option value="AP">Amapá</option>
+                         <option value="AM">Amazonas</option>
+                         <option value="BA">Bahia</option>
+                         <option value="CE">Ceará</option>
+                         <option value="DF">Distrito Federal</option>
+                         <option value="GO">Goiás</option>
+                         <option value="ES">Espírito Santo</option>
+                         <option value="MA">Maranhão</option>
+                         <option value="MT">Mato Grosso</option>
+                         <option value="MS">Mato Grosso do Sul</option>
+                         <option value="MG">Minas Gerais</option>
+                         <option value="PA">Pará</option>
+                         <option value="PB">Paraiba</option>
+                         <option value="PR">Paraná</option>
+                         <option value="PE">Pernambuco</option>
+                         <option value="PI">Piauí­</option>
+                         <option value="RJ">Rio de Janeiro</option>
+                         <option value="RN">Rio Grande do Norte</option>
+                         <option value="RS">Rio Grande do Sul</option>
+                         <option value="RO">Rondônia</option>
+                         <option value="RR">Roraima</option>
+                         <option value="SP">São Paulo</option>
+                         <option value="SC">Santa Catarina</option>
+                         <option value="SE">Sergipe</option>
+                         <option value="TO">Tocantins</option>
+                        </select>
+                      </div></div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -133,10 +166,43 @@ include "menu.php";
                     <span class="input-group-addon">Serie da carteira:</span>
                     <input type="text" class="form-control" name="seriecarteira">
                 </div>
-                <div class="input-group">
+                <!--<div class="input-group">
                     <span class="input-group-addon">Uf Carteira:</span>
                     <input type="text" class="form-control" name="ufcarteira">
-                </div>
+                </div> -->
+                     <div class="form-group">
+                         <div class="well well-sm">Uf Carteira:
+                         <select class="form-control" name="ufcarteira">
+                         <option value="">Selecione ...</option>
+                         <option value="AC">Acre</option>
+                         <option value="AL">Alagoas</option>
+                         <option value="AP">Amapá</option>
+                         <option value="AM">Amazonas</option>
+                         <option value="BA">Bahia</option>
+                         <option value="CE">Ceará</option>
+                         <option value="DF">Distrito Federal</option>
+                         <option value="GO">Goiás</option>
+                         <option value="ES">Espírito Santo</option>
+                         <option value="MA">Maranhão</option>
+                         <option value="MT">Mato Grosso</option>
+                         <option value="MS">Mato Grosso do Sul</option>
+                         <option value="MG">Minas Gerais</option>
+                         <option value="PA">Pará</option>
+                         <option value="PB">Paraiba</option>
+                         <option value="PR">Paraná</option>
+                         <option value="PE">Pernambuco</option>
+                         <option value="PI">Piauí­</option>
+                         <option value="RJ">Rio de Janeiro</option>
+                         <option value="RN">Rio Grande do Norte</option>
+                         <option value="RS">Rio Grande do Sul</option>
+                         <option value="RO">Rondônia</option>
+                         <option value="RR">Roraima</option>
+                         <option value="SP">São Paulo</option>
+                         <option value="SC">Santa Catarina</option>
+                         <option value="SE">Sergipe</option>
+                         <option value="TO">Tocantins</option>
+                        </select>
+                      </div></div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
