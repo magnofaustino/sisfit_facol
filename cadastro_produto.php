@@ -19,7 +19,7 @@ include "menu.php";
                     
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Produto:</span>
-                    <input type="text" class="form-control" name="Nome do produto">
+                    <input type="text" class="form-control" name="Nome_produto">
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Descrição do Produto:</span>
@@ -104,7 +104,7 @@ include "menu.php";
                       </div></div>
                 <div class="form-group">
                          <div class="well well-sm">Bloqueado:
-                         <select class="form-control" name="fornecedor">
+                         <select class="form-control" name="liberacao">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>

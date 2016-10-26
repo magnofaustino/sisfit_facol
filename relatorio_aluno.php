@@ -35,7 +35,10 @@
   
         <td><?php echo $ras['nome_aluno']; ?></td>
         <td><?php echo $ras['cpf']; ?></td>
-        <td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
+          
+          
+          
+        <td><?php// echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
      </tr>
         
      <?php } ?>
