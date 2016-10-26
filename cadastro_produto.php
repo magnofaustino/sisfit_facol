@@ -19,44 +19,44 @@ include "menu.php";
                     
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Produto:</span>
-                    <input type="text" class="form-control" name="Nome_produto">
+                    <input type="text" class="form-control" name="Nome_a">
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Descrição do Produto:</span>
-                    <input type="text" class="form-control" name="descricao">
+                    <input type="text" class="form-control" name="Nome_2">
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" name="valor_custo">
+                    <input type="text" class="form-control" name="Nome_3">
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" name="valor_venda">
+                    <input type="text" class="form-control" name="Nome_4">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Unidade de Medida:</span>
-                    <input type="text" class="form-control" name="unidade_medida">
+                    <input type="text" class="form-control" name="Nome_5">
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" name="qt_estoque">
+                    <input type="text" class="form-control" name="Nome_6">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Grupo de Produto:</span>
-                    <input type="text" class="form-control" name="grupo">
+                    <input type="text" class="form-control" name="Nome_7">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Tipo de Produto:</span>
-                    <input type="text" class="form-control" name="tipo">
+                    <input type="text" class="form-control" name="Nome_8">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
@@ -95,7 +95,7 @@ include "menu.php";
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Fornecedor:
-                         <select class="form-control" name="fornecedor">
+                         <select class="form-control" name="Nome_12">
                          <option value="">Selecione ...</option>
                          <option value="1">Fornece 1</option>
                          <option value="2">Fornece 2</option>
@@ -104,7 +104,7 @@ include "menu.php";
                       </div></div>
                 <div class="form-group">
                          <div class="well well-sm">Bloqueado:
-                         <select class="form-control" name="liberacao">
+                         <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>

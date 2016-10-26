@@ -5,58 +5,56 @@
 class Produto{
 
     
-public $nome_produto;
-public $descricao;
-public $valor_custo;
-public $valor_venda;
-public $unidade_medida;
-public $qt_estoque;
-public $grupo;
-public $tipo;
-public $quant_garantia;
-public $periodo_garantia;
-public $data_compra;
-public $fornecedor;
-public $liberacao;
+public $nome_a;
+public $nome_2;
+public $nome_3;
+public $nome_4;
+public $nome_5;
+public $nome_6;
+public $nome_7;
+public $nome_8;
+public $nome_9;
+public $nome_10;
+public $nome_11;
+public $nome_12;
+public $nome_13;
     
     function _construct()
 	{		
 				
 	}
     
-    	public function getNome_produto(){return $this->nome_produto;}
-        public function getDescricao(){return $this->descricao;}
-        public function getValor_custo(){return $this->valor_custo;}
-        public function getValor_venda(){return $this->valor_venda;}
-        public function getUnidade_medida(){return $this->unidade_medida;}
+    	public function getNome_a(){return $this->nome_a;}
+        public function getNome_2(){return $this->nome_2;}
+        public function getNome_3(){return $this->nome_3;}
+        public function getNome_4(){return $this->nome_4;}
+        public function getNome_5(){return $this->nome_5;}    
+        public function getNome_6(){return $this->nome_6;}
+        public function getNome_7(){return $this->nome_7;}
+        public function getNome_8(){return $this->nome_8;}
+        public function getNome_9(){return $this->nome_9;}
     
-        public function getQt_estoque(){return $this->qt_estoque;}
-        public function getGrupo(){return $this->grupo;}
-        public function getTipo(){return $this->tipo;}
-        public function getQuant_garantia(){return $this->quant_garantia;}
-    
-        public function getPeriodo_garantia(){return $this->periodo_garantia;}
-        public function getData_compra(){return $this->data_compra;}
-        public function getFornecedor(){return $this->fornecedor;}
-        public function getLiberacao(){return $this->liberacao;}
+        public function getNome_10(){return $this->nome_10;}
+        public function getNome_11(){return $this->nome_11;}
+        public function getNome_12(){return $this->nome_12;}
+        public function getNome_13(){return $this->nome_13;}
        
     
     
-        public function setNome_produto($nome_produto){$this->nome_produto=$nome_produto;}
-        public function setDescricao($descricao){$this->descricao=$descricao;}
-        public function setValor_custo($valor_custo){$this->valor_custo=$valor_custo;}
-        public function setValor_venda($valor_venda){$this->valor_venda=$valor_venda;}
-        public function setUnidade_medida($unidade_medida){$this->unidade_medida=$unidade_medida;}
+        public function setNome_a($nome_a){$this->nome_a=$nome_a;}
+        public function setNome_2($nome_2){$this->nome_2=$nome_2;}
+        public function setNome_3($nome_3){$this->nome_3=$nome_3;}
+        public function setNome_4($nome_4){$this->nome_4=$nome_4;}
+        public function setNome_5($nome_5){$this->nome_5=$nome_5;}
+        public function setNome_6($nome_6){$this->nome_6=$nome_6;}
+        public function setNome_7($nome_7){$this->nome_7=$nome_7;}
+        public function setNome_8($nome_8){$this->nome_8=$nome_8;}
+        public function setNome_9($nome_9){$this->nome_9=$nome_9;}
     
-        public function setQt_estoque($qt_estoque){$this->qt_estoque=$qt_estoque;}
-        public function setGrupo($grupo){$this->grupo=$grupo;}
-        public function setTipo($tipo){$this->tipo=$tipo;}
-        public function setQuant_garantia($quant_garantia){$this->quant_garantia=$quant_garantia;}
-        public function setPeriodo_garantia($periodo_garantia){$this->periodo_garantia=$periodo_garantia;}
-        public function setData_compra($data_compra){$this->data_compra=$data_compra;}
-    
-        public function setFornecedor($fornecedor){$this->fornecedor=$fornecedor;}
-        public function setLiberacao($liberacao){$this->liberacao=$liberacao;}
+        public function setNome_10($nome_10){$this->nome_10=$nome_10;}
+        public function setNome_11($nome_11){$this->nome_11=$nome_11;}
+        public function setNome_12($nome_12){$this->nome_12=$nome_12;}
+        public function setNome_13($nome_13){$this->nome_13=$nome_13;}
     
     
 }

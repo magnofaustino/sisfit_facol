@@ -6,49 +6,38 @@ include ("conexao.php");
 
 require_once "class_produto.php"; 
 
-$nome =$_GET['nome_produto'];
-$descricao = $_GET['descricao'];
-$valor_custo = $_GET['valor_custo']; 
-$valor_venda =$_GET['valor_venda'];
-$unidade_medida = $_GET['unidade_medida'];
-$qt_estoque = $_GET['qt_estoque']; 
-$grupo =$_GET['grupo'];
-$tipo = $_GET['tipo'];
-$quant_garantia = $_GET['quant_garantia']; 
-$periodo_garantia =$_GET['periodo_garantia'];
-$data_compra = $_GET['data_compra'];
-$fornecedor = $_GET['fonecedor']; 
-$liberacao = $_GET['liberacao']; 
+$nome_a = $_GET['nome_a'];
+$nome_2 = $_GET['nome_2'];
+$nome_3 = $_GET['nome_3']; 
+$nome_4 = $_GET['nome_4'];
+$nome_5 = $_GET['nome_5'];
+$nome_6 = $_GET['nome_6']; 
+$nome_7 = $_GET['nome_7'];
+$nome_8 = $_GET['nome_8'];
+$nome_9 = $_GET['nome_9'];
+
+$nome_10 = $_GET['periodo_garantia'];
+$nome_11 = $_GET['data_compra'];
+$nome_12 = $_GET['fonecedor']; 
+$nome_13 = $_GET['liberacao']; 
 
 
 
 
-$prd=new Aluno();
-$prd->setNome($nome);
-$prd->setCpf($cpf);
-$prd->setRg($rg);
-$prd->setSexo($sexo);
-$prd->setProfissao($profissao);
-$prd->setOrgao_emissor($orgao_emissor);
-$prd->setDt_nascimento($dt_nascimento);
-$prd->setEndereco($endereco);
-$prd->setBairro($bairro);
-$prd->setEstado($estado);
-$prd->setNumero($numero);
-$prd->setCep($cep);
-$prd->setUf_naturalidade($uf_naturalidade);
-$prd->setNaturalidade($naturalidade);
-$prd->setNacionalidade($nacionalidade);
-$prd->setDeficiente($deficiente);
-$prd->setObs_deficiente($obs_deficiente);
-$prd->setEmail($email);
-$prd->setTelefone($telefone);
-$prd->setPlano($plano);
-$prd->setBolsa($bolsa);
-$prd->setTipo_bolsa($tipo_bolsa);
-$prd->setHorario($horario);
-$prd->setDt_cadastro($dt_cadastro);
-
+$prd=new Produto();
+$prd->setNome_a($nome_a);
+$prd->setNome_2($nome_2);
+$prd->setNome_3($nome_3);
+$prd->setNome_4($nome_4);
+$prd->setNome_5($nome_5);
+$prd->setNome_6($nome_6);
+$prd->setNome_7($nome_7);
+$prd->setNome_8($nome_8);
+$prd->setNome_9($nome_9);
+$prd->setNome_10($nome_10);
+$prd->setNome_11($nome_11);
+$prd->setNome_12($nome_12);
+$prd->setNome_13($nome_13);
 
 
   
@@ -58,7 +47,7 @@ $prd->setDt_cadastro($dt_cadastro);
 
 
 
-$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf, naturalidade, deficiente, obs, nome_pai, nome_mae, apelido, funcao, n_carteira, uf_carteira, turno_trabalho, tipo_trabalho) VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getRg()."', '".$prd->getSexo()."', '".$prd->getProfissao()."', '".$prd->getOrgao_emissor()."', '".$prd->getDt_nascimento()."', '".$prd->getEndereco()."', '".$prd->getBairro()."', '".$prd->getEstado()."', '".$prd->getNumero()."', '".$prd->getCep()."', '".$prd->getUf_naturalidade()."', '".$prd->getNaturalidade()."', '".$prd->getNacionalidade()."', '".$prd->getDeficiente()."', '".$prd->getObs_deficiente()."', '".$prd->getEmail()."', '".$prd->getTelefone()."', '".$prd->getPlano()."', '".$prd->getBolsa()."', '".$prd->getTipo_bolsa()."')";
+$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf, naturalidade, deficiente) VALUES ('".$prd->getNome_a()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."')";
 
 
 
