@@ -6,7 +6,7 @@ include ("conexao.php");
 
 require_once "class_produto.php"; 
 
-$nome_a = $_GET['nome_a'];
+$nome_1 = $_GET['nome_1'];
 $nome_2 = $_GET['nome_2'];
 $nome_3 = $_GET['nome_3']; 
 $nome_4 = $_GET['nome_4'];
@@ -25,7 +25,7 @@ $nome_13 = $_GET['liberacao'];
 
 
 $prd=new Produto();
-$prd->setNome_a($nome_a);
+$prd->setNome_1($nome_1);
 $prd->setNome_2($nome_2);
 $prd->setNome_3($nome_3);
 $prd->setNome_4($nome_4);
@@ -47,7 +47,7 @@ $prd->setNome_13($nome_13);
 
 
 
-$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf, naturalidade, deficiente) VALUES ('".$prd->getNome_a()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."')";
+$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf, naturalidade, deficiente) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."')";
 
 
 

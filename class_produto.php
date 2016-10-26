@@ -5,7 +5,7 @@
 class Produto{
 
     
-public $nome_a;
+public $nome_1;
 public $nome_2;
 public $nome_3;
 public $nome_4;
@@ -24,7 +24,7 @@ public $nome_13;
 				
 	}
     
-    	public function getNome_a(){return $this->nome_a;}
+    	public function getNome_1(){return $this->nome_1;}
         public function getNome_2(){return $this->nome_2;}
         public function getNome_3(){return $this->nome_3;}
         public function getNome_4(){return $this->nome_4;}
@@ -41,7 +41,7 @@ public $nome_13;
        
     
     
-        public function setNome_a($nome_a){$this->nome_a=$nome_a;}
+        public function setNome_1($nome_1){$this->nome_1=$nome_1;}
         public function setNome_2($nome_2){$this->nome_2=$nome_2;}
         public function setNome_3($nome_3){$this->nome_3=$nome_3;}
         public function setNome_4($nome_4){$this->nome_4=$nome_4;}

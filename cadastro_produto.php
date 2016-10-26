@@ -19,44 +19,44 @@ include "menu.php";
                     
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Produto:</span>
-                    <input type="text" class="form-control" name="Nome_a">
+                    <input type="text" class="form-control" name="nome_1">
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Descrição do Produto:</span>
-                    <input type="text" class="form-control" name="Nome_2">
+                    <input type="text" class="form-control" name="nome_2">
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" name="Nome_3">
+                    <input type="text" class="form-control" name="nome_3">
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" name="Nome_4">
+                    <input type="text" class="form-control" name="nome_4">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Unidade de Medida:</span>
-                    <input type="text" class="form-control" name="Nome_5">
+                    <input type="text" class="form-control" name="nome_5">
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" name="Nome_6">
+                    <input type="text" class="form-control" name="nome_6">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Grupo de Produto:</span>
-                    <input type="text" class="form-control" name="Nome_7">
+                    <input type="text" class="form-control" name="nome_7">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Tipo de Produto:</span>
-                    <input type="text" class="form-control" name="Nome_8">
+                    <input type="text" class="form-control" name="nome_8">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
@@ -73,11 +73,11 @@ include "menu.php";
                 </div>   
                 <div class="input-group">
                     <span class="input-group-addon">Quantidade da Garantia:</span>
-                    <input type="text" class="form-control" name="quant_garantia">
+                    <input type="text" class="form-control" name="nome_9">
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Periodo:
-                         <select class="form-control" name="periodo_garantia">
+                         <select class="form-control" name="nome_10">
                          <option value="">Selecione ...</option>
                          <option value="D">Dias</option>
                          <option value="M">Meses</option>
@@ -90,7 +90,7 @@ include "menu.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data da Compra</span>
-                    <input type="date" class="form-control" name="data_compra">
+                    <input type="date" class="form-control" name="nome_11">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                      <div class="form-group">
