@@ -14,7 +14,7 @@ $matricula = $_GET['maticula'];
 $estadocivil = $_GET['estadocivil']; 
 $nacionalidade =$_GET['nacionalidade'];
 $naturalidade = $_GET['naturalidade'];
-$uf_naturalidade = $_GET['uf_naturalidade']; 
+$uf_naturalidade = $_GET['ufnaturalidade']; 
 $nascimento =$_GET['nascimento'];
 $sexo = $_GET['sexo'];
 $deficiente = $_GET['deficiente']; 
@@ -26,11 +26,11 @@ $tipo_bolsa= $_GET['tipo_bolsa'];
 $horario = $_GET['horario']; 
 $dt_cadastro =$_GET['dt_cadastro'];
 
-$endereco = $_GET['endereco'];
-$numero= $_GET['numero']; 
-$bairro =$_GET['bairro'];
-$cep = $_GET['cep'];
-$orgao_emissor = $_GET['orgao_emissor']; 
+//$endereco = $_GET['endereco'];
+//$numero= $_GET['numero']; 
+//$bairro =$_GET['bairro'];
+//$cep = $_GET['cep'];
+//$orgao_emissor = $_GET['orgao_emissor']; 
 
 
 
@@ -41,27 +41,29 @@ $prd=new Aluno();
 $prd->setNome($nome);
 $prd->setCpf($cpf);
 $prd->setRg($rg);
-$prd->setSexo($sexo);
-$prd->setProfissao($profissao);
-$prd->setOrgao_emissor($orgao_emissor);
-$prd->setDt_nascimento($dt_nascimento);
-$prd->setEndereco($endereco);
-$prd->setBairro($bairro);
-$prd->setEstado($estado);
-$prd->setNumero($numero);
-$prd->setCep($cep);
-$prd->setUf_naturalidade($uf_naturalidade);
-$prd->setNaturalidade($naturalidade);
+$prd->setTelefone($telefone);
+$prd->setMatricula($matricula);
+$prd->setEstadocivil($estadocivil);
 $prd->setNacionalidade($nacionalidade);
+$prd->setNaturalidade($naturalidade);
+$prd->setUfnaturalidade($ufnaturalidade);
+$prd->setNascimento($nascimento);
+$prd->setSexo($sexo);
 $prd->setDeficiente($deficiente);
 $prd->setObs_deficiente($obs_deficiente);
 $prd->setEmail($email);
-$prd->setTelefone($telefone);
 $prd->setPlano($plano);
 $prd->setBolsa($bolsa);
 $prd->setTipo_bolsa($tipo_bolsa);
 $prd->setHorario($horario);
 $prd->setDt_cadastro($dt_cadastro);
+
+
+//$prd->setPlano($);
+//$prd->setBolsa($bolsa);
+//$prd->setTipo_bolsa($tipo_bolsa);
+//$prd->setHorario($horario);
+//$prd->setDt_cadastro($dt_cadastro);
 
 
 
