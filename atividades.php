@@ -1,6 +1,13 @@
-<?php
-include "menu.php";
-?>
+                  <?php
+    
+     include ("conexao.php");   
+
+    $result = "select *from funcionario";
+    $resultado = mysqli_query($conn, $result);
+ ?>
+    
+
+
 <html>
 	<head>
 		<title>Atividades</title>
@@ -30,26 +37,21 @@ include "menu.php";
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
-                        <td>Sandro</td>
-                        <td>Magno</td>
-                        <td>Arthur</td>
+                           <?php
+        while($ras = mysqli_fetch_assoc($resultado)){ 
+                   
+            
+      ?> 
+                         <td><?php echo $ras['id_funcionario']; ?></td>
+        <td><?php echo $ras['nome']; ?></td>
+        <td><?php echo $ras['cpf']; ?></td>
+        <td><?php echo $ras['telerone']; ?></td>
                         <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Dois</td>
-                        <td>Dois</td>
-                        <td>Dois</td>
-                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Três</td>
-                        <td>Três</td>
-                        <td>Três</td>
-                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
-                    </tr>
+                    <?php
+        }
+            ?>
+                
                 </tbody>
             </table>
            

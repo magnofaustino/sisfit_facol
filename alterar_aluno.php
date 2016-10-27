@@ -1,9 +1,8 @@
 <?php
-    
+    $id = $_GET['tx'];
      include ("conexao.php");   
 
-    $result = "select *from funcionario";
-    $resultado = mysqli_query($conn, $result);
+   
   
  ?>
 
@@ -18,19 +17,21 @@
 
    <form action="processa_aluno.php" method="GET" >
              <fieldset>
-		Nome:<input  type="text" name="nome_aluno"><br><br>
-            
-		      CPF:<input  type="text" name="cpf"><br><br>
                  
+                 <?php
+                 
+                  $result = "select *from funcionario WHERE id_funcionario = $id";
+    $resultado = mysqli_query($conn, $result);
+                 
+                 while (mysqli_fetch_assoc($resultado)){}
+                 ?>
+                 Nome:<input  type="text" name="nome_aluno" value="<?php echo $ras['nome']?>"><br><br>
+                 CPF:<input  type="text" name="cpf"><br><br>
                  Altura:<input  type="text" name="altura"><br><br>
     
-    
-     <?php while($ras = mysqli_fetch_assoc($resultado)){ 
-      ?>
+   
         
-    Nome:<input  type="text" name="nome_aluno" value="<?php echo $ras['id_funcionario']?>"><br><br>
-    
-    
+
         
     
  
@@ -39,8 +40,6 @@
     
        </fieldset>
     </form>
-       <?php 
-     }
-?>
+ 
 </body>
 </html> 
