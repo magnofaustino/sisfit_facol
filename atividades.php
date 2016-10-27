@@ -3,7 +3,7 @@ include "menu.php";
 ?>
 <html>
 	<head>
-		<title>Exemplo de Grid</title>
+		<title>Atividades</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -12,9 +12,10 @@ include "menu.php";
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Grid Sisfit</h3>
+                <h3 class="panel-title">Atividades</h3>
                 <div class="pull-right">
-                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+                    <a href="cadastro_atividades.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
+                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
             </div>
             <table class="table">
