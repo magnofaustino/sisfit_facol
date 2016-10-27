@@ -9,27 +9,28 @@ require_once "class_aluno.php";
 $nome =$_GET['nome'];
 $cpf = $_GET['cpf'];
 $rg = $_GET['rg']; 
-$sexo =$_GET['sexo'];
-$profissao = $_GET['profissao'];
-$orgao_emissor = $_GET['orgao_emissor']; 
-$dt_nascimento =$_GET['dt_nascimento'];
-$endereco = $_GET['endereco'];
-$bairro = $_GET['bairro']; 
-$estado =$_GET['estado'];
-$numero = $_GET['numero'];
-$cep = $_GET['cep']; 
-$uf_naturalidade =$_GET['uf_naturalidade'];
-$naturalidade= $_GET['naturalidade'];
-$nacionalidade = $_GET['nacionalidade']; 
-$deficiente=$_GET['deficiente'];
-$obs_deficiente = $_GET['obs_deficiente'];
-$email = $_GET['email']; 
 $telefone =$_GET['telefone'];
-$plano = $_GET['plano'];
-$bolsa= $_GET['bolsa']; 
-$tipo_bolsa =$_GET['tipo_bolsa'];
-$horario = $_GET['horario'];
-$dt_cadastro = $_GET['dt_cadastro']; 
+$matricula = $_GET['maticula'];
+$estadocivil = $_GET['estadocivil']; 
+$nacionalidade =$_GET['nacionalidade'];
+$naturalidade = $_GET['naturalidade'];
+$uf_naturalidade = $_GET['uf_naturalidade']; 
+$nascimento =$_GET['nascimento'];
+$sexo = $_GET['sexo'];
+$deficiente = $_GET['deficiente']; 
+$obs_deficiente =$_GET['obs_deficiente'];
+$email= $_GET['email'];
+$plano = $_GET['plano']; 
+$bolsa=$_GET['bolsa'];
+$tipo_bolsa= $_GET['tipo_bolsa'];
+$horario = $_GET['horario']; 
+$dt_cadastro =$_GET['dt_cadastro'];
+
+$endereco = $_GET['endereco'];
+$numero= $_GET['numero']; 
+$bairro =$_GET['bairro'];
+$cep = $_GET['cep'];
+$orgao_emissor = $_GET['orgao_emissor']; 
 
 
 

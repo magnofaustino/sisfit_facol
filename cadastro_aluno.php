@@ -135,13 +135,8 @@ include "menu.php";
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero">
-                </div>
-                <div class="input-group">
-                    <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep">
-                </div>
+                  
+              
                 <div class="input-group">
                     <span class="input-group-addon">Email:</span>
                     <input type="text" class="form-control" name="email">
@@ -169,17 +164,25 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
                     <input type="text" class="form-control" name="dt_cadastro">
-                </div></div></div><br>             
-                 
+                </div></div></div><br> 
+               
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
                     <input type="text" class="form-control" name="endereco">
                 </div>
+                           <span class="input-group-addon">Numero:</span>
+                    <input type="text" class="form-control" name="numero">
+                </div>
+                 
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
                     <input type="text" class="form-control" name="bairro">
+                </div>
+                      <div class="input-group">
+                    <span class="input-group-addon">CEP:</span>
+                    <input type="text" class="form-control" name="cep">
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Estado:

@@ -2,7 +2,7 @@
     
      include ("conexao.php");   
 
-    $result = "select *from funcionario";
+    $result = "select *from atividades";
     $resultado = mysqli_query($conn, $result);
  ?>
     
@@ -29,9 +29,11 @@
                 <thead>
                     <tr class="filters">
                         <th><input type="text" class="form-control" placeholder="Id" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Primeiro Nome" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Segundo Nome" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Nome de Usuario" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Atividade" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Valor" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Temporaria?" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Inidio da Atividade" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Fim da Atividade" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
@@ -39,13 +41,16 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                   $id = $ras['id_funcionario'];
+                   $id = $ras['id'];
             
       ?> 
-                         <td><?php echo $ras['id_funcionario']; ?></td>
-        <td><?php echo $ras['nome']; ?></td>
-        <td><?php echo $ras['cpf']; ?></td>
-        <td><?php echo $ras['telerone']; ?></td>
+                        
+                        <td><?php echo $ras['id']; ?></td>
+                        <td><?php echo $ras['atividade'];?></td>
+                        <td><?php echo $ras['valor']; ?></td>
+                        <td><?php echo $ras['atvtemp']; ?></td>
+                        <td><?php echo $ras['dtini']; ?></td>
+                        <td><?php echo $ras['dtfim']; ?></td>
                         
                         
 <td class="text-center"><a class='btn btn-info btn-xs' href="alterar_aluno.php"><span class="glyphicon glyphicon-edit"></span> Edit</a>
