@@ -106,7 +106,7 @@
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="cadastro_aluno.php">Cadastro de aluno</a></li>
                 <li class="divider"></li>
-                <li><a href="#">Relatório de Alunos</a></li>
+                <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Informes</a></li>
               </ul>

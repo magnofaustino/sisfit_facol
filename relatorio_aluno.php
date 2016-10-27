@@ -29,7 +29,10 @@
         </tr>
     
     <?php
-        while($ras = mysqli_fetch_assoc($resultado)){ ?>
+        while($ras = mysqli_fetch_assoc($resultado)){ 
+                    $id = $ras['id_funcionario'];
+            
+      ?> 
         
       <tr>
         

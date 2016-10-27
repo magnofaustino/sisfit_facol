@@ -1,38 +1,46 @@
-
-
 <?php
-$id=$_GET["tx"];
+    
+     include ("conexao.php");   
 
-        $con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
-        $seleciona_banco = mysql_select_db("escola") or die ("erro ao selecionar ao selecionar o banco");
-        $resoltadobusca = mysql_query("select * from aluno where id_aluno = $id") or die ("erro executar o select");
-          while($ras = mysql_fetch_array($resoltadobusca)){
-              $nome = $ras['nome_aluno'];
-              $cpf = $ras['cpf'];
-              $curso = $ras['curso'];
-          }
-?>
-        
+    $result = "select *from funcionario";
+    $resultado = mysqli_query($conn, $result);
+  
+ ?>
+
+
+
+
 <html>
-	<head>
-		<title>EDITAR ALUNO</title>
-		<meta charset="UTF-8"></meta>
-	</head>
-	<body>
-       <h1>Atualização de Aluno</h1>
+<meta charset="UTF-8"/>
+<head> <title>Relatório de Alunos</title> </head>  
+<body>
+<h1>Informações sobre o aluno</h1>
+
+   <form action="processa_aluno.php" method="GET" >
+             <fieldset>
+		Nome:<input  type="text" name="nome_aluno"><br><br>
+            
+		      CPF:<input  type="text" name="cpf"><br><br>
+                 
+                 Altura:<input  type="text" name="altura"><br><br>
+    
+    
+     <?php while($ras = mysqli_fetch_assoc($resultado)){ 
+      ?>
         
-		<form action="processa_aluno.php" method="GET" >
-             
-            <fieldset>
-                 Nome:<input  type="text" name="nome" value="<?php echo $nome; ?>"><br><br>
-                 CPF:<input  type="text" name="cpf" value="<?php echo $cpf; ?>"><br><br>
-                 Altura:<input  type="text" name="curso" value="<?php echo $curso; ?>"><br><br>
+    Nome:<input  type="text" name="nome_aluno" value="<?php echo $ras['id_funcionario']?>"><br><br>
+    
+    
+        
+    
+ 
                  
                  <input type="submit" name="sub" value="Enviar!">
-            </fieldset>
-        </form>
     
-    
-	</body>
-</html>
-
+       </fieldset>
+    </form>
+       <?php 
+     }
+?>
+</body>
+</html> 
