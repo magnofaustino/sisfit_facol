@@ -63,9 +63,9 @@ include "menu.php";
                     <input type="text" class="form-control" name="ufnaturalidade">
                 </div> -->
                 <div class="form-group">
-                         <div class="well well-sm">Uf Naturalidade:
+                         <!-- <div class="well well-sm">Uf Naturalidade: -->
                          <select class="form-control" name="ufnaturalidade">
-                         <option value="">Selecione ...</option>
+                         <option value="">UF Naturalidade</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
@@ -94,7 +94,7 @@ include "menu.php";
                          <option value="SE">Sergipe</option>
                          <option value="TO">Tocantins</option>
                         </select>
-                      </div></div>
+                      </div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
