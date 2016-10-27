@@ -39,15 +39,21 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                   
+                   $id = $ras['id_funcionario'];
             
       ?> 
                          <td><?php echo $ras['id_funcionario']; ?></td>
         <td><?php echo $ras['nome']; ?></td>
         <td><?php echo $ras['cpf']; ?></td>
         <td><?php echo $ras['telerone']; ?></td>
-                        <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                        
+                        
+<td class="text-center"><a class='btn btn-info btn-xs' href="alterar_aluno.php"><span class="glyphicon glyphicon-edit"></span> Edit</a>
+
+    
+<a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
                     </tr>
+                    
                     <?php
         }
             ?>
