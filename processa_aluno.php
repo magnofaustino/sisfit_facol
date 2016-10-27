@@ -10,11 +10,11 @@ $nome =$_GET['nome'];
 $cpf = $_GET['cpf'];
 $rg = $_GET['rg']; 
 $telefone =$_GET['telefone'];
-$matricula = $_GET['maticula'];
+$matricula = $_GET['matricula'];
 $estadocivil = $_GET['estadocivil']; 
 $nacionalidade =$_GET['nacionalidade'];
 $naturalidade = $_GET['naturalidade'];
-$uf_naturalidade = $_GET['ufnaturalidade']; 
+$ufnaturalidade = $_GET['ufnaturalidade']; 
 $nascimento =$_GET['nascimento'];
 $sexo = $_GET['sexo'];
 $deficiente = $_GET['deficiente']; 
@@ -74,7 +74,7 @@ $prd->setDt_cadastro($dt_cadastro);
 
 
 
-$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf, naturalidade, deficiente, obs, nome_pai, nome_mae, apelido, funcao, n_carteira, uf_carteira, turno_trabalho, tipo_trabalho) VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getRg()."', '".$prd->getSexo()."', '".$prd->getProfissao()."', '".$prd->getOrgao_emissor()."', '".$prd->getDt_nascimento()."', '".$prd->getEndereco()."', '".$prd->getBairro()."', '".$prd->getEstado()."', '".$prd->getNumero()."', '".$prd->getCep()."', '".$prd->getUf_naturalidade()."', '".$prd->getNaturalidade()."', '".$prd->getNacionalidade()."', '".$prd->getDeficiente()."', '".$prd->getObs_deficiente()."', '".$prd->getEmail()."', '".$prd->getTelefone()."', '".$prd->getPlano()."', '".$prd->getBolsa()."', '".$prd->getTipo_bolsa()."')";
+$sql = "INSERT INTO tb_aluno(nome, cpf, rg, telefone, matricula, est_civil, nacionalidade, naturalidade, uf_natur, dt_nasc, sexo, deficiente, obs_def, email, plano, bolsa, tipo_bolsa, h_treino, dt_cadastro) VALUES ('".$prd->getNome()."', '".$prd->getCpf()."', '".$prd->getRg()."', '".$prd->getTelefone()."', '".$prd->getMatricula()."', '".$prd->getEstadocivil()."', '".$prd->getNacionalidade()."', '".$prd->getNaturalidade()."', '".$prd->getUfnaturalidade()."', '".$prd->getNascimento()."', '".$prd->getSexo()."', '".$prd->getDeficiente()."', '".$prd->getObs_deficiente()."', '".$prd->getEmail()."', '".$prd->getPlano()."', '".$prd->getBolsa()."', '".$prd->getTipo_bolsa()."', '".$prd->getHorario()."', '".$prd->getDt_cadastro()."')";
 
 
 
