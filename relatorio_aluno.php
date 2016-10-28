@@ -2,7 +2,7 @@
     
      include ("conexao.php");   
 
-    $result = "select *from funcionario";
+    $result = "select *from tb_aluno";
     $resultado = mysqli_query($conn, $result);
  ?>
 
@@ -23,23 +23,23 @@
            <td>ID</td>
           <td>NOME</td>
           <td>CPF</td>
-          <td>TELEFONE</td>
-          
+          <td>RG</td>
+        
        
         </tr>
     
     <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                    $id = $ras['id_funcionario'];
+                    $id = $ras['id'];
             
       ?> 
         
       <tr>
         
-        <td><?php echo $ras['id_funcionario']; ?></td>
+        <td><?php echo $ras['id']; ?></td>
         <td><?php echo $ras['nome']; ?></td>
         <td><?php echo $ras['cpf']; ?></td>
-        <td><?php echo $ras['telerone']; ?></td>
+        <td><?php echo $ras['rg']; ?></td>
           
           
           
