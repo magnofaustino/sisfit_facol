@@ -41,11 +41,11 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                   $id = $ras['id'];
+                   $id = $ras['idatividades'];
             
       ?> 
                         
-                        <td><?php echo $ras['id']; ?></td>
+                        <td><?php echo $ras['idatividades']; ?></td>
                         <td><?php echo $ras['atividade'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
                         <td><?php echo $ras['atvtemp']; ?></td>

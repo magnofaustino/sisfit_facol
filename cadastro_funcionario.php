@@ -217,6 +217,9 @@ include "menu.php";
                 <br><br>
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
+                <div class="pull-right">
+                <a href="funcionario.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                </div>
                 </div></div></div>
             </fieldset>
             </form>
