@@ -21,7 +21,12 @@ public $bolsa;
 public $tipo_bolsa;
 public $horario;
 public $dt_cadastro;
-
+    
+public $endereco;
+public $numero;
+public $bairro;
+public $cep;
+public $orgao_emissor;
 
      
     
@@ -49,7 +54,13 @@ public function getBolsa(){return $this->bolsa;}
 public function getTipo_bolsa(){return $this->tipo_bolsa;}    
 public function getHorario(){return $this->horario;}
 public function getDt_cadastro(){return $this->dt_cadastro;}
-    
+
+public function getEndereco(){return $this->endereco;}
+public function getNumero(){return $this->numero;}
+public function getBairro(){return $this->bairro;}    
+public function getCep(){return $this->cep;}
+public function getOrgao_emissor(){return $this->orgao_emissor;}
+
     
     
     
@@ -76,8 +87,13 @@ public function getDt_cadastro(){return $this->dt_cadastro;}
         public function setBolsa($bolsa){$this->bolsa=$bolsa;}
         public function setTipo_bolsa($tipo_bolsa){$this->tipo_bolsa=$tipo_bolsa;}
         public function setHorario($horario){$this->horario=$horario;}
-    
         public function setDt_cadastro($dt_cadastro){$this->dt_cadastro=$dt_cadastro;}
+        
+        public function setEndereco($endereco){$this->endereco=$endereco;}    
+        public function setNumero($numero){$this->numero=$numero;}
+        public function setBairro($bairro){$this->bairro=$bairro;}
+        public function setCep($cep){$this->cep=$cep;}    
+        public function setOrgao_emissor($orgao_emissor){$this->orgao_emissor=$orgao_emissor;}
         
 }
 ?>
