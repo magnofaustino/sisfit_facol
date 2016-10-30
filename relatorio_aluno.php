@@ -43,7 +43,7 @@
           
           
           
-        <td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
+        <td><?php echo "<a href=alt_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
      </tr>
         
      <?php } ?>
