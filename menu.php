@@ -120,7 +120,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configurações<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="#">Cadastro da Empresa</a></li>
+                  <li><a href="cadastro_empresa.php">Cadastro da Empresa</a></li>
                 <li class="divider"></li>
                 <li><a href="cadastro_usuario.php">Cadastro de Usuarios</a></li>
                 <li class="divider"></li>
