@@ -41,11 +41,10 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                   $id = $ras['idatividades'];
+                   $id = $ras['id'];
             
       ?> 
-                        
-                        <td><?php echo $ras['idatividades']; ?></td>
+                        <td><?php echo $ras['id']; ?></td>
                         <td><?php echo $ras['atividade'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
                         <td><?php echo $ras['atvtemp']; ?></td>
@@ -53,7 +52,7 @@
                         <td><?php echo $ras['dtfim']; ?></td>
                         
                         
-<td class="text-center"><a class='btn btn-info btn-xs' href="alterar_aluno.php"><span class="glyphicon glyphicon-edit"></span> Edit</a>
+<td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
 
     
 <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>

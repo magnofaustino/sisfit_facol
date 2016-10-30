@@ -1,8 +1,5 @@
 <?php
 
-/* 
- * Cadastro de Atividades - Sandro Braz
- */
 
 include "menu.php";
 ?>
