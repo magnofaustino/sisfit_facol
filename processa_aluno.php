@@ -5,7 +5,7 @@ include ("conexao.php");
 <?php
 
 require_once "class_aluno.php"; 
-require_once "class_endereco.php";
+
 
 $nome =$_GET['nome'];
 $cpf = $_GET['cpf'];

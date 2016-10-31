@@ -62,7 +62,7 @@ $result = "select * from tb_aluno where id = $id";
                 
             <div class="container">
             <div class="row">
-                <form action="processa_aluno.php" method="GET" >
+                <form action="update_aluno.php" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Aluno</h4></div>
