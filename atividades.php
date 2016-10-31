@@ -52,7 +52,7 @@
                         <td><?php echo $ras['dtfim']; ?></td>
                         
                         
-<td><?php echo "<a href=alterar_aluno.php?tx=".$id. "> EDITAR</a>"  ?></td>
+<td><?php echo "<a href=alterar_atividades.php?tx=".$id. "> EDITAR</a>"  ?></td>
 
     
 <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>

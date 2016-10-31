@@ -274,7 +274,7 @@ $result = "select * from tb_aluno where id = $id";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="cadastro_aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div></div>
             </fieldset>

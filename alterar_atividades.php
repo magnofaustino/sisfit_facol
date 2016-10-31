@@ -1,11 +1,24 @@
 <?php
-
-
 include "menu.php";
+
+$id = $_GET['tx'];
+
+$result = "select * from atividades where id = $id";
+        
+      $resoltadobusca = mysqli_query($conn, $result);
+        while($ras = mysqli_fetch_array($resoltadobusca)){
+    
+            
+            
+            $atividade = $ras['atividade'];
+            $valor = $ras['valor'];
+              
+
+}
 ?>
 <html>
 	<head>
-		<title>Cadastro de Atividades</title>
+		<title>Alterar  Atividades</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -15,17 +28,17 @@ include "menu.php";
             <form action="processa_atividades.php" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Cadastro de Atividades</h4></div>
+                <div class="panel-heading"><h4>Alterar Atividades</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Atividade:</span>
-                    <input type="text" class="form-control" name="atividade">
+                    <input type="text" class="form-control" name="atividade" value="<?php echo $atividade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="valor">
+                    <input type="text" class="form-control" name="valor" value="<?php echo $valor; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
