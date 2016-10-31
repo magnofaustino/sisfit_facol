@@ -22,20 +22,7 @@
             <img src="imagens/logomenu.png" alt="">
         </a></div>
         <div class="container"> 
-
-       <!-- <div class="navbar-header">
-            
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span> 
-            </button>
-            <a target="_blank" href="#" class="navbar-brand">Sisfit</a>
-        </div> -->
         <div class="collapse navbar-collapse">
-           <!-- <ul class="nav navbar-nav">
-                <li><a href="#">Inicio</a></li>       
-             </ul> -->
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -113,6 +100,7 @@
             </li>
             <li ><a href="cadastro_fornecedor.php">Fornecedores<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-shopping-cart"></span></a></li>        
             <li ><a href="cadastro_funcionario.php">Funcionarios<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>        
+            <li ><a href="cadastro_personal.php">Personal<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>        
             <li ><a href="atividades.php">Atividades<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flash"></span></a></li>        
             <li ><a href="cadastro_produto.php">Produtos<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
             <li ><a href="cadastro_pagamentos.php">Contas a pagar<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a></li>
