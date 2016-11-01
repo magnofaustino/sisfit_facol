@@ -82,10 +82,10 @@ mysqli_close($conn);
 
 
 
-if (mysqli_query($conn, $sql2)) {
+if (mysqli_query($conn, $sql)) {
  echo "New records created successfully";
 } else {
-  echo "Error: " . $sql2 . "<br>" . mysqli_error($conn);
+  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
 mysqli_close($conn);
