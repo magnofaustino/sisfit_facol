@@ -1,17 +1,18 @@
 <?php
-include "menu.php";
+include ("conexao.php");
 
 $id = $_GET['tx'];
 
 $result = "select * from atividades where id = $id";
-        
-      $resoltadobusca = mysqli_query($conn, $result);
-        while($ras = mysqli_fetch_array($resoltadobusca)){
+
+      $resultadobusca = mysqli_query($conn, $result);
+        while($ras = mysqli_fetch_array($resultadobusca)){
     
-            
-            
             $atividade = $ras['atividade'];
             $valor = $ras['valor'];
+            $dtini = $ras['dtini'];
+            $dtfim = $ras['dtfim'];
+            $atvtemp = $ras['atvtemp'];
               
 
 }

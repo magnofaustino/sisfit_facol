@@ -89,9 +89,9 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="home.php">Inicio<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aluno<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alunos<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="cadastro_aluno.php">Cadastro de aluno</a></li>
+                <li><a href="aluno.php">Alunos</a></li>
                 <li class="divider"></li>
                 <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>
                 <li class="divider"></li>

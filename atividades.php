@@ -2,7 +2,7 @@
     
      include ("conexao.php");   
 
-    $result = "select *from atividades";
+    $result = "select * from atividades";
     $resultado = mysqli_query($conn, $result);
  ?>
     
@@ -51,9 +51,7 @@
                         <td><?php echo $ras['dtini']; ?></td>
                         <td><?php echo $ras['dtfim']; ?></td>
                         
-                        
-<td><?php echo "<a href=alterar_atividades.php?tx=".$id. "> EDITAR</a>"  ?></td>
-
+<td class="text-center"><a href="alterar_atividades.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
     
 <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
                     </tr>
