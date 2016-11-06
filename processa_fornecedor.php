@@ -37,7 +37,7 @@ $prd->setCep($cep);
     
 
 
-$sql = "INSERT INTO funcionario(nome, cpf, rg, telerone, matricula, data_emissao, data_nascimento, sexo, estado_sivil, nacionalidade, uf) VALUES ('".$prd->getRazao()."', '".$prd->getNome_fantasia()."', '".$prd->getTipo()."', '".$prd->getCpf_cnpj()."', '".$prd->getTelefone()."', '".$prd->getEmail()."', '".$prd->getEndereco()."', '".$prd->getBairro()."', '".$prd->getMunicipio()."', '".$prd->getNumero()."', '".$prd->getCep()."' )";
+$sql = "INSERT INTO fornecedor(razao, nome_fantasia, tipo, cpf_cnpj, telefone, email, endereco, bairro, municipio, numero, cep) VALUES ('".$prd->getRazao()."', '".$prd->getNome_fantasia()."', '".$prd->getTipo()."', '".$prd->getCpf_cnpj()."', '".$prd->getTelefone()."', '".$prd->getEmail()."', '".$prd->getEndereco()."', '".$prd->getBairro()."', '".$prd->getMunicipio()."', '".$prd->getNumero()."', '".$prd->getCep()."' )";
 
 
 
