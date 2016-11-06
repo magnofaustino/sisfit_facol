@@ -151,7 +151,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento">
+                    <input type="date" class="form-control" name="nascimento" value="<?php echo $nascimento; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
@@ -240,8 +240,8 @@ $result = "select * from tb_aluno where id = $id";
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Estado:
-                         <select class="form-control" name="orgao_amissor">
-                         <option value="">Selecione ...</option>
+                         <select class="form-control" name="orgao_amissor" >
+                         <option value="<?php echo $orgao_emissor; ?>">
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
