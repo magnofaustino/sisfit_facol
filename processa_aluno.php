@@ -32,6 +32,8 @@ $numero= $_GET['numero'];
 $bairro =$_GET['bairro'];
 $cep = $_GET['cep'];
 $orgao_emissor = $_GET['orgao_amissor']; 
+
+
 $prd=new Aluno();
 $prd->setNome($nome);
 $prd->setCpf($cpf);

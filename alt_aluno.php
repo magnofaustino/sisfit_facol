@@ -1,14 +1,28 @@
-<?php
-include ("conexao.php");   
+<html>
+<title>
+<head>
+    
+    </head>    
+    
+    </title>
+<body>
+    
+    
+     <form>
+         
+         <?php
+         $b = 'a';
+         
+         ?>
+  <input type="radio" name="gender" value="m" <?php if($b == "n") echo "checked" ?>> Male<br>
+  <input type="radio" name="gender" value="f" <?php if($b == "m") echo "checked" ?>> femele<br>
+</form> 
+    
+    </body>
 
 
-$sql = "UPDATE tb_aluno SET nome='Doe' WHERE id=1";
+</html>
 
-if (mysqli_query($conn, $sql)) {
-    echo "Record updated successfully";
-} else {
-    echo "Error updating record: " . mysqli_error($conn);
-}
 
-mysqli_close($conn);
-?> 
+
+

@@ -162,20 +162,23 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="input-group">
                     <div class="well">Sexo:
                         <label class="radio-inline">
-                        <input type="radio" name="sexo" value="M">Masculino
+                            
+                            
+                            
+                        <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="sexo" value="F">Feminino
+                        <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
                         </label>
                     </div>
                 </div>
                 <div class="input-group">
                     <div class="well">Deficiente:
                         <label class="radio-inline">
-                        <input type="radio" name="deficiente" value="N">Não
+                  <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>Não
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="deficiente" value="S">Sim
+                      <input type="radio" name="deficiente" value="S" <?php if($deficiente == "S") echo "checked" ?>>Sim
                         </label>
                     </div>
                 </div></div></div>              
