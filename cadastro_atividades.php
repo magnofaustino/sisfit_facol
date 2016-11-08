@@ -18,16 +18,47 @@ include "menu.php";
                 <div class="panel-heading"><h4>Cadastro de Atividades</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
-                <div class="form-group">
-                <div class="input-group">
-                    <span class="input-group-addon">Atividade:</span>
-                    <input type="text" class="form-control" name="atividade">
-                </div>
+                
+                
+               <div class="input-group">
+                    <span class="input-group-addon">Modalidades:</span>
+                    <select class="form-control" name="Modalidades">
+                         <option value="">Musculacao</option>
+                         <option value="">Pilates</option>
+                         <option value="">Muay-thai</option>
+                         <option value="">Aerobica</option>
+                         </select>
+                      </div>
+
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
                     <input type="text" class="form-control" name="valor">
                     <span class="input-group-addon">R$</span>
-                </div></div></div><br>
+                </div></div><br>
+                
+                
+                <div class="form-inline">
+                <div class="form-group">   
+                <div class="input-group">
+                
+                    <span class="input-group-addon">Duracao da aula:</span>
+                    <input type="time" name="usr_time">
+                    
+                </div>
+                    
+                <div class="input-group">
+                    <span class="input-group-addon">Atividade Temporaria:</span>
+                        <label class="radio-inline">
+                        <input type="radio" name="atvtemp" value="N">Não
+                        </label>
+                        
+                        <label class="radio-inline">
+                        <input type="radio" name="atvtemp" value="S">Sim
+                        </label>
+                        
+                    </div>
+                </div><br>    
+                    </div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -43,16 +74,7 @@ include "menu.php";
                 </div>
                 </div><br>
                 
-                <div class="input-group">
-                    <div class="well">É uma Atividade Temporaria?:
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="N">Não
-                        </label>
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="S">Sim
-                        </label>
-                    </div>
-                </div><br><br>
+                
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">

@@ -27,7 +27,7 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
                     <input type="text" class="form-control" name="cpf">
-                </div>
+                </div>	
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
                     <input type="text" class="form-control" name="rg">
@@ -35,8 +35,7 @@ include "menu.php";
             
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento">
-                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+                    <input type="date" name="bday">
                                 
                 </div></div><br></br>
                 <div class="form-inline">
@@ -188,7 +187,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" name="dt_cadastro">
+                    <input type="date" name="bday">
                 </div></div></div><br> 
                
                 </div>
