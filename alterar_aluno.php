@@ -32,16 +32,7 @@ $result = "select * from tb_aluno where id = $id";
               $cep = $ras['cep'];
               $orgao_emissor = $ras['orgao_emissor'];
               
-              
-              
-              
-              
-
-          
-          
-          
-          
-          
+     
           
           }
 
@@ -55,14 +46,14 @@ $result = "select * from tb_aluno where id = $id";
 
 <html>
 	<head>
-		<title>Cadastro de Aluno</title>
+		<title>Editar Aluno</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
                 
             <div class="container">
             <div class="row">
-                <form action="update_aluno.php" method="GET" >
+                <form action="update_aluno.php?$id" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Aluno</h4></div>
