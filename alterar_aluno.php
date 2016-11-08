@@ -12,11 +12,11 @@ $result = "select * from tb_aluno where id = $id";
               $rg = $ras['rg'];
               $telefone = $ras['telefone'];
               $matricula = $ras['matricula'];
-              $est_civil = $ras['est_civil'];
+            echo  $est_civil = $ras['est_civil'];
               $nacionalidade = $ras['nacionalidade'];
               $naturalidade = $ras['naturalidade'];
               $uf_natur = $ras['uf_natur'];
-              $dt_nasc = $ras['dt_nasc'];
+              $nascimento = $ras['dt_nasc'];
               $sexo = $ras['sexo'];
               $deficiente = $ras['deficiente'];
               $obs_deficiente = $ras['obs_def'];
@@ -213,7 +213,7 @@ $result = "select * from tb_aluno where id = $id";
                     <span class="input-group-addon">Data de Cadastro:</span>
                     <input type="text" class="form-control" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>">
                 </div></div></div><br> 
-               
+                                                    
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
