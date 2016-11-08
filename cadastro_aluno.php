@@ -49,13 +49,10 @@ include "menu.php";
                     <span class="input-group-addon">Matricula:</span>
                     <input type="text" class="form-control" name="matricula">
                 </div>
-                <div class="input-group">
-                    <span class="input-group-addon">Estado civil:</span>
-                    <select class="form-control" name="Estado civil">
-                         <option value="">Solteiro</option>
-                         <option value="">Casado</option>
-                         </select>
-                </div></div></div><br>
+              <div class="input-group">
+                    <span class="input-group-addon">Estado Civil:</span>
+                    <input type="text" class="form-control" name="estadocivil">
+                </div>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">

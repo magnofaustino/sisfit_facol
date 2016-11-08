@@ -46,12 +46,12 @@ $result = "select * from atividades where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
-                    <input type="date" class="form-control" name="dtini">
+                    <input type="date" class="form-control" name="dtini" value="<?php echo $dtini; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Fim:</span>
-                    <input type="date" class="form-control" name="dtfim">
+                    <input type="date" class="form-control" name="dtfim" value="<?php echo $dtfim; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
@@ -60,10 +60,10 @@ $result = "select * from atividades where id = $id";
                 <div class="input-group">
                     <div class="well">É uma Atividade Temporaria?:
                         <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="N">Não
+                        <input type="radio" name="atvtemp" value="N" <?php if($atvtemp == "N") echo "checked" ?>>Não
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="S">Sim
+                        <input type="radio" name="atvtemp" value="S" <?php if($atvtemp == "S") echo "checked" ?>>Sim
                         </label>
                     </div>
                 </div><br><br>

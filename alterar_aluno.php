@@ -12,14 +12,14 @@ $result = "select * from tb_aluno where id = $id";
               $rg = $ras['rg'];
               $telefone = $ras['telefone'];
               $matricula = $ras['matricula'];
-              $est_civil = $ras['est_civil'];
+            echo  $est_civil = $ras['est_civil'];
               $nacionalidade = $ras['nacionalidade'];
               $naturalidade = $ras['naturalidade'];
               $uf_natur = $ras['uf_natur'];
-              $dt_nasc = $ras['dt_nasc'];
+              $nascimento = $ras['dt_nasc'];
               $sexo = $ras['sexo'];
               $deficiente = $ras['deficiente'];
-              $obs_deficiente = $ras['obs_deficiente'];
+              $obs_deficiente = $ras['obs_def'];
               $email = $ras['email'];
               $plano = $ras['plano'];
               $bolsa = $ras['bolsa'];
@@ -32,16 +32,7 @@ $result = "select * from tb_aluno where id = $id";
               $cep = $ras['cep'];
               $orgao_emissor = $ras['orgao_emissor'];
               
-              
-              
-              
-              
-
-          
-          
-          
-          
-          
+     
           
           }
 
@@ -55,19 +46,22 @@ $result = "select * from tb_aluno where id = $id";
 
 <html>
 	<head>
-		<title>Cadastro de Aluno</title>
+		<title>Editar Aluno</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
-                
+             
             <div class="container">
             <div class="row">
                 <form action="update_aluno.php" method="GET" >
             <fieldset>
+                
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Aluno</h4></div>
+                    <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
                 <div class="panel-body">                
                 <div class="input-group">
+                    
                     <span class="input-group-addon">Nome:</span>
                     <input type="text" class="form-control" name="nome" value="<?php echo $nome; ?>">
                    
@@ -219,7 +213,7 @@ $result = "select * from tb_aluno where id = $id";
                     <span class="input-group-addon">Data de Cadastro:</span>
                     <input type="text" class="form-control" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>">
                 </div></div></div><br> 
-               
+                                                    
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
@@ -277,7 +271,7 @@ $result = "select * from tb_aluno where id = $id";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="cadastro_aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+               <a href="alterar_aluno.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div></div>
             </fieldset>
