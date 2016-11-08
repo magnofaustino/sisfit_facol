@@ -117,7 +117,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="bday">
+                    <input type="date" name="dt_cadastro">
                 </div></div></div><br>
                 
                 <div class="form-inline">
@@ -142,7 +142,7 @@ include "menu.php";
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Estado:
-                         <select class="form-control" name="orgao_amissor">
+                         <select class="form-control" name="orgao_emissor">
                          <option value="">Selecione ...</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>

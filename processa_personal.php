@@ -14,17 +14,19 @@ $nome_5 = $_GET['estadocivil'];
 $nome_6 = $_GET['nacionalidade']; 
 $nome_7 = $_GET['naturalidade'];
 $nome_8 = $_GET['ufnaturalidade'];
+
 $nome_9 = $_GET['dt_nascimento'];
 
 $nome_10 = $_GET['sexo'];
 $nome_11 = $_GET['email'];
 $nome_12 = $_GET['horario']; 
-$nome_13 = $_GET['endereco']; 
+$nome_13 = $_GET['dt_cadastro'];
+$nome_14 = $_GET['endereco']; 
 
-$nome_14 = $_GET['numero'];
-$nome_15 = $_GET['bairro'];
-$nome_16 = $_GET['cep']; 
-$nome_17 = $_GET['orgao_emissor'];
+$nome_15 = $_GET['numero'];
+$nome_16 = $_GET['bairro'];
+$nome_17 = $_GET['cep']; 
+$nome_18 = $_GET['orgao_emissor'];
 
 
 
@@ -48,6 +50,7 @@ $prd->setNome_14($nome_14);
 $prd->setNome_15($nome_15);
 $prd->setNome_16($nome_16);
 $prd->setNome_17($nome_17);
+$prd->setNome_18($nome_18);
 
   
 
@@ -56,7 +59,7 @@ $prd->setNome_17($nome_17);
 
 
 
-$sql = "INSERT INTO personal(nome, cpf, rg, telefone, estadocivil, nacionalidade, naturalidade, uf_naturalidade, dt_nascimento, sexo, email, horario, endereco, numero, bairro, cep, orgao_emissor) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."', '".$prd->getNome_14()."' , '".$prd->getNome_15()."', '".$prd->getNome_16()."', '".$prd->getNome_17()."')";
+$sql = "INSERT INTO personal(nome, cpf, rg, telefone, estadocivil, nacionalidade, naturalidade, uf_naturalidade, dt_nascimento, sexo, email, horario,  dt_cadastro, endereco, numero, bairro, cep, orgao_emissor) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."', '".$prd->getNome_14()."' , '".$prd->getNome_15()."', '".$prd->getNome_16()."', '".$prd->getNome_17()."' , '".$prd->getNome_18()."')";
 
 
 

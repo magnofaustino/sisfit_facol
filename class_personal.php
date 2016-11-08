@@ -22,6 +22,7 @@ public $nome_14;
 public $nome_15;
 public $nome_16;
 public $nome_17;
+public $nome_18;
     
     function _construct()
 	{		
@@ -37,18 +38,15 @@ public $nome_17;
         public function getNome_7(){return $this->nome_7;}
         public function getNome_8(){return $this->nome_8;}
         public function getNome_9(){return $this->nome_9;}
-    
         public function getNome_10(){return $this->nome_10;}
         public function getNome_11(){return $this->nome_11;}
         public function getNome_12(){return $this->nome_12;}
         public function getNome_13(){return $this->nome_13;}
-       
-    
-    
         public function getNome_14(){return $this->nome_14;}
         public function getNome_15(){return $this->nome_15;}
         public function getNome_16(){return $this->nome_16;}
         public function getNome_17(){return $this->nome_17;}
+        public function getNome_18(){return $this->nome_18;}
        
     
     
@@ -72,6 +70,7 @@ public $nome_17;
         public function setNome_15($nome_15){$this->nome_15=$nome_15;}
         public function setNome_16($nome_16){$this->nome_16=$nome_16;}
         public function setNome_17($nome_17){$this->nome_17=$nome_17;}
+        public function setNome_18($nome_18){$this->nome_18=$nome_18;}
     
 }
 ?>
