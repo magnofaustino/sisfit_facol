@@ -91,7 +91,7 @@ include "menu.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" name="bday">
+                    <input type="date" name="dt_nascimento">
                 </div>
                 <div class="input-group">
                     <div class="well">Sexo:
