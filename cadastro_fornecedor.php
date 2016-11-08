@@ -17,23 +17,29 @@ include "menu.php";
                 <div class="panel-heading"><h4>Cadastro de Fornecedores</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
+		        </div>
+                
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Razão Social:</span>
                     <input type="text" class="form-control" name="razao">
+                
+                 </div>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Fantasia:</span>
                     <input type="text" class="form-control" name="nome_fantasia">
-                </div></div></div><br>
+                </div>
+                <br>
                 <div class="form-inline">
+                <div class="form-group">
                 <div class="input-group">
-                    <div class="well">Tipo:
+                    <div class="well">Pessoa:
                         <label class="radio-inline">
-                        <input type="radio" name="tipo" value="F">Fisica
+                        <input type="radio" name="pessoa" value="">Fisica
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="tipo" value="J">Juridica
+                        <input type="radio" name="" value="">Juridica
                         </label>
                     </div>
                 </div>

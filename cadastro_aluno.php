@@ -31,8 +31,14 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
                     <input type="text" class="form-control" name="rg">
-                </div>                
-                </div></div><br>
+                </div>
+            
+                <div class="input-group">
+                    <span class="input-group-addon">Data de Nascimento:</span>
+                    <input type="date" class="form-control" name="nascimento">
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+                                
+                </div></div><br></br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -46,7 +52,10 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
-                    <input type="text" class="form-control" name="estadocivil">
+                    <select class="form-control" name="Estado civil">
+                         <option value="">Solteiro</option>
+                         <option value="">Casado</option>
+                         </select>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -57,6 +66,7 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" name="naturalidade">
+                    
                 </div>
                 <!-- <div class="input-group">
                     <span class="input-group-addon">Uf Naturalidade:</span>
@@ -96,15 +106,30 @@ include "menu.php";
                         </select>
                       </div>
                 </div></div><br>
+                
                 <div class="form-inline">
-                <div class="form-group">
+                <div class="form-group">               
                 <div class="input-group">
-                    <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento">
-                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+                    
+                    <span class="input-group-addon">CEP:</span>
+                    <input type="text" class="form-control" name="cep">
                 </div>
+                <div class="input-group">
+                           <span class="input-group-addon">Numero:</span>
+                           <input type="text" class="form-control" name="numero">
                 </div>
+                 
+                <div class="input-group">
+                    <span class="input-group-addon">Bairro:</span>
+                    <input type="text" class="form-control" name="bairro">
+                </div><br></br>
+                 </div>
+                </div></div>
+                <div class="input-group">
+                    <span class="input-group-addon">Endereco:</span>
+                    <input type="text" class="form-control" name="endereco">
                 </div><br>
+                
                 
                 <div class="form-inline">
                 <div class="form-group">
@@ -140,7 +165,7 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Email:</span>
                     <input type="text" class="form-control" name="email">
-                </div></div></div><br>
+                </div></div></div><br></br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -166,60 +191,7 @@ include "menu.php";
                     <input type="text" class="form-control" name="dt_cadastro">
                 </div></div></div><br> 
                
-                <div class="form-inline">
-                <div class="form-group">               
-                <div class="input-group">
-                    <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" name="endereco">
                 </div>
-                           <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero">
-                </div>
-                 
-                <div class="input-group">
-                    <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" name="bairro">
-                </div>
-                      <div class="input-group">
-                    <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep">
-                </div>
-                     <div class="form-group">
-                         <div class="well well-sm">Estado:
-                         <select class="form-control" name="orgao_amissor">
-                         <option value="">Selecione ...</option>
-                         <option value="AC">Acre</option>
-                         <option value="AL">Alagoas</option>
-                         <option value="AP">Amapá</option>
-                         <option value="AM">Amazonas</option>
-                         <option value="BA">Bahia</option>
-                         <option value="CE">Ceará</option>
-                         <option value="DF">Distrito Federal</option>
-                         <option value="GO">Goiás</option>
-                         <option value="ES">Espírito Santo</option>
-                         <option value="MA">Maranhão</option>
-                         <option value="MT">Mato Grosso</option>
-                         <option value="MS">Mato Grosso do Sul</option>
-                         <option value="MG">Minas Gerais</option>
-                         <option value="PA">Pará</option>
-                         <option value="PB">Paraiba</option>
-                         <option value="PR">Paraná</option>
-                         <option value="PE">Pernambuco</option>
-                         <option value="PI">Piauí­</option>
-                         <option value="RJ">Rio de Janeiro</option>
-                         <option value="RN">Rio Grande do Norte</option>
-                         <option value="RS">Rio Grande do Sul</option>
-                         <option value="RO">Rondônia</option>
-                         <option value="RR">Roraima</option>
-                         <option value="SP">São Paulo</option>
-                         <option value="SC">Santa Catarina</option>
-                         <option value="SE">Sergipe</option>
-                         <option value="TO">Tocantins</option>
-                        </select>
-                      </div></div>
-                </div></div><br>
-                <br><br>
-                
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">

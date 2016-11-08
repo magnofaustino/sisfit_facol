@@ -31,6 +31,11 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
                     <input type="text" class="form-control" name="rg">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Data de nascimento:</span>
+                    <input type="date" class="form-control" name="nascimento">
+                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
@@ -63,9 +68,9 @@ include "menu.php";
                     <input type="text" class="form-control" name="ufnaturalidade">
                 </div> -->
                 <div class="form-group">
-                         <div class="well well-sm">Uf Naturalidade:
+                         <!-- <div class="well well-sm">Uf Naturalidade: -->
                          <select class="form-control" name="ufnaturalidade">
-                         <option value="">Selecione ...</option>
+                         <option value="">UF Naturalidade</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
@@ -94,7 +99,7 @@ include "menu.php";
                          <option value="SE">Sergipe</option>
                          <option value="TO">Tocantins</option>
                         </select>
-                      </div></div>
+                      </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -104,8 +109,8 @@ include "menu.php";
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento">
+                    <span class="input-group-addon">Data de Saida:</span>
+                    <input type="date" class="form-control" name="saida">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
@@ -154,8 +159,8 @@ include "menu.php";
                 <div class="input-group">
                     <span class="input-group-addon">Funcao:</span>
                     <input type="text" class="form-control" name="funcao">
-                </div>
-                </div></div><br>
+                </div><br></br>
+                </div></div>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -166,14 +171,15 @@ include "menu.php";
                     <span class="input-group-addon">Serie da carteira:</span>
                     <input type="text" class="form-control" name="seriecarteira">
                 </div>
-                <!--<div class="input-group">
-                    <span class="input-group-addon">Uf Carteira:</span>
-                    <input type="text" class="form-control" name="ufcarteira">
+               </div>
+                <!-- <div class="input-group">
+                    <span class="input-group-addon">Uf Naturalidade:</span>
+                    <input type="text" class="form-control" name="ufnaturalidade">
                 </div> -->
-                     <div class="form-group">
-                         <div class="well well-sm">Uf Carteira:
-                         <select class="form-control" name="ufcarteira">
-                         <option value="">Selecione ...</option>
+                <div class="form-group">
+                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <select class="form-control" name="ufnaturalidade">
+                         <option value="">UF Naturalidade</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
@@ -202,16 +208,18 @@ include "menu.php";
                          <option value="SE">Sergipe</option>
                          <option value="TO">Tocantins</option>
                         </select>
-                      </div></div>
-                </div></div><br>
+                      </div><br><br>
+                
+                
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Turno Trabalho:</span>
                     <input type="text" class="form-control" name="turnotrab">
                 </div>
+                
                 <div class="input-group">
-                    <span class="input-group-addon">Tipo Trabalho:</span>
+                    <span class="input-group-addon">Escala de Trabalho:</span>
                     <input type="text" class="form-control" name="tipotrab">
                 </div></div></div>
                 <br><br>
