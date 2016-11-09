@@ -45,7 +45,7 @@ $result = "select * from personal where id = $id";
                 
             <div class="container">
             <div class="row">
-                <form action="processa_personal.php" method="GET" >
+                <form action="update_personal.php" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Personal</h4></div>
