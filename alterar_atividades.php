@@ -26,10 +26,11 @@ $result = "select * from atividades where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="processa_atividades.php" method="GET" >
+            <form action="update_atividades.php" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Atividades</h4></div>
+                     <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
                 <div class="panel-body">
 		<div class="form-inline">
                 <div class="form-group">

@@ -22,12 +22,7 @@ include "menu.php";
                 
                <div class="input-group">
                     <span class="input-group-addon">Modalidades:</span>
-                    <select class="form-control" name="Modalidades">
-                         <option value="">Musculacao</option>
-                         <option value="">Pilates</option>
-                         <option value="">Muay-thai</option>
-                         <option value="">Aerobica</option>
-                         </select>
+                   <input type="text" class="form-control" name="atividade">
                       </div>
 
                 <div class="input-group">
@@ -42,7 +37,7 @@ include "menu.php";
                 <div class="input-group">
                 
                     <span class="input-group-addon">Duracao da aula:</span>
-                    <input type="time" name="usr_time">
+                    <input type="time" name="duracao_aula">
                     
                 </div>
                     
