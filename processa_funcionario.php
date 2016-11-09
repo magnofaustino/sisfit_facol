@@ -9,9 +9,9 @@ include ("conexao.php");
 require_once "class_funcionario.php"; 
 
 
-$nome_funcionario = $_GET['nome'];
-$cpf_funcionario = $_GET['cpf'];
-$rg_funcionario = $_GET['rg']; 
+$nome = $_GET['nome'];
+$cpf = $_GET['cpf'];
+$rg = $_GET['rg']; 
 $nascimento = $_GET['nascimento'];
 $telefone = $_GET['telefone']; 
 $matricula = $_GET['matricula'];

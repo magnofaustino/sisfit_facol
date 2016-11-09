@@ -178,7 +178,7 @@ include "menu.php";
                 </div> -->
                 <div class="form-group">
                          <!-- <div class="well well-sm">Uf Naturalidade: -->
-                         <select class="form-control" name="ufnaturalidade">
+                         <select class="form-control" name="uf_naturalidade">
                          <option value="">UF Naturalidade</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
