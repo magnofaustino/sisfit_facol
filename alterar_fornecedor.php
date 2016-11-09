@@ -19,7 +19,8 @@ $result = "select * from fornecedor where id = $id";
               $email = $ras['email'];
               $endereco = $ras['endereco'];
               $bairro = $ras['bairro'];
-              $municipio = $ras['municipio'];
+             $municipio = $ras['municipio'];
+              $numero = $ras['numero'];
               $cep = $ras['cep'];
               
      
@@ -68,10 +69,10 @@ $result = "select * from fornecedor where id = $id";
                 <div class="input-group">
                     <div class="well">Pessoa:
                         <label class="radio-inline">
-                        <input type="radio" name="pessoa" value="F" <?php if($tipo == "F") echo "checked" ?>>Fisica
+                        <input type="radio" name="tipo" value="F" <?php if($tipo == "F") echo "checked" ?>>Fisica
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="pessoa" value="J" <?php if($tipo == "J") echo "checked" ?>>Juridica
+                        <input type="radio" name="tipo" value="J" <?php if($tipo == "J") echo "checked" ?>>Juridica
                         </label>
                     </div>
                 </div>

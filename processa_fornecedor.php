@@ -8,7 +8,7 @@ require_once "class_fornecedor.php";
 
 $razao =$_GET['razao'];
 $nome_fantasia = $_GET['nome_fantasia'];
-$tipo = $_GET['tipo'];
+echo $tipo = $_GET['tipo'];
 $cpf_cnpj = $_GET['cpf_cnpj'];
 $telefone = $_GET['telefone'];
 $email = $_GET['email'];
