@@ -8,32 +8,69 @@ include "menu.php";
 		<meta charset="UTF-8"></meta>
 	</head>
 	<body>
-		<h1>Cadastro de Plano</h1>
+       
+		<div class="container">
+        <div class="row">
 		<form action="processa_atividades.php" method="GET" >
            
-            <fieldset>
-		Nome do Plano:<input  type="text" name="nome_plano"><br><br>
-        Observações do Plano<input  type="text" name="obs_plano"><br><br>
-                
-               atividades do plano:  
-		<select name="atividade_plano">
-		<option value="N">atividade "a"</option>
-        <option value="S">atividade "b"
+           <fieldset>
+           
+           <div class="panel panel-primary">
+           <div class="panel-heading"><h4>Cadastro de Plano</h4>
+           </div>
+           <div class="panel-body">                
+           <div class="input-group">
             
-            </option></select><br><br>
-                
-                   tipo do plano:  
-		<select name="tipo_plano">
-		<option value="N">familiar</option>
-        <option value="S">individual
+		            <span class="input-group-addon">Nome do Plano:</span>
+		            
+                    <input type="text" class="form-control" name="nome_plano" >
+                   
+           </div><br>
+               
+                <div class="form-group">   
+                <div class="input-group">
+             <span class="input-group-addon">Atividade:</span>
+		     <select class="form-control" name="atividade_plano" >
+		     <option value="N">atividade"a"</option>
+             <option value="S">atividade"b"
             
-            </option></select><br><br>
-         <input type="submit" name="sub" value="Cadastrar">
+            </option></select></div><br>
+            
+                <div class="form-group">   
+                <div class="input-group">
+                <span class="input-group-addon">Tipo de Plano:</span>  
+		<select class="form-control" name="tipo_plano" >
+		<option value="N">familiar"a"</option>
+        <option value="S">individual"b"
+                
+            </option></select>
+            
+                
+                <span class="input-group-addon">Duracao do Plano:</span>
+		                     <input type="text" class="form-control" name="duracao_plano" >
+		            </div><br>
+		        <div class="form-group">   
+                <div class="input-group">
+                <span class="input-group-addon">Numero de aulas:</span>    
+		                   <input type="number" class="form-control" name="numero_aula" min="1"max="5">
+		        <span class="input-group-addon">Valor da Matricula:</span>           
+		                   <input type="text" class="form-control" name="vl_matricula" >
+		                   <span class="input-group-addon">R$</span>
+		        <span class="input-group-addon">Valor da Mensalidade:</span>
+		                   <input type="text" class="form-control" name="vl_mensal" >
+		                   <span class="input-group-addon">R$</span>
+		
+                </div></div><br><br>
+                
+                
+         <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+         <button type="reset" class="btn btn-default">Limpar</button>
+         <div class="pull-right">
+         <a href="aluno.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
-        </form>
+       
         
-        
-        
+        </form> 
 		 
 	</body>
 </html>
