@@ -62,34 +62,34 @@ $result = "select * from produtos where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" name="nome_3">
+                    <input type="text" class="form-control" name="nome_3" value="<?php echo $vcusto; ?>">
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" name="nome_4">
+                    <input type="text" class="form-control" name="nome_4" value="<?php echo $vvenda; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Unidade de Medida:</span>
-                    <input type="text" class="form-control" name="nome_5">
+                    <input type="text" class="form-control" name="nome_5" value="<?php echo $umedida; ?>">
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" name="nome_6">
+                    <input type="text" class="form-control" name="nome_6" value="<?php echo $qproduto; ?>">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Grupo de Produto:</span>
-                    <input type="text" class="form-control" name="nome_7">
+                    <input type="text" class="form-control" name="nome_7" value="<?php echo $grupo; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Tipo de Produto:</span>
-                    <input type="text" class="form-control" name="nome_8">
+                    <input type="text" class="form-control" name="nome_8" value="<?php echo $tipo; ?>">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
@@ -106,7 +106,7 @@ $result = "select * from produtos where id = $id";
                 </div>   
                 <div class="input-group">
                     <span class="input-group-addon">Quantidade da Garantia:</span>
-                    <input type="text" class="form-control" name="nome_9">
+                    <input type="text" class="form-control" name="nome_9" value="<?php echo $duracao; ?>">
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Periodo:
@@ -123,7 +123,7 @@ $result = "select * from produtos where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data da Compra</span>
-                    <input type="date" class="form-control" name="nome_11">
+                    <input type="date" class="form-control" name="nome_11" value="<?php echo $compra; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                      <div class="form-group">
