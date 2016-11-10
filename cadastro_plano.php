@@ -36,26 +36,35 @@ include "menu.php";
             
             </option></select></div><br>
             
+                <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Tipo de Plano:</span>  
-		<select class="form-control" name="tipo_plano" >
-		<option value="N">familiar"a"</option>
-        <option value="S">individual"b"
+		        <select class="form-control" name="tipo_plano" >
+		        <option value="N">familiar"a"</option>
+                <option value="S">individual"b"
                 
-            </option></select>
-            
-                
+                 </option></select>
+                  </div>
+                 <div class="input-group">
                 <span class="input-group-addon">Duracao do Plano:</span>
-		                     <input type="text" class="form-control" name="duracao_plano" >
-		            </div><br>
-		        <div class="form-group">   
+		        <input type="text" class="form-control" name="duracao_plano" >
+		            </div>
+		        
                 <div class="input-group">
                 <span class="input-group-addon">Numero de aulas:</span>    
 		                   <input type="number" class="form-control" name="numero_aula" min="1"max="5">
-		        <span class="input-group-addon">Valor da Matricula:</span>           
+		                   </div></div></div><br>
+		                   
+		                   <div class="form-inline">
+                           <div class="form-group">   
+		                   <div class="input-group">
+		                   <span class="input-group-addon">Valor da Matricula:</span>           
 		                   <input type="text" class="form-control" name="vl_matricula" >
-		                   <span class="input-group-addon">R$</span>
+		                   </div>
+		                   
+		                   <div class="input-group">
+		                   		 <span class="input-group-addon">R$</span>
 		        <span class="input-group-addon">Valor da Mensalidade:</span>
 		                   <input type="text" class="form-control" name="vl_mensal" >
 		                   <span class="input-group-addon">R$</span>
