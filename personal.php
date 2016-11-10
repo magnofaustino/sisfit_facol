@@ -10,7 +10,7 @@
 
 <html>
 	<head>
-		<title>Personais</title>
+		<title>Personal</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -19,7 +19,7 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Personais</h3>
+                <h3 class="panel-title">Personal</h3>
                 <div class="pull-right">
                     <a href="cadastro_personal.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
