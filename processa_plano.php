@@ -13,10 +13,9 @@ $numero_aula = $_GET['numero_aula'];
 $vl_matricula = $_GET['vl_matricula'];
 $vl_mensal = $_GET['vl_mensal'];
 $data_cadastro = $_GET['data_cadastro'];
-
-$atividades_plano = $_GET['atividades_plano']
-$observacoes_plano = $_GET['observacoes_plano']
-$tipo_plano = $_GET['tipo_plano'] 
+$atividades_plano = $_GET['atividades_plano'];
+$observacoes_plano = $_GET['observacoes_plano'];
+$tipo_plano = $_GET['tipo_plano'];
 
 $prd=new Plano();
 $prd->setNome_Plano($nome_plano);
