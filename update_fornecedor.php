@@ -12,15 +12,14 @@ $telefone = $_GET['telefone'];
 $email =$_GET['email'];
 $endereco = $_GET['endereco'];
 $bairro = $_GET['bairro']; 
-$minicipio =$_GET['municipio'];
+$cidade =$_GET['cidade'];
 $numero = $_GET['numero'];
 $cep = $_GET['cep']; 
 
 
  
 
-$sql = "UPDATE fornecedor SET razao='$razao', nome_fantasia ='$nome_fantasia', tipo = '$tipo', cpf_cnpj = '$cpf_cnpj', telefone = '$telefone', email = '$email', bairro = '$bairro', municipio = '$municipio', numero = '$numero', cep = '$cep' WHERE id= $id";
-
+$sql = "UPDATE fornecedor SET razao='$razao', nome_fantasia ='$nome_fantasia', tipo = '$tipo', cpf_cnpj = '$cpf_cnpj', telefone = '$telefone', email = '$email', bairro = '$bairro', municipio = '$cidade', numero = '$numero', cep = '$cep' WHERE id= $id";
 
 
 

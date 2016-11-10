@@ -19,7 +19,7 @@ $result = "select * from fornecedor where id = $id";
               $email = $ras['email'];
               $endereco = $ras['endereco'];
               $bairro = $ras['bairro'];
-             $municipio = $ras['municipio'];
+             $cidade = $ras['municipio'];
               $numero = $ras['numero'];
               $cep = $ras['cep'];
               
@@ -105,7 +105,7 @@ $result = "select * from fornecedor where id = $id";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Municipio:</span>
-                    <input type="text" class="form-control" name="municipio" value="<?php echo $municipio; ?>">
+                    <input type="text" class="form-control" name="cidade" value="<?php echo $cidade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Cep:</span>
