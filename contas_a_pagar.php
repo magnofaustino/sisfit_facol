@@ -18,8 +18,6 @@ include "menu.php";
                 <div class="panel-heading"><h4>Cadastro de Debito</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
-                
-                
                <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
                    <input type="text" class="form-control" name="nome">
@@ -31,22 +29,19 @@ include "menu.php";
                    
                 </div></div><br>
                     
-                       <div class="input-group">
+                <div class="form-inline">
+                    <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
                     <input type="text" class="form-control" name="valor">
                     <span class="input-group-addon">R$</span>
-                </div></div><br>
+                    </div>
                     
-                       <div class="input-group">
+                    <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
                     <input type="text" class="form-control" name="telefone">
                    
-                </div></div><br>
-                
-                
-          
-                    
-   <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+                </div></div><br>           
+                <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
                 <a href="atividades.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
