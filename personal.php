@@ -28,7 +28,6 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Id" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Telefone" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Horario" disabled></th>
@@ -43,7 +42,6 @@
                    $id = $ras['id'];
             
       ?> 
-                        <td><?php echo $ras['id']; ?></td>
                         <td><?php echo $ras['nome'];?></td>
                         <td><?php echo $ras['telefone']; ?></td>
                         <td><?php echo $ras['horario']; ?></td>

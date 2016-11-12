@@ -28,7 +28,6 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Id" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Atividade" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Valor" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Temporaria?" disabled></th>
@@ -44,7 +43,6 @@
                    $id = $ras['id'];
             
       ?> 
-                        <td><?php echo $ras['id']; ?></td>
                         <td><?php echo $ras['atividade'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
                         <td><?php echo $ras['atvtemp']; ?></td>

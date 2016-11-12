@@ -11,7 +11,7 @@ include "menu.php";
        
 		<div class="container">
         <div class="row">
-		<form action="processa_atividades.php" method="GET" >
+		<form action="processa_planos.php" method="GET" >
            
            <fieldset>
            
@@ -75,7 +75,7 @@ include "menu.php";
          <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
          <button type="reset" class="btn btn-default">Limpar</button>
          <div class="pull-right">
-         <a href="aluno.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+         <a href="planos.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
        
         

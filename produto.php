@@ -27,7 +27,6 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Id" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Nome Produto" disabled></th>
                          <th><input type="text" class="form-control" placeholder="Descricão" disabled></th>
                         <th><input type="text" class="form-control" placeholder="valor venda" disabled></th>
@@ -43,8 +42,6 @@
                    $id = $ras['id'];
             
       ?> 
-
-                        <td><?php echo $ras['id']; ?></td>
                         <td><?php echo $ras['nome'];?></td>
                         <td><?php echo $ras['des']; ?></td>
                         <td><?php echo $ras['vcusto']; ?></td>
