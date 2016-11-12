@@ -2,11 +2,6 @@
 <?php
 include "menu.php";
 ?>
-
-
-
-
-
 <html>
 	<head>
 		<title>Editar Aluno</title>

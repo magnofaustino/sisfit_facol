@@ -43,7 +43,7 @@ include "menu.php";
                 </div>
                 <div class="form-group">
                          <div class="well well-sm">Bloqueado:
-                         <select class="form-control" name="fornecedor">
+                         <select class="form-control" name="bloqueado">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>

@@ -110,7 +110,7 @@
               <ul class="dropdown-menu forAnimate" role="menu">
                   <li><a href="cadastro_empresa.php">Cadastro da Empresa</a></li>
                 <li class="divider"></li>
-                <li><a href="cadastro_usuario.php">Cadastro de Usuarios</a></li>
+                <li><a href="usuarios.php">Cadastro de Usuarios</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Build</a></li>
               </ul>
