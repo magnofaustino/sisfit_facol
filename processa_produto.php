@@ -17,7 +17,7 @@ $nome_8 = $_GET['nome_8'];
 $nome_9 = $_GET['nome_9'];
 
 $nome_10 = $_GET['nome_10'];
-echo $nome_11 = $_GET['nome_11'];
+$nome_11 = $_GET['nome_11'];
 $nome_12 = $_GET['nome_12']; 
 $nome_13 = $_GET['nome_13']; 
 

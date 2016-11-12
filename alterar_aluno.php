@@ -36,7 +36,7 @@ $result = "select * from tb_aluno where id = $id";
           
           }
 
-   
+ 
   
  ?>
 
@@ -128,7 +128,7 @@ $result = "select * from tb_aluno where id = $id";
                          <option value="PB">Paraiba</option>
                          <option value="PR">Paraná</option>
                          <option value="PE">Pernambuco</option>
-                         <option value="PI">Piauí­</option>
+                         <option value="PI">Piauí</option>
                          <option value="RJ">Rio de Janeiro</option>
                          <option value="RN">Rio Grande do Norte</option>
                          <option value="RS">Rio Grande do Sul</option>
@@ -235,7 +235,7 @@ $result = "select * from tb_aluno where id = $id";
                      <div class="form-group">
                          <div class="well well-sm">Estado:
                          <select class="form-control" name="orgao_amissor" >
-                         <option value="<?php echo $orgao_emissor; ?>">
+                             <option value="<?php echo $orgao_amissor; ?>">$Estado</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
@@ -253,7 +253,7 @@ $result = "select * from tb_aluno where id = $id";
                          <option value="PB">Paraiba</option>
                          <option value="PR">Paraná</option>
                          <option value="PE">Pernambuco</option>
-                         <option value="PI">Piauí­</option>
+                         <option value="PI">Piauí</option>
                          <option value="RJ">Rio de Janeiro</option>
                          <option value="RN">Rio Grande do Norte</option>
                          <option value="RS">Rio Grande do Sul</option>
