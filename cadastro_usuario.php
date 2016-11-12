@@ -32,7 +32,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Confirma Senha:</span>
-                    <input type="password" class="form-control" name="contra_senha">
+                    <input type="password" class="form-control" name="contrasenha">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div></div></div><br>
                 <div class="form-inline">
