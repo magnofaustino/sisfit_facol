@@ -6,12 +6,12 @@ include ("conexao.php");
 
 require_once "class_usuario.php"; 
 
-$nome_1 = $_GET['nome'];
-$nome_2 = $_GET['descricao'];
-$nome_3 = $_GET['valor']; 
-$nome_4 = $_GET['telefone'];
-$nome_5= $_GET['valor']; 
-$nome_6= $_GET['telefone'];
+$nome_1 = $_GET['descricao'];
+$nome_2 = $_GET['nome'];
+$nome_3 = $_GET['senha']; 
+$nome_4 = $_GET['contrasenha'];
+$nome_5= $_GET['email']; 
+$nome_6= $_GET['fornecedor'];
 
 
 
