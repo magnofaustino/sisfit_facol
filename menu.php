@@ -81,30 +81,57 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
             <span class="sr-only">Menu de navegação</span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+
           </button>      
         </div>
         <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="home.php">Dashboards<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Alunos<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="aluno.php">Alunos</a></li>
                 <li class="divider"></li>
-                <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>
+                <li ><a href="fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li><a href="#">Informes</a></li>
+                <li ><a href="funcionario.php">Funcionarios<span style="font-size:16px;"></span></a></li>        
+                <li class="divider"></li>
+                <li ><a href="personal.php">Personal<span style="font-size:16px;"></span></a></li>        
               </ul>
             </li>
-            <li ><a href="fornecedores.php">Fornecedores<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-shopping-cart"></span></a></li>        
-            <li ><a href="funcionario.php">Funcionarios<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>        
-            <li ><a href="personal.php">Personal<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a></li>        
-            <li ><a href="atividades.php">Atividades<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flash"></span></a></li>        
-            <li ><a href="produto.php">Produtos<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>        
-            <li ><a href="pagamentos.php">Contas a pagar<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a></li>
-            <li ><a href="planos.php">Planos<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academia<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
+                <li class="divider"></li>
+                <li ><a href="planos.php">Planos<span style="font-size:16px;"></span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li ><a href="pagamentos.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
+                <li class="divider"></li>
+                <li ><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>                     
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscelania<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
+              <ul class="dropdown-menu forAnimate" role="menu">
+                <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
+              </ul>
+            </li>
+            
+            
+            
+            
+            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configurações<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
