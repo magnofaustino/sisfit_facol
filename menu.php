@@ -88,7 +88,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="home.php">Dashboards<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-pencil"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="aluno.php">Alunos</a></li>
                 <li class="divider"></li>
@@ -100,7 +100,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academia<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academia<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flash"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
@@ -116,7 +116,7 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>                     
               </ul>
@@ -126,18 +126,13 @@
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
               </ul>
-            </li>
-            
-            
-            
-            
-            
+            </li>            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configurações<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                  <li><a href="cadastro_empresa.php">Cadastro da Empresa</a></li>
+                  <li><a href="cadastro_empresa.php">Empresa</a></li>
                 <li class="divider"></li>
-                <li><a href="usuarios.php">Cadastro de Usuarios</a></li>
+                <li><a href="usuarios.php">Usuarios</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Build</a></li>
               </ul>

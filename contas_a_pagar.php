@@ -22,9 +22,14 @@ include "menu.php";
                     <span class="input-group-addon">Fornecedor:</span>
                    <input type="text" class="form-control" name="fornecedor">
                       </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Nome:</span>
+                    <input type="text" class="form-control" name="nome">
+                   
+                </div>
 
                 <div class="input-group">
-                    <span class="input-group-addon">Descrrição:</span>
+                    <span class="input-group-addon">Descrição:</span>
                     <input type="text" class="form-control" name="descricao">
                    
                 </div></div><br>

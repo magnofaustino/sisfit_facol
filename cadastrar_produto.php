@@ -64,20 +64,20 @@ include "menu.php";
                 <div class="input-group">
                     <div class="well">Garantia?:
                         <label class="radio-inline">
-                        <input type="radio" name="garantia" value="N">Não
+                        <input type="radio" name="nome_9" value="N">Não
                         </label>
                         <label class="radio-inline">
-                        <input type="radio" name="garantia" value="S">Sim
+                        <input type="radio" name="nome_9" value="S">Sim
                         </label>
                     </div>
                 </div>   
                 <div class="input-group">
                     <span class="input-group-addon">Quantidade da Garantia:</span>
-                    <input type="text" class="form-control" name="nome_9">
+                    <input type="text" class="form-control" name="nome_10">
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Periodo:
-                         <select class="form-control" name="nome_10">
+                         <select class="form-control" name="nome_11">
                          <option value="">Selecione ...</option>
                          <option value="D">Dias</option>
                          <option value="M">Meses</option>
@@ -90,12 +90,12 @@ include "menu.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data da Compra</span>
-                    <input type="date" class="form-control" name="nome_11">
+                    <input type="date" class="form-control" name="nome_12">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Fornecedor:
-                         <select class="form-control" name="Nome_12">
+                         <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
                          <option value="1">Fornece 1</option>
                          <option value="2">Fornece 2</option>
@@ -104,7 +104,7 @@ include "menu.php";
                       </div></div>
                 <div class="form-group">
                          <div class="well well-sm">Bloqueado:
-                         <select class="form-control" name="Nome_13">
+                         <select class="form-control" name="Nome_14">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>
