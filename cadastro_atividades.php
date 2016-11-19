@@ -40,7 +40,8 @@ function validateForm() {
                 
                <div class="input-group">
                     <span class="input-group-addon">Modalidades:</span>
-                   <input type="text" class="form-control" name="atividade">
+                  
+                   <input id="nome" type=text class="form-control" title="Preencha o campo Nome" required name="atividade"/> 
                       </div>
 
                 <div class="input-group">

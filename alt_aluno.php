@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["fname"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-}
-</script>
-</head>
-<body>
-
-<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
-    
-    
-Name: <input type="text" name="fname">
-    
-    
-<input type="submit" value="Submit">
-</form>
-
-</body>
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+<title>Validação de formulários em HTML5</title> 
+</head> 
+<body> 
+	<form method="post" action=""> 
+		<label for="nome">Nome: </label> 
+		<input id="nome" type=text title="Preencha o campo Nome" required name=nome/> <br /> 
+		
+        
+        
+        <label for="email">Email: </label> <input id="email" type=text required name=email/> 
+		<input type=submit value="OK"/> 
+	</form> 
+</body> 
 </html>
