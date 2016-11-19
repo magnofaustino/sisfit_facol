@@ -2,7 +2,7 @@
     
      include ("conexao.php");   
 
-    $result = "select * from planos";
+    $result = "select * from tb_plano";
     $resultado = mysqli_query($conn, $result);
 ?>
     
@@ -37,6 +37,7 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
+                  
                    $id = $ras['id'];
             
       ?> 

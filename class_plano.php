@@ -2,8 +2,7 @@
 
 
 
-class Plano{
-
+class plano{
     
 public $nome_plano;
 public $atividades_plano;
@@ -30,30 +29,16 @@ public function getValor_Matricula(){return $this->vl_matricula;}
 public function getValor_Mensalidade(){return $this->vl_mensal;}  
 public function getData_Cadastro(){return $this->data_cadastro;}
 
-        public function setNome($nome_plano){$this->nome_plano=$nome_plano;}
+        public function setNome_Plano($nome_plano){$this->nome_plano=$nome_plano;}
         public function setAtividades_Plano($atividades_plano){$this->atividades_plano=$atividades_plano;}
         public function setObservacoes_Plano($observacoes_plano){$this->observacoes_plano=$observacoes_plano;}
     
         public function setTipo_Plano($tipo_plano){$this->tipo_plano=$tipo_plano;}
-        public function setDuracao_Plano($duracao_plano){$this->duracao_plano=$d;}
-    	public function setNumero_Aula($numero_aula){$this->numero_aula=$d;}
-        public function setValor_Matricula($vl_matricula){$this->vl_matricula=$d;}
-        public function setValor_Mensalidade($vl_mensalidade){$this->vl_mensalidade=$d;}
-        public function setData_Cadastro($data_cadastro){$this->data_cadastro=$d;}
+        public function setDuracao_Plano($duracao_plano){$this->duracao_plano=$duracao_plano;}
+    	public function setNumero_Aula($numero_aula){$this->numero_aula=$numero_aula;}
+        public function setValor_Matricula($vl_matricula){$this->vl_matricula=$vl_matricula;}
+        public function setValor_Mensalidade($vl_mensal){$this->vl_mensal=$vl_mensal;}
+        public function setData_Cadastro($data_cadastro){$this->data_cadastro=$data_cadastro;}
         
-    //falta o select para definir as atividades.
-        public function getValor(){return $this->valor;}
-        public function getAtvtemp(){return $this->atvtemp;}
-        public function getDtini(){return $this->dtini;}
-        public function getDtfim(){return $this->dtfim;}
-       
-    
-    
-        public function setAtividade($atividade){$this->atividade=$atividade;}
-        public function setValor($valor){$this->valor=$valor;}
-        public function setAtvtemp($atvtemp){$this->atvtemp=$atvtemp;}
-        public function setDtini($dtini){$this->dtini=$dtini;}
-        public function setDtfim($dtfim){$this->dtfim=$dtfim;}
-    //
 }
-?>
+?>  
