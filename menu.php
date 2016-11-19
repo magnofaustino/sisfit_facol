@@ -105,6 +105,9 @@
                 <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
                 <li ><a href="planos.php">Planos<span style="font-size:16px;"></span></a></li>
+                <li class="divider"></li>
+                <li ><a href="avaliacao.php">Avaliacao<span style="font-size:16px;"></span></a></li>
+                
               </ul>
             </li>
             <li class="dropdown">
