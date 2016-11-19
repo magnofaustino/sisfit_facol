@@ -10,17 +10,7 @@ include "menu.php";
 		<title>Cadastro de Atividades</title>
 		<meta charset="UTF-8"></meta>
     
-    <script>
-        
-        //java script onde faz a verificação se o campo está null.
-function validateForm() {
-    var x = document.forms["myForm"]["atividade"].value;
-    if (x == "") {
-        alert("Name must be filled out");
-        return false;
-    }
-}
-</script>
+
 	</head>
         <body>
             
@@ -28,7 +18,7 @@ function validateForm() {
             <div class="container">
             <div class="row">
     
-           <form name="myForm" action="processa_atividades.php" onsubmit="return validateForm()" method="GET">     
+           <form  action="processa_atividades.php"  method="GET">     
                 
                 
             <fieldset>
@@ -46,7 +36,7 @@ function validateForm() {
 
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="valor">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor">
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 
@@ -56,7 +46,7 @@ function validateForm() {
                 <div class="input-group">
                 
                     <span class="input-group-addon">Duracao da aula:</span>
-                    <input type="time" name="duracao_aula">
+                    <input type="time" title="Preencha o campo Nome" required name="duracao_aula">
                     
                 </div>
                     
@@ -77,12 +67,12 @@ function validateForm() {
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
-                    <input type="date" class="form-control" name="dtini">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtini">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Fim:</span>
-                    <input type="date" class="form-control" name="dtfim">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtfim">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
