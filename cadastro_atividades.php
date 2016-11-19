@@ -2,17 +2,35 @@
 
 
 include "menu.php";
+
+
 ?>
 <html>
 	<head>
 		<title>Cadastro de Atividades</title>
 		<meta charset="UTF-8"></meta>
+    
+    <script>
+        
+        //java script onde faz a verificação se o campo está null.
+function validateForm() {
+    var x = document.forms["myForm"]["atividade"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
 	</head>
         <body>
+            
                 
             <div class="container">
             <div class="row">
-            <form action="processa_atividades.php" method="GET" >
+       
+           <form name="myForm" action="processa_atividades.php" onsubmit="return validateForm()" method="GET">     
+                
+                
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Atividades</h4></div>
