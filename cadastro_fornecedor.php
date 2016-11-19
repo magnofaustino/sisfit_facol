@@ -28,7 +28,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Fantasia:</span>
-                    <input type="text" class="form-control" name="nome_fantasia">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_fantasia">
                 </div>
                 <br>
                 <div class="form-inline">
@@ -45,12 +45,12 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
-                    <input type="text" class="form-control" name="cpf_cnpj">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf_cnpj">
                 </div></div>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
