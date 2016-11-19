@@ -19,22 +19,22 @@ include "menu.php";
                     
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Produto:</span>
-                    <input type="text" class="form-control" name="nome_1">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_1">
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Descrição do Produto:</span>
-                    <input type="text" class="form-control" name="nome_2">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2">
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" name="nome_3">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_3">
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" name="nome_4">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_4">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
@@ -45,7 +45,7 @@ include "menu.php";
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" name="nome_6">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_6">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
