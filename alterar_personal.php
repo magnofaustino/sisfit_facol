@@ -142,7 +142,7 @@ $result = "select * from personal where id = $id";
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon">Email:</span>
+                    <span class="input-group-addon">E-mail:</span>
                     <input type="text" class="form-control" name="email" value="<?php echo $email; ?>">
                 </div>
                 <div class="input-group">

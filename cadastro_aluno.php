@@ -144,8 +144,8 @@ include "menu.php";
                   
               
                 <div class="input-group">
-                    <span class="input-group-addon">Email:</span>
-                    <input type="text" class="form-control" name="email" >
+                    <span class="input-group-addon">E-mail:</span>
+                    <input type="email" class="form-control" name="email" >
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">

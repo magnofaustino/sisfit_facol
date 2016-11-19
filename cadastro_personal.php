@@ -108,8 +108,8 @@ include "menu.php";
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon">Email:</span>
-                    <input type="text" class="form-control" name="email">
+                    <span class="input-group-addon">E-mail:</span>
+                    <input type="email" class="form-control" name="email">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
