@@ -27,7 +27,7 @@ function validateForm() {
                 
             <div class="container">
             <div class="row">
-       
+    
            <form name="myForm" action="processa_atividades.php" onsubmit="return validateForm()" method="GET">     
                 
                 
