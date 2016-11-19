@@ -27,6 +27,8 @@
                 <thead>
                     <tr class="filters">
                         <th><input type="text" class="form-control" placeholder="Nome do Aluno" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Atividade Atual" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Observação da Avaliação" disabled></th>
                         </tr>
                 </thead>
                 <tbody>
@@ -37,6 +39,8 @@
             
       ?> 
                         <td><?php echo $ras['n_aluno'];?></td>
+                        <td><?php echo $ras['atv_atual'];?></td>
+                        <td><?php echo $ras['obs_aval'];?></td>
                        
                         
 <td class="text-center"><a href="alterar_avaliacao.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>

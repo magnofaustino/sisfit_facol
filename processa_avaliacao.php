@@ -25,7 +25,7 @@ $prd->setTipo_Doenca($tipo_doenca);
 $prd->setObs_Aval($obs_aval);
 
 
-$sql = "INSERT INTO avaliacao (	n_aluno,obj_atividade,atv_atual,tipo_med,tipo_cirg,tipo_doenca,obs_aval) VALUES ('".$prd->getN_Aluno()."','".$prd->getObj_Atividade()."', '".$prd->getAtv_Atual()."', '".$prd->getTipo_Med()."', '".$prd->getTipo_Cirg()."', '".$prd->getTipo_Doenca()."', '".$prd->getObs_Aval()."',)";
+$sql = "INSERT INTO avaliacao (	n_aluno,obj_atividade,atv_atual,tipo_med,tipo_cirg,tipo_doenca,obs_aval) VALUES ('".$prd->getN_Aluno()."','".$prd->getObj_Atividade()."', '".$prd->getAtv_Atual()."', '".$prd->getTipo_Med()."', '".$prd->getTipo_Cirg()."', '".$prd->getTipo_Doenca()."', '".$prd->getObs_Aval()."')";
 
 
 

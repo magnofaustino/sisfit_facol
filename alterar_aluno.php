@@ -186,7 +186,7 @@ $result = "select * from tb_aluno where id = $id";
                   
               
                 <div class="input-group">
-                    <span class="input-group-addon">Email:</span>
+                    <span class="input-group-addon">E-mail:</span>
                     <input type="text" class="form-control" name="email" value="<?php echo $email; ?>">
                 </div></div></div><br>
                 <div class="form-inline">

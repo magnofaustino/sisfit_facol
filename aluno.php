@@ -1,5 +1,6 @@
 <?php
-     include ("conexao.php");   
+     include ("conexao.php");
+
 
     $result = "select * from tb_aluno";
     $resultado = mysqli_query($conn, $result);
