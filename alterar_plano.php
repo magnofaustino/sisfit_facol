@@ -8,7 +8,7 @@ $result = "select * from tb_plano where id = $id";
       $resultadobusca = mysqli_query($conn, $result);
         while($ras = mysqli_fetch_array($resultadobusca)){
     
-            $nome_plano = $ras[nome_plano'];
+            $nome_plano = $ras['nome_plano'];
             $atividades_plano = $ras['atividades_plano'];
             
             $tipo_plano = $ras['tipo_plano'];
