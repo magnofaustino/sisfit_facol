@@ -20,33 +20,33 @@ include "menu.php";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
-                    <input type="text" class="form-control" name="n_aluno">
+                    <input type="text" class="form-control"  title="Preencha o campo Nome" required name="n_aluno">
                       </div><br>
                         
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relacao a atividades fisicas:</span>
-                    <input type="text" class="form-control" name="obj_atividade">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade">
                       </div><br>
 
                     <div class="input-group">
                     <span class="input-group-addon">Pratica alguma atividade atualmente?:</span>
-                    <input type="text" class="form-control" name="atv_atual">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atv_atual">
                     </div><br>
                   
                     <div class="input-group">
                     <span class="input-group-addon">Utiliza algum tipo de medicamento?:</span>
-                    <input type="text" class="form-control" name="tipo_med">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_med">
                     </div><br>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Ja passou por alguma cirurgia?:</span>
-                    <input type="text" class="form-control" name="tipo_cirg">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_cirg">
                     </div><br>
                     
                 
                 <div class="input-group">
                 <span class="input-group-addon">Doencas na familia?:</span>
-                <input type="text" class="form-control" name="tipo_doenca">
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca">
                 </div><br>
                 
                     <div class="input-group">

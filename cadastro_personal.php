@@ -19,24 +19,24 @@ include "menu.php";
                 <div class="panel-body">                
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome">
                 </div><br>  
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" name="cpf">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" name="rg">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg">
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
