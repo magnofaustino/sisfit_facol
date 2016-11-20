@@ -112,7 +112,7 @@ $result = "select * from fornecedor where id = $id";
                     <input type="text" class="form-control" name="cep" value="<?php echo $cep; ?>">
                 </div></div><br><br>
                 
-                <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+                <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
                 <a href="fornecedores.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  

@@ -87,10 +87,10 @@ $result = "select * from tb_plano where id = $id";
                 </div></div><br><br>
                 
                 
-         <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+         <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
          <button type="reset" class="btn btn-default">Limpar</button>
          <div class="pull-right">
-         <a href="plano.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+         <a href="planos.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
        
         

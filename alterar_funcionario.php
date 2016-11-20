@@ -265,7 +265,7 @@ $result = "select * from funcionario where id = $id";
                     <input type="text" class="form-control" name="tipotrab" value="<?php echo $tipotrab; ?>">
                 </div></div></div>
                 <br><br>
-                <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+                <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
                 <a href="funcionario.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
