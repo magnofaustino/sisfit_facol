@@ -57,7 +57,7 @@ public $nome_14;
         public function setNome_11($nome_11){$this->nome_11=$nome_11;}
         public function setNome_12($nome_12){$this->nome_12=$nome_12;}
         public function setNome_13($nome_13){$this->nome_13=$nome_13;}
-        public function setNome_14($nome_13){$this->nome_14=$nome_14;}
+        public function setNome_14($nome_14){$this->nome_14=$nome_14;}
     
     
 }

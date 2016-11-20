@@ -15,7 +15,6 @@ $nome_6 = $_GET['nome_6'];
 $nome_7 = $_GET['nome_7'];
 $nome_8 = $_GET['nome_8'];
 $nome_9 = $_GET['nome_9'];
-
 $nome_10 = $_GET['nome_10'];
 $nome_11 = $_GET['nome_11'];
 $nome_12 = $_GET['nome_12']; 
@@ -41,20 +40,12 @@ $prd->setNome_12($nome_12);
 $prd->setNome_13($nome_13);
 $prd->setNome_14($nome_14);
 
-
-  
-
-
-
-
-
-
 $sql = "INSERT INTO produtos(nome, des, vcusto, vvenda, umedida, qproduto, grupo, tipo, garantia, tempgarantia, periodo, dtcompra, fornecedor, bloqueado) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."', '".$prd->getNome_14()."')";
 
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+    echo "Produto Cadastrado";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
