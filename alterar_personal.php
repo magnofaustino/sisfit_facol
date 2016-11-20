@@ -53,24 +53,24 @@ $result = "select * from personal where id = $id";
                 <div class="panel-body">                
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
                 </div><br>  
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" name="cpf" value="<?php echo $cpf; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" name="rg" value="<?php echo $rg; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>">
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone" value="<?php echo $telefone; ?>">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>">
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
@@ -125,7 +125,7 @@ $result = "select * from personal where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" name="dt_nascimento" value="<?php echo $nascimento; ?>">
+                    <input type="date" name="dt_nascimento" title="Preencha o campo Nome" required value="<?php echo $nascimento; ?>">
                 </div>
                 <div class="input-group">
                     <div class="well">Sexo:
@@ -147,11 +147,11 @@ $result = "select * from personal where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
-                    <input type="text" class="form-control" name="horario" value="<?php echo $horario; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="horario" value="<?php echo $horario; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>">
+                    <input type="date" name="dt_cadastro" title="Preencha o campo Nome" required value="<?php echo $dt_cadastro; ?>">
                 </div></div></div><br>
                 
                 <div class="form-inline">
