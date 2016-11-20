@@ -1,14 +1,16 @@
-<?php
+                  <?php
     
      include ("conexao.php");   
 
-    $result = "select * from planos";
+    $result = "select * from debito";
     $resultado = mysqli_query($conn, $result);
-?>
+ ?>
     
+
+
 <html>
 	<head>
-		<title>Planos</title>
+		<title>Debitos</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -17,19 +19,20 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Planos</h3>
+                <h3 class="panel-title">Débitos</h3>
                 <div class="pull-right">
-                    <a href="cadastro_plano.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
+                    <a href="contas_a_pagar.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
             </div>
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Plano" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Aulas" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Valor Matricula" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Valor Mensalidade" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="responsável" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="descricão" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="valor" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="contato" disabled></th>
+                      
                         <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
@@ -37,17 +40,18 @@
                     <tr>
                            <?php
         while($ras = mysqli_fetch_assoc($resultado)){ 
-                  
                    $id = $ras['id'];
             
       ?> 
-                        <td><?php echo $ras['nome_plano'];?></td>
-                        <td><?php echo $ras['numero_aula']; ?></td>
-                        <td><?php echo $ras['vl_matricula']; ?></td>
-                        <td><?php echo $ras['vl_mensal']; ?></td>
+                        <td><?php echo $ras['nome'];?></td>
+                        <td><?php echo $ras['descricao']; ?></td>
+                         <td><?php echo $ras['valor']; ?></td>
+                        <td><?php echo $ras['telefone']; ?></td>
+                      
                         
-            <td class="text-center"><a href="alterar_planos.php" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
-            <a href="del_planos.php" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+<td class="text-center"><a href="alterar_debito.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
+    
+<a href="del_debito.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
                     </tr>
                     
                     <?php

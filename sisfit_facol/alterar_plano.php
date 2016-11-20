@@ -3,19 +3,20 @@ include ("conexao.php");
 
 $id = $_GET['tx'];
 
-$result = "select * from planos where id = $id";
+$result = "select * from tb_plano where id = $id";
 
       $resultadobusca = mysqli_query($conn, $result);
         while($ras = mysqli_fetch_array($resultadobusca)){
+    
+            $nome_plano = $ras['nome_plano'];
+            $atividades_plano = $ras['atividades_plano'];
             
-            $nome_plano = $_GET['nome_plano'];
-            $atividades_plano = $_GET['atividades_plano'];
-            $tipo_plano = $_GET['tipo_plano'];
-            $duracao_plano = $_GET['duracao_plano'];
-            $numero_aula = $_GET['numero_aula']; 
-            $vl_matricula = $_GET['vl_matricula'];
-            $vl_mensal = $_GET['vl_mensal'];
-            $data_cadastro = $_GET['data_cadastro'];
+            $tipo_plano = $ras['tipo_plano'];
+            $duracao_plano = $ras['duracao_plano'];
+            
+            $numero_aula = $ras['numero_aula'];
+            
+            $data_cadastro = $ras['data_cadastro'];
 }
 ?>
 <html>
@@ -86,10 +87,10 @@ $result = "select * from planos where id = $id";
                 </div></div><br><br>
                 
                 
-         <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
+         <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
          <button type="reset" class="btn btn-default">Limpar</button>
          <div class="pull-right">
-         <a href="planos.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+         <a href="plano.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
        
         

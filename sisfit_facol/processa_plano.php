@@ -25,10 +25,10 @@ $prd->setValor_Matricula($vl_matricula);
 $prd->setValor_Mensalidade($vl_mensal);
 $prd->setData_Cadastro($data_cadastro);
 
-$sql = "INSERT INTO planos(nome_plano,atividades_plano,tipo_plano,duracao_plano,numero_aula,vl_matricula,vl_mensal,data_cadastro,) VALUES ('".$prd->getNome_Plano()."', '".$prd->getAtividades_Plano()."', '".$prd->getTipo_Plano()."', '".$prd->getDuracao_Plano()."', '".$prd->getValor_Matricula()."', '".$prd->getValor_Mensalidade()."', '".$prd->getData_Cadastro()."')";
+$sql = "INSERT INTO tb_plano(nome_plano,atividades_plano,tipo_plano,duracao_plano,numero_aula,vl_matricula,vl_mensal,data_cadastro,) VALUES ('".$prd->getNome_Plano()."', '".$prd->getAtividades_Plano()."', '".$prd->getTipo_Plano()."', '".$prd->getDuracao_Plano()."', '".$prd->getValor_Matricula()."', '".$prd->getValor_Mensalidade()."', '".$prd->getData_Cadastro()."')";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Plano cadastrado com sucesso";
+    echo "New records created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

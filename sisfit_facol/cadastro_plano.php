@@ -1,26 +1,10 @@
 <?php
-include ("conexao.php");
 
-$id = $_GET['tx'];
-
-$result = "select * from planos where id = $id";
-
-      $resultadobusca = mysqli_query($conn, $result);
-        while($ras = mysqli_fetch_array($resultadobusca)){
-            
-            $nome_plano = $_GET['nome_plano'];
-            $atividades_plano = $_GET['atividades_plano'];
-            $tipo_plano = $_GET['tipo_plano'];
-            $duracao_plano = $_GET['duracao_plano'];
-            $numero_aula = $_GET['numero_aula']; 
-            $vl_matricula = $_GET['vl_matricula'];
-            $vl_mensal = $_GET['vl_mensal'];
-            $data_cadastro = $_GET['data_cadastro'];
-}
+include "menu.php";
 ?>
 <html>
 	<head>
-		<title>Alterar Plano</title>
+		<title>Cadastro de Plano</title>
 		<meta charset="UTF-8"></meta>
 	</head>
 	<body>
@@ -32,30 +16,35 @@ $result = "select * from planos where id = $id";
            <fieldset>
            
            <div class="panel panel-primary">
-           <div class="panel-heading"><h4>Alterar Plano</h4>
+           <div class="panel-heading"><h4>Cadastro de Plano</h4>
            </div>
            <div class="panel-body">                
            <div class="input-group">
             
 		            <span class="input-group-addon">Nome do Plano:</span>
 		            
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="" value="nome_plano<?php echo $nome_plano; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_plano" >
                    
            </div><br>
                
                 <div class="form-group">   
                 <div class="input-group">
              <span class="input-group-addon">Atividade:</span>
-		     <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividades_plano" value="<?php echo $atividades_plano; ?>">
-
-		     </div><br>
+		     <select class="form-control" title="Preencha o campo Nome" required name="atividades_plano" >
+		     <option value="N">atividade"a"</option>
+             <option value="S">atividade"b"
+            
+            </option></select></div><br>
             
                 <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Tipo de Plano:</span>  
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_plano" value="<?php echo $tipo_plano; ?>">
-		   
+		        <select class="form-control" title="Preencha o campo Nome" required name="tipo_plano" >
+		        <option value="N">familiar"a"</option>
+                <option value="S">individual"b"
+                
+                 </option></select>
                   </div>
                  <div class="input-group">
                 <span class="input-group-addon">Duracao do Plano:</span>
@@ -71,25 +60,27 @@ $result = "select * from planos where id = $id";
                            <div class="form-group">   
 		                   <div class="input-group">
 		                   <span class="input-group-addon">Valor da Matricula:</span>           
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" value="<?php echo $vl_matricula; ?>">
+		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" >
 		                   </div>
 		                   
 		                   <div class="input-group">
 		                   		 <span class="input-group-addon">R$</span>
 		        <span class="input-group-addon">Valor da Mensalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" value="<?php echo $vl_mensal; ?>">
+		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" >
 		                   <span class="input-group-addon">R$</span>
 		                   </div><br><br>
-		<div class="input-group">
+		                   <div class="input-group">
 				        <span class="input-group-addon">Data de Cadastro:</span>
 	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" >
+                </div></div>
+		
                 </div></div><br><br>
                 
                 
-         <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
+         <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
          <button type="reset" class="btn btn-default">Limpar</button>
          <div class="pull-right">
-         <a href="planos.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+         <a href="plano.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
        
         
