@@ -21,7 +21,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Usuarios</h3>
                 <div class="pull-right">
-                    <a href="cadastro_usuario.php.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
+                    <a href="cadastro_usuario.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
             </div>
