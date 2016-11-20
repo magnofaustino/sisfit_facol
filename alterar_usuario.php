@@ -14,7 +14,7 @@ $result = "select * from usuarios where id = $id";
            $contrasenha = $ras['contrasenha'];
            $email = $ras['email'];
            $bloqueado = $ras['bloqueado'];
-              // teste
+              
 
 }
 ?>
