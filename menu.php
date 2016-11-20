@@ -113,7 +113,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="pagamentos.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
+                <li ><a href="pagar.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
                 <li ><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
               </ul>
