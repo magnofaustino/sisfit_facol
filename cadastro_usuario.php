@@ -17,29 +17,29 @@ include "menu.php";
                 <div class="panel-body">  
                 <div class="input-group">
                     <span class="input-group-addon">Usuario:</span>
-                    <input type="text" class="form-control" name="nome_1">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_1">
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Completo:</span>
-                    <input type="text" class="form-control" name="nome_2">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2">
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Senha:</span>
-                    <input type="password" class="form-control" name="nome_3">
+                    <input type="password" class="form-control" title="Preencha o campo Nome" required name="nome_3">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Confirma Senha:</span>
-                    <input type="password" class="form-control" name="nome_4">
+                    <input type="password" class="form-control" title="Preencha o campo Nome" required name="nome_4">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="nome_5">
+                    <input type="email" class="form-control" title="Preencha o campo Nome" required name="nome_5">
                 </div>
                 <div class="form-group">
                          <div class="well well-sm">Bloqueado:
