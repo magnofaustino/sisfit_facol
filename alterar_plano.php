@@ -27,7 +27,7 @@ $result = "select * from planos where id = $id";
        
 		<div class="container">
         <div class="row">
-		<form action="processa_plano.php" method="GET" >
+		<form action="update_plano.php" method="GET" >
            
            <fieldset>
            

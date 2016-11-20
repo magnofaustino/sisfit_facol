@@ -46,8 +46,8 @@
                         <td><?php echo $ras['vl_matricula']; ?></td>
                         <td><?php echo $ras['vl_mensal']; ?></td>
                         
-            <td class="text-center"><a href="alterar_planos.php" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
-            <a href="del_planos.php" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+            <td class="text-center"><a href="alterar_plano.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
+            <a href="del_planos.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
                     </tr>
                     
                     <?php

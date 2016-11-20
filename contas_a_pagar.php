@@ -5,7 +5,7 @@ include "menu.php";
 ?>
 <html>
 	<head>
-		<title>Cadastro de Atividades</title>
+		<title>Cadastro de Contas a Pagar</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -96,7 +96,7 @@ include "menu.php";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="atividades.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                    <a href="pagamentos.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>
