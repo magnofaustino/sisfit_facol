@@ -11,9 +11,9 @@ include "menu.php";
 		<h1>Cadastro de plano</h1>
 		<form action="processa_aluno.php" method="GET" >
              <fieldset>
-		Nome do Plano:<input  type="text" name="nome_aluno"><br><br>
+		Nome do Plano:<input  type="text" title="Preencha o campo Nome" required name="nome_aluno"><br><br>
             
-            Sobre o Plano:<input  type="text" name="sobre"><br><br>
+            Sobre o Plano:<input  type="text" title="Preencha o campo Nome" required name="sobre"><br><br>
                  
                 
                  
