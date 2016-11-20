@@ -19,22 +19,22 @@ include "menu.php";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome">
                 </div><br>
                     
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" name="cpf">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" name="rg">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nascimento">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>                
                 </div></div><br>
@@ -42,7 +42,7 @@ include "menu.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
@@ -158,14 +158,14 @@ include "menu.php";
                 </div>               
                 <div class="input-group">
                     <span class="input-group-addon">Funcao:</span>
-                    <input type="text" class="form-control" name="funcao">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="funcao">
                 </div><br></br>
                 </div></div>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Num. Carteira:</span>
-                    <input type="text" class="form-control" name="numcarteira">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="numcarteira">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Serie da carteira:</span>

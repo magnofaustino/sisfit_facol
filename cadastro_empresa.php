@@ -20,7 +20,7 @@ include "menu.php";
                 <div class="form-group">
                  <div class="input-group">
                     <span class="input-group-addon">Razão Social:</span>
-                    <input type="text" class="form-control" name="razao">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="razao">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Fantasia:</span>
@@ -52,7 +52,7 @@ include "menu.php";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>

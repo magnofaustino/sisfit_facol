@@ -61,22 +61,22 @@ $result = "select * from funcionario where id = $id";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
                 </div><br>
                     
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" name="cpf" value="<?php echo $cpf; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" name="rg" value="<?php echo $rg; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento" value="<?php echo $nascimento; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nascimento" value="<?php echo $nascimento; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>                
                 </div></div><br>
@@ -84,7 +84,7 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone" value="<?php echo $telefone; ?>">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>">
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">

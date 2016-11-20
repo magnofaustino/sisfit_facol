@@ -23,14 +23,14 @@ include "menu.php";
             
 		            <span class="input-group-addon">Nome do Plano:</span>
 		            
-                    <input type="text" class="form-control" name="nome_plano" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_plano" >
                    
            </div><br>
                
                 <div class="form-group">   
                 <div class="input-group">
              <span class="input-group-addon">Atividade:</span>
-		     <select class="form-control" name="atividades_plano" >
+		     <select class="form-control" title="Preencha o campo Nome" required name="atividades_plano" >
 		     <option value="N">atividade"a"</option>
              <option value="S">atividade"b"
             
@@ -40,7 +40,7 @@ include "menu.php";
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Tipo de Plano:</span>  
-		        <select class="form-control" name="tipo_plano" >
+		        <select class="form-control" title="Preencha o campo Nome" required name="tipo_plano" >
 		        <option value="N">familiar"a"</option>
                 <option value="S">individual"b"
                 
@@ -48,30 +48,30 @@ include "menu.php";
                   </div>
                  <div class="input-group">
                 <span class="input-group-addon">Duracao do Plano:</span>
-		        <input type="text" class="form-control" name="duracao_plano" >
+		        <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" >
 		            </div>
 		        
                 <div class="input-group">
                 <span class="input-group-addon">Numero de aulas:</span>    
-		                   <input type="number" class="form-control" name="numero_aula" min="1"max="5">
+		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="5">
 		                   </div></div></div><br>
 		                   
 		                   <div class="form-inline">
                            <div class="form-group">   
 		                   <div class="input-group">
 		                   <span class="input-group-addon">Valor da Matricula:</span>           
-		                   <input type="text" class="form-control" name="vl_matricula" >
+		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" >
 		                   </div>
 		                   
 		                   <div class="input-group">
 		                   		 <span class="input-group-addon">R$</span>
 		        <span class="input-group-addon">Valor da Mensalidade:</span>
-		                   <input type="text" class="form-control" name="vl_mensal" >
+		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" >
 		                   <span class="input-group-addon">R$</span>
 		                   </div><br><br>
 		                   <div class="input-group">
 				        <span class="input-group-addon">Data de Cadastro:</span>
-	 <input type="text" class="form-control" name="data_cadastro" >
+	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" >
                 </div></div>
 		
                 </div></div><br><br>

@@ -30,29 +30,29 @@ $result = "select * from atividades where id = $id";
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Atividades</h4></div>
-                     <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
+                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="id" value="<?php echo $id; ?>" readonly>
                 <div class="panel-body">
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Atividade:</span>
-                    <input type="text" class="form-control" name="atividade" value="<?php echo $atividade; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade" value="<?php echo $atividade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="valor" value="<?php echo $valor; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
-                    <input type="date" class="form-control" name="dtini" value="<?php echo $dtini; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtini" value="<?php echo $dtini; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Fim:</span>
-                    <input type="date" class="form-control" name="dtfim" value="<?php echo $dtfim; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtfim" value="<?php echo $dtfim; ?>">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>

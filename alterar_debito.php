@@ -37,24 +37,24 @@ $result = "select * from debito where id = $id";
                 
                <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                   <input type="text" class="form-control" name="nome" value="<?php echo $nome; ?>">
+                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
                       </div>
 
                 <div class="input-group">
                     <span class="input-group-addon">Descrrição:</span>
-                    <input type="text" class="form-control" name="descricao" value="<?php echo $descricao; ?>" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="descricao" value="<?php echo $descricao; ?>" >
                    
                 </div></div><br>
                     
                        <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="valor" value="<?php echo $valor; ?>" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>" >
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                     
                        <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="text" class="form-control" name="telefone" value="<?php echo $telefone; ?>" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>" >
                    
                 </div></div><br>
                 

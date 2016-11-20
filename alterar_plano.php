@@ -40,14 +40,14 @@ $result = "select * from tb_plano where id = $id";
             
 		            <span class="input-group-addon">Nome do Plano:</span>
 		            
-                    <input type="text" class="form-control" name="" value="nome_plano<?php echo $nome_plano; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="" value="nome_plano<?php echo $nome_plano; ?>">
                    
            </div><br>
                
                 <div class="form-group">   
                 <div class="input-group">
              <span class="input-group-addon">Atividade:</span>
-		     <input type="text" class="form-control" name="atividades_plano" value="<?php echo $atividades_plano; ?>">
+		     <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividades_plano" value="<?php echo $atividades_plano; ?>">
 
 		     </div><br>
             
@@ -55,35 +55,35 @@ $result = "select * from tb_plano where id = $id";
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Tipo de Plano:</span>  
-                <input type="text" class="form-control" name="tipo_plano" value="<?php echo $tipo_plano; ?>">
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_plano" value="<?php echo $tipo_plano; ?>">
 		   
                   </div>
                  <div class="input-group">
                 <span class="input-group-addon">Duracao do Plano:</span>
-		        <input type="text" class="form-control" name="duracao_plano" >
+		        <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" >
 		            </div>
 		        
                 <div class="input-group">
                 <span class="input-group-addon">Numero de aulas:</span>    
-		                   <input type="number" class="form-control" name="numero_aula" min="1"max="5">
+		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="5">
 		                   </div></div></div><br>
 		                   
 		                   <div class="form-inline">
                            <div class="form-group">   
 		                   <div class="input-group">
 		                   <span class="input-group-addon">Valor da Matricula:</span>           
-                    <input type="text" class="form-control" name="vl_matricula" value="<?php echo $vl_matricula; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" value="<?php echo $vl_matricula; ?>">
 		                   </div>
 		                   
 		                   <div class="input-group">
 		                   		 <span class="input-group-addon">R$</span>
 		        <span class="input-group-addon">Valor da Mensalidade:</span>
-                    <input type="text" class="form-control" name="vl_mensal" value="<?php echo $vl_mensal; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" value="<?php echo $vl_mensal; ?>">
 		                   <span class="input-group-addon">R$</span>
 		                   </div><br><br>
 		<div class="input-group">
 				        <span class="input-group-addon">Data de Cadastro:</span>
-	 <input type="text" class="form-control" name="data_cadastro" >
+	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" >
                 </div></div><br><br>
                 
                 
