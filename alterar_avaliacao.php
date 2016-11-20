@@ -43,38 +43,38 @@ $result = "select * from avaliacao where id = $id";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
-                    <input type="text" class="form-control" name="n_aluno">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="n_aluno">
                       </div>
                         
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relacao a atividades fisicas:</span>
-                    <input type="text" class="form-control" name="obj_atividade">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade">
                       </div>
 
                     <div class="input-group">
                     <span class="input-group-addon">Pratica alguma atividade atualmente?:</span>
-                    <input type="text" class="form-control" name="atv_atual">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atv_atual">
                     </div>
                   
                     <div class="input-group">
                     <span class="input-group-addon">Utiliza algum tipo de medicamento?:</span>
-                    <input type="text" class="form-control" name="tipo_med">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_med">
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Ja passou por alguma cirurgia?:</span>
-                    <input type="text" class="form-control" name="tipo_cirg">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_cirg">
                     </div>
                     
                 
                 <div class="input-group">
                 <span class="input-group-addon">Doencas na familia?:</span>
-                <input type="text" class="form-control" name="tipo_doenca">
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca">
                 </div>
                 
                     <div class="input-group">
                     <span class="input-group-addon">Observacoes:</span>
-                    <input type="text" class="form-control" name="obs_aval">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obs_aval">
                 </div>
                 </div>
                 </div><br>

@@ -55,13 +55,13 @@ $result = "select * from fornecedor where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Razão Social:</span>
-                    <input type="text" class="form-control" name="razao" value="<?php echo $razao; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="razao" value="<?php echo $razao; ?>">
                 
                  </div>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Fantasia:</span>
-                    <input type="text" class="form-control" name="nome_fantasia" value="<?php echo $nome_fantasia; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_fantasia" value="<?php echo $nome_fantasia; ?>">
                 </div>
                 <br>
                 <div class="form-inline">
@@ -83,7 +83,7 @@ $result = "select * from fornecedor where id = $id";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" name="telefone" value="<?php echo $telefone; ?>">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
