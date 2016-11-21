@@ -88,7 +88,7 @@ $result = "select * from pagar where id = $id";
                         </label>
                      <div class="input-group">
                     <span class="input-group-addon">Data da baixa:</span>
-                    <input type="date" class="form-control" name="nome_8" value="<?php echo $nome_8; ?>">
+                    <input type="date" class="form-control" name="nome_8" value="<?php echo $nome_8; ?>" >
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                      </div>
                         

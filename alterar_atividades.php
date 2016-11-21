@@ -36,7 +36,7 @@ $result = "select * from atividades where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Atividade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade" value="<?php echo $atividade; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade" value="<?php echo $atividade; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
@@ -47,7 +47,7 @@ $result = "select * from atividades where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
-                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtini" value="<?php echo $dtini; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtini" value="<?php echo $dtini; ?>" >
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">

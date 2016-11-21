@@ -55,13 +55,13 @@ $result = "select * from fornecedor where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Razão Social:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="razao" value="<?php echo $razao; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="razao" value="<?php echo $razao; ?>" readonly>
                 
                  </div>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Fantasia:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_fantasia" value="<?php echo $nome_fantasia; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_fantasia" value="<?php echo $nome_fantasia; ?>" readonly>
                 </div>
                 <br>
                 <div class="form-inline">
@@ -78,7 +78,7 @@ $result = "select * from fornecedor where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
-                    <input type="text" class="form-control" name="cpf_cnpj" value="<?php echo $cpf_cnpj; ?>">
+                    <input type="text" class="form-control" name="cpf_cnpj" value="<?php echo $cpf_cnpj; ?>" readonly>
                 </div></div>
                 <div class="form-inline">
                 <div class="input-group">
