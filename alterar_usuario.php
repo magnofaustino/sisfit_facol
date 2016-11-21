@@ -36,17 +36,17 @@ $result = "select * from usuarios where id = $id";
                 <div class="panel-body">  
                 <div class="input-group">
                     <span class="input-group-addon">Usuario:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Usuario" required name="nome_1"  value="<?php echo $usuario; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Usuario" required name="nome_1"  value="<?php echo $usuario; ?>" readonly>
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Completo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2"  value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2"  value="<?php echo $nome; ?>" readonly>
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Senha:</span>
-                    <input type="password" class="form-control" title="Preencha o campo Senha" required name="nome_3"  value="<?php echo $senha; ?>">
+                    <input type="password" class="form-control" title="Preencha o campo Senha" required name="nome_3"  value="<?php echo $senha; ?>" s>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div>
                 <div class="input-group">
