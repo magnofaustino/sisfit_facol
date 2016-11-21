@@ -35,7 +35,7 @@ $result = "select * from avaliacao where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="processa_avaliacao.php" method="GET" >
+            <form action="update_avaliacao.php" method="GET" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Avaliacao Fisica</h4></div>
@@ -45,46 +45,46 @@ $result = "select * from avaliacao where id = $id";
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="n_aluno" value="<?php echo $n_aluno; ?>">
-                      </div>
+                      </div><br>
                         
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relacao a atividades fisicas:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade" value="<?php echo $obj_atividade; ?>">
-                      </div>
+                      </div><br>
 
                     <div class="input-group">
                     <span class="input-group-addon">Pratica alguma atividade atualmente?:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="atv_atual" value="<?php echo $atv_atual; ?>">
-                    </div>
+                    </div><br>
                   
                     <div class="input-group">
                     <span class="input-group-addon">Utiliza algum tipo de medicamento?:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_med" value="<?php echo $tipo_med; ?>">
-                    </div>
+                    </div><br>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Ja passou por alguma cirurgia?:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_cirg" value="<?php echo $tipo_cirg; ?>">
-                    </div>
+                    </div><br>
                     
                 
                 <div class="input-group">
                 <span class="input-group-addon">Doencas na familia?:</span>
                 <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca" value="<?php echo $tipo_doenca; ?>">
-                </div>
+                </div><br>
                 
                     <div class="input-group">
                     <span class="input-group-addon">Observacoes:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="obs_aval" value="<?php echo $obs_aval; ?>">
                 </div>
-                </div>
-                </div><br>
+                
+                <br><br>
                 
                 
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                    <a href="avaliacao.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                    <a href="avaliacoes.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>

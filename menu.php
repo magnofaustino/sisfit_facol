@@ -106,7 +106,7 @@
                 <li class="divider"></li>
                 <li ><a href="planos.php">Planos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
-                <li ><a href="avaliacao.php">Avaliacao<span style="font-size:16px;"></span></a></li>
+                <li ><a href="avaliacoes.php">Avaliacao<span style="font-size:16px;"></span></a></li>
                 
               </ul>
             </li>

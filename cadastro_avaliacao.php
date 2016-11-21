@@ -60,7 +60,7 @@ include "menu.php";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="avaliacao.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="avaliacoes.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>
