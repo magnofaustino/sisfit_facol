@@ -104,7 +104,7 @@
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="planos.php">Planos<span style="font-size:16px;"></span></a></li>
+                <li ><a href="plano.php">Planos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li ><a href="avaliacoes.php">Avaliacao<span style="font-size:16px;"></span></a></li>
                 

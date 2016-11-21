@@ -15,7 +15,7 @@ $tipo_doenca = $_GET['tipo_doenca'];
 $obs_aval = $_GET['obs_aval']; 
 
 
-$prd=new avaliacoes();
+$prd=new avaliacao();
 $prd->setN_Aluno($n_aluno);
 $prd->setObj_Atividade($obj_atividade);
 $prd->setAtv_Atual($atv_atual);
