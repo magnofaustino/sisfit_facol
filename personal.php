@@ -2,6 +2,7 @@
     
      include ("conexao.php");   
 
+
     $result = "select * from personal";
     $resultado = mysqli_query($conn, $result);
  ?>

@@ -1,7 +1,7 @@
 <?php
     
      include ("conexao.php");   
-
+    
     $result = "select * from avaliacao";
     $resultado = mysqli_query($conn, $result);
 ?>
