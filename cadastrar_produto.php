@@ -1,6 +1,7 @@
 
 <?php
 include "menu.php";
+include "conexao2.php";
 ?>
 <html>
 	<head>
@@ -97,9 +98,13 @@ include "menu.php";
                          <div class="well well-sm">Fornecedor:
                          <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
-                         <option value="1">Fornece 1</option>
-                         <option value="2">Fornece 2</option>
-                         <option value="3">Fornece 3</option>
+                       	<?php
+						$result_niveis_acessos = "SELECT * FROM fornecedor";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
+						}
+					?>
                         </select>
                       </div></div>
                 <div class="form-group">
