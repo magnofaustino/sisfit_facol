@@ -13,7 +13,8 @@ $numero_aula = $_GET['numero_aula'];
 $vl_matricula = $_GET['vl_matricula'];
 $vl_mensal = $_GET['vl_mensal'];
 $data_cadastro = $_GET['data_cadastro'];
-$sql = "UPDATE planos SET nome_plano='$nome_plano',atividades_plano ='$atividades_plano',tipo_plano = '$tipo_plano', duracao_plano = '$duracao_plano', numero_aula = '$numero_aula',vl_matricula = '$vl_matricula',vl_mensal = '$vl_mensal', data_cadastro = '$data_cadastro' WHERE id= $id";
+
+$sql = "UPDATE planos SET nome_plano='$nome_plano',atividades_plano ='$atividades_plano',tipo_plano ='$tipo_plano', duracao_plano ='$duracao_plano', numero_aula ='$numero_aula',vl_matricula ='$vl_matricula',vl_mensal ='$vl_mensal', data_cadastro ='$data_cadastro' WHERE id= '$id'";
 
 
 
