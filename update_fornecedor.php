@@ -26,7 +26,7 @@ $sql = "UPDATE fornecedor SET razao='$razao', nome_fantasia ='$nome_fantasia', t
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+    echo "Cadastro de Fornecedor Atualizado com Sucesso";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

@@ -80,7 +80,7 @@ include "menu.php";
          <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
          <button type="reset" class="btn btn-default">Limpar</button>
          <div class="pull-right">
-         <a href="planos.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+         <a href="plano.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
             </fieldset>
        
         

@@ -23,7 +23,7 @@ $sql = "UPDATE atividades SET atividade ='$atividade', valor ='$valor', duracao_
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "ATUALIZADO COM SUCESSO!";
+    echo "Atividade Atualizada com Sucesso";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

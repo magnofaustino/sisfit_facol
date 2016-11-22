@@ -27,7 +27,7 @@ $sql = "UPDATE produtos SET nome='$nome', des ='$cpf', vcusto = '$rg', vvenda = 
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+    echo "Produto Atualizado com Sucesso";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

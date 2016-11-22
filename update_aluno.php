@@ -38,7 +38,7 @@ $sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+    echo "Aluno Atualizado com Sucesso";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

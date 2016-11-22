@@ -18,7 +18,7 @@ $sql = "UPDATE avaliacao SET obj_atividade='$obj_atividade',atv_atual='$atv_atua
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+    echo "Avaliação Atualizada com Sucesso";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
