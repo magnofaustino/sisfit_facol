@@ -46,7 +46,7 @@ $result = "select * from usuarios where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Senha:</span>
-                    <input type="password" class="form-control" title="Preencha o campo Senha" required name="nome_3"  value="<?php echo $senha; ?>" s>
+                    <input type="password" class="form-control" title="Preencha o campo Senha" required name="nome_3"  value="<?php echo $senha; ?>" sgo>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div>
                 <div class="input-group">

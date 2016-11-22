@@ -128,7 +128,7 @@ $result = "select * from produtos where id = $id";
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Fornecedor:
-                         <select class="form-control" title="Preencha o campo Nome" required name="Nome_12" readonly>
+                         <select class="form-control" title="Preencha o campo Nome" required name="Nome_12" >
                          <option value="">Selecione ...</option>
                          <option value="1">Fornece 1</option>
                          <option value="2">Fornece 2</option>
