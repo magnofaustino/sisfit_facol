@@ -34,7 +34,7 @@ $prd->setNome_10($nome_10);
 
 
 
-$sql = "INSERT INTO pagar (fornecedor, nome, descricao, valor, desconto, acrescimo, pago, data_baixa, vencimento, emissao) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."')";
+$sql = "INSERT INTO pagar (fornecedor, nome, descricao, valor, desconto, acrescimo, pago, data_baixa, vencimento, emissao) VALUES ('".$prd->getNome_3()."', '".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."')";
 
 
 

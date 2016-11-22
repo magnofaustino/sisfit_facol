@@ -41,37 +41,37 @@ $result = "select * from pagar where id = $id";
 		<div class="form-inline">
                <div class="input-group">
                     <span class="input-group-addon">Fornecedor:</span>
-                   <input type="text" class="form-control" name="nome_1" value="<?php echo $nome_1; ?>">
+                   <input type="text" class="form-control" name="nome_1" value="<?php echo $nome_1; ?>" readonly>
                       </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome_2" value="<?php echo $nome_2; ?>">
+                    <input type="text" class="form-control" name="nome_2" value="<?php echo $nome_2; ?>" readonly>
                    
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-addon">Descrição:</span>
-                    <input type="text" class="form-control" name="nome_3" value="<?php echo $nome_3; ?>">
+                    <input type="text" class="form-control" name="nome_3" value="<?php echo $nome_3; ?>" readonly>
                    
                 </div></div><br>
                     
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4" value="<?php echo $nome_4; ?>">
+                    <input type="text" class="form-control" name="nome_4" value="<?php echo $nome_4; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5" value="<?php echo $nome_5; ?>">
+                    <input type="text" class="form-control" name="nome_5" value="<?php echo $nome_5; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Acrescimo:</span>
-                    <input type="text" class="form-control" name="nome_6" value="<?php echo $nome_6; ?>">
+                    <input type="text" class="form-control" name="nome_6" value="<?php echo $nome_6; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 <div class="form-inline">
@@ -88,7 +88,7 @@ $result = "select * from pagar where id = $id";
                         </label>
                      <div class="input-group">
                     <span class="input-group-addon">Data da baixa:</span>
-                    <input type="date" class="form-control" name="nome_8" value="<?php echo $nome_8; ?>" >
+                    <input type="date" class="form-control" name="nome_8" value="<?php echo $nome_8; ?>"  readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                      </div>
                         
@@ -97,12 +97,12 @@ $result = "select * from pagar where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Vencimento:</span>
-                    <input type="date" class="form-control" name="nome_9" value="<?php echo $nome_9; ?>">
+                    <input type="date" class="form-control" name="nome_9" value="<?php echo $nome_9; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Emissão:</span>
-                    <input type="date" class="form-control" name="nome_10" value="<?php echo $nome_10; ?>">
+                    <input type="date" class="form-control" name="nome_10" value="<?php echo $nome_10; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>

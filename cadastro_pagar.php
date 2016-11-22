@@ -18,21 +18,30 @@ include "conexao.php";
                 <div class="panel-heading"><h4>Cadastro de Contas a Pagar</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
-               <div class="input-group">
-                    <span class="input-group-addon">Fornecedor:</span>
-                   <input type="text" class="form-control" name="nome_1">
-                      </div>
+         
                 <div class="input-group">
-                    <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" name="nome_2">
+                    <span class="input-group-addon">Nome do resposavel:</span>
+                    <input type="text" class="form-control" name="nome_1">
                    
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-addon">Descrição:</span>
-                    <input type="text" class="form-control" name="nome_3">
+                    <input type="text" class="form-control" name="nome_2">
                    
                 </div></div><br>
+                          <div class="input-group">
+                    <span class="input-group-addon">Fornecedor:</span>
+                    <select class="form-control" title="Preencha o campo Nome" required name="nome_3" >
+		   	<?php
+						$result_niveis_acessos = "SELECT * FROM fornecedor";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['nome_fantasia']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
+						}
+					?>
+                    </select></div>
+                      </div>
                     
                 <div class="form-inline">
                     <div class="input-group">   
