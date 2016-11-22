@@ -64,7 +64,7 @@ $result = "select * from planos where id = $id";
 		        
                 <div class="input-group">
                 <span class="input-group-addon">Numero de aulas:</span>    
-		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="50" value="<?php echo $numero_aula; ?>">
+		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" value="<?php echo $numero_aula; ?>">
 		                   </div></div></div><br>
 		                   
 		                   <div class="form-inline">

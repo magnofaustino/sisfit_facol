@@ -102,7 +102,7 @@ $result = "select * from receber where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Emissão:</span>
-                    <input type="date" class="form-control" name="nome_10" value="<?php echo $nome_10; ?>">
+                    <input type="date" class="form-control" name="nome_10" value="<?php echo $nome_10; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>

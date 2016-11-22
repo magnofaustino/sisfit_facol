@@ -81,7 +81,7 @@ include "conexao.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Emissão:</span>
-                    <input type="date" class="form-control" name="nome_10">
+                    <input type="date" class="form-control" name="nome_10" value="<?php echo date("d/m/Y"); ?>" readonly >
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
