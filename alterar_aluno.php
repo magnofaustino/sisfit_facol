@@ -63,7 +63,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="input-group">
                     
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>" readonly>
                    
                 </div><br>
                     
@@ -71,11 +71,11 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>" readonly>
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
@@ -101,7 +101,7 @@ $result = "select * from tb_aluno where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>">
+                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonly>
                 </div>
                 <!-- <div class="input-group">
                     <span class="input-group-addon">Uf Naturalidade:</span>
@@ -211,7 +211,7 @@ $result = "select * from tb_aluno where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>">
+                    <input type="text" class="form-control" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>" readonly>
                 </div></div></div><br> 
                                                     
                 <div class="form-inline">

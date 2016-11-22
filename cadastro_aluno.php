@@ -169,7 +169,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly >
                 </div></div></div><br> 
                                                     
                 <div class="form-inline">

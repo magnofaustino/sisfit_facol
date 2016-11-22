@@ -61,22 +61,22 @@ $result = "select * from funcionario where id = $id";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>" readonly>
                 </div><br>
                     
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de nascimento:</span>
-                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nascimento" value="<?php echo $nascimento; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nascimento" value="<?php echo $nascimento; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>                
                 </div></div><br>
@@ -89,7 +89,7 @@ $result = "select * from funcionario where id = $id";
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matricula:</span>
-                    <input type="text" class="form-control" name="matricula" value="<?php echo $matricula; ?>">
+                    <input type="text" class="form-control" name="matricula" value="<?php echo $matricula; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
@@ -103,7 +103,7 @@ $result = "select * from funcionario where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>">
+                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonlys>
                 </div>
                 <!-- <div class="input-group">
                     <span class="input-group-addon">Uf Naturalidade:</span>

@@ -52,22 +52,22 @@ $result = "select * from produtos where id = $id";
                     
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Produto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_1" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_1" value="<?php echo $nome; ?>" readonly>
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Descrição do Produto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2" value="<?php echo $descricao; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2" value="<?php echo $descricao; ?>" readonly >
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_3" value="<?php echo $vcusto; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_3" value="<?php echo $vcusto; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_4" value="<?php echo $vvenda; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_4" value="<?php echo $vvenda; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
@@ -123,12 +123,12 @@ $result = "select * from produtos where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data da Compra</span>
-                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nome_11" value="<?php echo $compra; ?>">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="nome_11" value="<?php echo $compra; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Fornecedor:
-                         <select class="form-control" title="Preencha o campo Nome" required name="Nome_12">
+                         <select class="form-control" title="Preencha o campo Nome" required name="Nome_12" >
                          <option value="">Selecione ...</option>
                          <option value="1">Fornece 1</option>
                          <option value="2">Fornece 2</option>

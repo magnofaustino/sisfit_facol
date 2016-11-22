@@ -53,17 +53,17 @@ $result = "select * from personal where id = $id";
                 <div class="panel-body">                
                 <div class="input-group">
                     <span class="input-group-addon">Nome:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome" value="<?php echo $nome; ?>" readonly>
                 </div><br>  
 		<div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>" readonly>
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
@@ -125,7 +125,7 @@ $result = "select * from personal where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" name="dt_nascimento" title="Preencha o campo Nome" required value="<?php echo $nascimento; ?>">
+                    <input type="date" name="dt_nascimento" title="Preencha o campo Nome" required value="<?php echo $nascimento; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <div class="well">Sexo:
@@ -143,7 +143,7 @@ $result = "select * from personal where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="text" class="form-control" name="email" value="<?php echo $email; ?>">
+                    <input type="text" class="form-control" name="email" value="<?php echo $email; ?>" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
@@ -151,7 +151,7 @@ $result = "select * from personal where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="dt_cadastro" title="Preencha o campo Nome" required value="<?php echo $dt_cadastro; ?>">
+                    <input type="date" name="dt_cadastro" title="Preencha o campo Nome" required value="<?php echo $dt_cadastro; ?>" readonly>
                 </div></div></div><br>
                 
                 <div class="form-inline">

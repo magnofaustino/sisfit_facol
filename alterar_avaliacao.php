@@ -44,12 +44,12 @@ $result = "select * from avaliacao where id = $id";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="n_aluno" value="<?php echo $n_aluno; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="n_aluno" value="<?php echo $n_aluno; ?>" readonly>
                       </div><br>
                         
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relacao a atividades fisicas:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade" value="<?php echo $obj_atividade; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade" value="<?php echo $obj_atividade; ?>" readonly>
                       </div><br>
 
                     <div class="input-group">
@@ -70,7 +70,7 @@ $result = "select * from avaliacao where id = $id";
                 
                 <div class="input-group">
                 <span class="input-group-addon">Doencas na familia?:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca" value="<?php echo $tipo_doenca; ?>">
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca" value="<?php echo $tipo_doenca; ?>" readonly>
                 </div><br>
                 
                     <div class="input-group">

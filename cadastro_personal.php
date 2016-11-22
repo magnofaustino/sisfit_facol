@@ -117,7 +117,7 @@ include "menu.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="dt_cadastro">
+                    <input type="date" name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly>
                 </div></div></div><br>
                 
                 <div class="form-inline">
