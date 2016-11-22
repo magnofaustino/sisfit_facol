@@ -151,7 +151,16 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
-                    <input type="text" class="form-control" name="plano" >
+                         <select class="form-control" title="Preencha o campo Nome" required name="plano" >
+                             <option value="">Selecione ...</option>
+		   	<?php
+						$result_niveis_acessos = "SELECT * FROM planos";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_plano']; ?></option> <?php
+						}
+					?>
+                    </select></div><br>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Bolsa:</span>
@@ -178,6 +187,7 @@ include "conexao.php";
                     <span class="input-group-addon">Endereço:</span>
                     <input type="text" class="form-control" name="endereco" >
                 </div>
+                     <div class="input-group">
                            <span class="input-group-addon">Numero:</span>
                     <input type="text" class="form-control" name="numero" >
                 </div>
@@ -185,15 +195,15 @@ include "conexao.php";
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
                     <input type="text" class="form-control" name="bairro" >
-                </div>
+                </div><br>
                       <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
                     <input type="text" class="form-control" name="cep" >
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Estado:
-                         <select class="form-control" name="orgao_amissor" >
-                         <option value="">
+                         <select class="form-control" name="orgao_amissor"  >
+                       <option value="">Selecione ...</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>
