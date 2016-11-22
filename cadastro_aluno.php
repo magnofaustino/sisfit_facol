@@ -206,7 +206,7 @@ include "conexao.php";
                        <option value="">Selecione ...</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
-                         <option value="AP">Amapá</option>
+                         <option value="AP">Amapá</option>r
                          <option value="AM">Amazonas</option>
                          <option value="BA">Bahia</option>
                          <option value="CE">Ceará</option>
