@@ -11,11 +11,11 @@ $result = "select * from planos where id = $id";
             $nome_plano = $ras['nome_plano'];
             $atividades_plano = $ras['atividades_plano'];
             $tipo_plano = $ras['tipo_plano'];
-            $duracao_plano = $ras['duracao_plano'];
-            $numero_aula = $ras['numero_aula']; 
+           $duracao_plano = $ras['duracao_plano'];
+           $numero_aula = $ras['numero_aula']; 
             $vl_matricula = $ras['vl_matricula'];
             $vl_mensal = $ras['vl_mensal'];
-            $data_cadastro = $ras['data_cadastro'];
+           $data_cadastro = $ras['data_cadastro'];
 }
 ?>
 <html>
@@ -59,12 +59,12 @@ $result = "select * from planos where id = $id";
                   </div>
                  <div class="input-group">
                 <span class="input-group-addon">Duracao do Plano:</span>
-		        <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" >
+		        <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" value="<?php echo $duracao_plano; ?>">
 		            </div>
 		        
                 <div class="input-group">
                 <span class="input-group-addon">Numero de aulas:</span>    
-		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="5">
+		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="50" value="<?php echo $numero_aula; ?>">
 		                   </div></div></div><br>
 		                   
 		                   <div class="form-inline">
@@ -82,7 +82,7 @@ $result = "select * from planos where id = $id";
 		                   </div><br><br>
 		<div class="input-group">
 				        <span class="input-group-addon">Data de Cadastro:</span>
-	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro"  readonly>
+	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro"  readonly value="<?php echo $data_cadastro; ?>">
                 </div></div><br><br>
                 
                 

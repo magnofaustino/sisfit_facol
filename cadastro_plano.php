@@ -71,7 +71,7 @@ include "conexao.php";
 		                   </div><br><br>
 		                   <div class="input-group">
 				        <span class="input-group-addon">Data de Cadastro:</span>
-	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" >
+	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly >
                 </div></div>
 		
                 </div></div><br><br>
