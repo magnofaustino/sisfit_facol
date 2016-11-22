@@ -111,7 +111,7 @@ $result = "select * from produtos where id = $id";
                      <div class="form-group">
                          <div class="well well-sm">Periodo:
                          <select class="form-control" name="nome_10">
-                         <option value="">Selecione ...</option>
+                         <option value=""><?php echo $duracao; ?></option>
                          <option value="D">Dias</option>
                          <option value="M">Meses</option>
                          <option value="A">Anos</option>
@@ -129,10 +129,14 @@ $result = "select * from produtos where id = $id";
                      <div class="form-group">
                          <div class="well well-sm">Fornecedor:
                          <select class="form-control" title="Preencha o campo Nome" required name="Nome_12" >
-                         <option value="">Selecione ...</option>
-                         <option value="1">Fornece 1</option>
-                         <option value="2">Fornece 2</option>
-                         <option value="3">Fornece 3</option>
+                           <option value="">Selecione ...</option>
+                       	<?php
+						$result_niveis_acessos = "SELECT * FROM fornecedor";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
+						}
+					?>
                         </select>
                       </div></div>
                 <div class="form-group">
