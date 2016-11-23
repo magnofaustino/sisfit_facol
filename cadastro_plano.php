@@ -31,7 +31,8 @@ include "conexao.php";
                 <div class="input-group">
              <span class="input-group-addon">Atividade:</span>
                       <select class="form-control" title="Preencha o campo Nome" required name="atividades_plano" >
-		   	<?php
+		   	<option value=""> Selecione o Plano</option>
+                          <?php
 						$result_niveis_acessos = "SELECT * FROM atividades";
 						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
 						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>

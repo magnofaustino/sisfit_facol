@@ -33,7 +33,10 @@ include "conexao.php";
                           <div class="input-group">
                     <span class="input-group-addon">Fornecedor:</span>
                     <select class="form-control" title="Preencha o campo Nome" required name="nome_3" >
-		   	<?php
+		      
+                        <option value=""> Selecione o Fornecedor</option>
+                        
+                        <?php
 						$result_niveis_acessos = "SELECT * FROM fornecedor";
 						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
 						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
