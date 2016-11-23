@@ -180,7 +180,7 @@ include "conexao.php";
                          <!-- <div class="well well-sm">Uf Naturalidade: -->
                          <select class="form-control" name="uf_naturalidade">
                          <option value="">UF Naturalidade</option>
-                            <option value="Acre">Acre</option>
+                         <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
                          <option value="Amazonas">Amazonas</option>
