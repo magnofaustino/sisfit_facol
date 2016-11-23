@@ -43,9 +43,7 @@ include "conexao.php";
 							<option value="<?php echo $row_niveis_acessos['nome_fantasia']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
 						}
 					?>
-                    </select></div>
-                      </div>
-                    
+                    </select></div><br>                
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>

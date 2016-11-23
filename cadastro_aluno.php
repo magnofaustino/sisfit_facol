@@ -4,7 +4,7 @@ include "conexao.php";
 ?>
 <html>
 	<head>
-		<title>Editar Aluno</title>
+		<title>Cadastro Aluno</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -61,14 +61,11 @@ include "conexao.php";
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="naturalidade" >
                 </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" title="Preencha o campo Nome" required name="ufnaturalidade" >
-                          <option value="">Selecione o Estado</option>
+                          <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
@@ -97,7 +94,7 @@ include "conexao.php";
                          <option value="Sergipe">Sergipe</option>
                          <option value="Tocantins">Tocantins</option>
                         </select>
-                      </div>
+                      </div></div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -113,10 +110,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <div class="well">Sexo:
-                        <label class="radio-inline">
-                            
-                            
-                            
+                        <label class="radio-inline">   
                         <input type="radio" name="sexo" value="M" >Masculino
                         </label>
                         <label class="radio-inline">
@@ -125,6 +119,7 @@ include "conexao.php";
                     </div>
                 </div>
                 <div class="input-group">
+                   
                     <div class="well">Deficiente:
                         <label class="radio-inline">
                   <input type="radio" name="deficiente" value="N" >Não
@@ -146,9 +141,7 @@ include "conexao.php";
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
                     <input type="email" class="form-control" name="email" >
-                </div></div></div><br>
-                <div class="form-inline">
-                <div class="form-group">
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
                          <select class="form-control" title="Preencha o campo Nome" required name="plano" >
@@ -165,13 +158,13 @@ include "conexao.php";
                 <div class="input-group">
                     <span class="input-group-addon">Bolsa:</span>
                     <input type="text" class="form-control" name="bolsa" >
-                </div>
-                <div class="input-group">
-                    <span class="input-group-addon">Tipo da bolsa:</span>
-                    <input type="text" class="form-control" name="tipo_bolsa" >
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Tipo da bolsa:</span>
+                    <input type="text" class="form-control" name="tipo_bolsa" >
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="horario" >
@@ -195,15 +188,16 @@ include "conexao.php";
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
                     <input type="text" class="form-control" name="bairro" >
-                </div><br>
+                </div><br><br>
                       <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
                     <input type="text" class="form-control" name="cep" >
                 </div>
                      <div class="form-group">
-                         <div class="well well-sm">Estado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Estado:</span>
                          <select class="form-control" name="orgao_amissor"  >
-                      <option value="">Selecione o Estado</option>
+                      <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>

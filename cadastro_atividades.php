@@ -46,20 +46,15 @@ include "conexao.php";
                 <div class="input-group">
                 
                     <span class="input-group-addon">Duracao da aula:</span>
-                    <input type="time" title="Preencha o campo Nome" required name="duracao_aula">
+                    <input type="time" class="form-control" title="Preencha o campo Nome" required name="duracao_aula">
                     
                 </div>
-                    
-                <div class="input-group">
+                    <div class="input-group">
                     <span class="input-group-addon">Atividade Temporaria:</span>
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="N">Não
-                        </label>
-                        
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="S">Sim
-                        </label>
-                        
+                        <label class="form-control">
+                            <input type="radio" name="atvtemp" value="N">Não
+                            <input type="radio" name="atvtemp" value="S"> Sim 
+                        </label> 
                     </div>
                 </div><br>    
                     </div><br>

@@ -63,14 +63,11 @@ include "conexao.php";
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" name="naturalidade">
                 </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" name="ufnaturalidade">
-                         <option value="">UF Naturalidade</option>
+                         <option value="">Selecione</option>
                           <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
@@ -99,7 +96,7 @@ include "conexao.php";
                          <option value="Sergipe">Sergipe</option>
                          <option value="Tocantins">Tocantins</option>
                         </select>
-                      </div>                
+                      </div></div>              
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -172,14 +169,11 @@ include "conexao.php";
                     <input type="text" class="form-control" name="seriecarteira">
                 </div>
                </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Carteira</span>
                          <select class="form-control" name="uf_naturalidade">
-                         <option value="">UF Naturalidade</option>
+                         <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
@@ -208,7 +202,7 @@ include "conexao.php";
                          <option value="Sergipe">Sergipe</option>
                          <option value="Tocantins">Tocantins</option>
                         </select>
-                      </div><br><br>
+                      </div></div><br><br>
                 
                 
                 <div class="form-inline">

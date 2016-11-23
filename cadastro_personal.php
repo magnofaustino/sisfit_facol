@@ -54,10 +54,10 @@ include "conexao.php";
                     <input type="text" class="form-control" name="naturalidade">
                 </div>
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" name="ufnaturalidade">
-                         
-                         <option value="">Selecione o Estado</option>
+                         <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
@@ -86,25 +86,25 @@ include "conexao.php";
                          <option value="Sergipe">Sergipe</option>
                          <option value="Tocantins">Tocantins</option>
                         </select>
-                      </div>
+                      </div></div>
                 </div></div><br>
                 <div class="form-inline">
-                <div class="form-group">
-                <div class="input-group">
-                    <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" name="dt_nascimento">
-                </div>
-                <div class="input-group">
-                    <div class="well">Sexo:
-                        <label class="radio-inline">
-                        <input type="radio" name="sexo" value="M">Masculino
-                        </label>
-                        <label class="radio-inline">
-                        <input type="radio" name="sexo" value="F">Feminino
-                        </label>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon">Data de Nascimento:</span>
+                            <input type="date" class="form-control" name="dt_nascimento">
+                        </div>
+                        <div class="input-group">
+                            <div class="well">Sexo:
+                                <label class="radio-inline">
+                                <input type="radio" name="sexo" value="M">Masculino
+                                </label>
+                                <label class="radio-inline">
+                                <input type="radio" name="sexo" value="F">Feminino
+                                </label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                </div>
                 </div>
                 <div class="form-inline">
                 <div class="form-group">
@@ -118,7 +118,7 @@ include "conexao.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly>
+                    <input type="date" class="form-control" name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly>
                 </div></div></div><br>
                 
                 <div class="form-inline">
@@ -142,10 +142,11 @@ include "conexao.php";
                     <input type="text" class="form-control" name="cep">
                 </div>
                      <div class="form-group">
-                         <div class="well well-sm">Estado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Estado:</span>
                          <select class="form-control" name="orgao_emissor">
-                         <option value="">Selecione o Estado</option>
-                          <option value="Acre">Acre</option>
+                         <option value="">Selecione</option>
+                         <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
                          <option value="Amazonas">Amazonas</option>

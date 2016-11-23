@@ -30,8 +30,7 @@ include "conexao.php";
 						}
 					?>
                     </select></div><br>
-                      </div><br>
-                        
+                       
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relacao a atividades fisicas:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade">
