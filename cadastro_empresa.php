@@ -26,16 +26,14 @@ include "conexao.php";
                     <span class="input-group-addon">Nome Fantasia:</span>
                     <input type="text" class="form-control" name="nome_fantasia">
                 </div>
-                <div class="input-group">
-                    <div class="well">Tipo:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Tipo:</span>
+                        <label class="form-control">
                         <input type="radio" name="tipo" value="F">Fisica
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="tipo" value="J">Juridica
                         </label>
                     </div>
-                </div></div></div>
+                </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
@@ -80,14 +78,11 @@ include "conexao.php";
                     <span class="input-group-addon">Municipio:</span>
                     <input type="text" class="form-control" name="municipio">
                 </div>
-                <div class="input-group">
-                    <span class="input-group-addon">Cep:</span>
-                    <input type="text" class="form-control" name="cep">
-                </div>
                 <div class="form-group">
-                         <div class="well well-sm">Estado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Estado:</span>
                          <select class="form-control" name="estado">
-                         <option value="">Selecione ...</option>
+                         <option value="">Selecione</option>
                          <option value="AC">Acre</option>
                          <option value="AL">Alagoas</option>
                          <option value="AP">Amapá</option>

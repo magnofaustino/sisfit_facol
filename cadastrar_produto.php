@@ -62,22 +62,22 @@ include "conexao.php";
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Garantia?:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Garantia:</span>
+                        <label class="form-control">
                         <input type="radio" name="nome_9" value="N">Não
-                        </label>
-                        <label class="radio-inline">
+
                         <input type="radio" name="nome_9" value="S">Sim
                         </label>
                     </div>
-                </div>   
+                
                 <div class="input-group">
                     <span class="input-group-addon">Quantidade da Garantia:</span>
                     <input type="text" class="form-control" name="nome_10">
                 </div>
-                     <div class="form-group">
-                         <div class="well well-sm">Periodo:
+                <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Periodo:</span>
                          <select class="form-control" name="nome_11">
                          <option value="">Selecione ...</option>
                          <option value="D">Dias</option>
@@ -85,7 +85,8 @@ include "conexao.php";
                          <option value="A">Anos</option>
                         </select>
                       </div></div>
-                </div></div><br>
+                    </div></div>
+                <br>
                              
                 <div class="form-inline">
                 <div class="form-group">
@@ -94,8 +95,9 @@ include "conexao.php";
                     <input type="date" class="form-control" name="nome_12">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
-                     <div class="form-group">
-                         <div class="well well-sm">Fornecedor:
+                <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Fornecedor:</span>
                          <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
                        	<?php
@@ -108,7 +110,8 @@ include "conexao.php";
                         </select>
                       </div></div>
                 <div class="form-group">
-                         <div class="well well-sm">Bloqueado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Bloqueado:</span>
                          <select class="form-control" name="Nome_14">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
