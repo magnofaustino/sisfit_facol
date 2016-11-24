@@ -5,9 +5,9 @@ include ("conexao.php");
 
 require_once "class_pagamento.php"; 
 $con = mysql_connect("localhost", "root", "sos101os") or die ("erro ao conectar ao BD");
-$nome_aluno =$_GET['nome'];
-$cpf = $_GET['descricao'];
-$curso = $_GET['telefone']; 
+$nome_aluno =$_POST['nome'];
+$cpf = $_POST['descricao'];
+$curso = $_POST['telefone']; 
 
 if($con){
  echo("banco conectado com sucesso");   

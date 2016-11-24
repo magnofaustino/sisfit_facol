@@ -6,20 +6,20 @@ include ("conexao.php");
 
 require_once "class_produto.php"; 
 
-$nome_1 = $_GET['nome_1'];
-$nome_2 = $_GET['nome_2'];
-$nome_3 = $_GET['nome_3']; 
-$nome_4 = $_GET['nome_4'];
-$nome_5 = $_GET['nome_5'];
-$nome_6 = $_GET['nome_6']; 
-$nome_7 = $_GET['nome_7'];
-$nome_8 = $_GET['nome_8'];
-$nome_9 = $_GET['nome_9'];
-$nome_10 = $_GET['nome_10'];
-$nome_11 = $_GET['nome_11'];
-$nome_12 = $_GET['nome_12']; 
-$nome_13 = $_GET['nome_13']; 
-$nome_14 = $_GET['nome_14']; 
+$nome_1 = $_POST['nome_1'];
+$nome_2 = $_POST['nome_2'];
+$nome_3 = $_POST['nome_3']; 
+$nome_4 = $_POST['nome_4'];
+$nome_5 = $_POST['nome_5'];
+$nome_6 = $_POST['nome_6']; 
+$nome_7 = $_POST['nome_7'];
+$nome_8 = $_POST['nome_8'];
+$nome_9 = $_POST['nome_9'];
+$nome_10 = $_POST['nome_10'];
+$nome_11 = $_POST['nome_11'];
+$nome_12 = $_POST['nome_12']; 
+$nome_13 = $_POST['nome_13']; 
+$nome_14 = $_POST['nome_14']; 
 
 
 

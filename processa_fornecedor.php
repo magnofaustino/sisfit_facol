@@ -6,17 +6,17 @@ include ("conexao.php");
 
 require_once "class_fornecedor.php"; 
 
-$razao =$_GET['razao'];
-$nome_fantasia = $_GET['nome_fantasia'];
-$tipo = $_GET['tipo'];
-$cpf_cnpj = $_GET['cpf_cnpj'];
-$telefone = $_GET['telefone'];
-$email = $_GET['email'];
-$endereco = $_GET['endereco'];
-$bairro = $_GET['bairro'];
-$municipio = $_GET['municipio'];
-$numero = $_GET['numero'];
-$cep = $_GET['cep'];
+$razao =$_POST['razao'];
+$nome_fantasia = $_POST['nome_fantasia'];
+$tipo = $_POST['tipo'];
+$cpf_cnpj = $_POST['cpf_cnpj'];
+$telefone = $_POST['telefone'];
+$email = $_POST['email'];
+$endereco = $_POST['endereco'];
+$bairro = $_POST['bairro'];
+$municipio = $_POST['municipio'];
+$numero = $_POST['numero'];
+$cep = $_POST['cep'];
 
 
 

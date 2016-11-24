@@ -6,27 +6,27 @@ include ("conexao.php");
 
 require_once "class_personal.php"; 
 
-$nome_1 = $_GET['nome'];
-$nome_2 = $_GET['cpf'];
-$nome_3 = $_GET['rg']; 
-$nome_4 = $_GET['telefone'];
-$nome_5 = $_GET['estadocivil'];
-$nome_6 = $_GET['nacionalidade']; 
-$nome_7 = $_GET['naturalidade'];
-$nome_8 = $_GET['ufnaturalidade'];
+$nome_1 = $_POST['nome'];
+$nome_2 = $_POST['cpf'];
+$nome_3 = $_POST['rg']; 
+$nome_4 = $_POST['telefone'];
+$nome_5 = $_POST['estadocivil'];
+$nome_6 = $_POST['nacionalidade']; 
+$nome_7 = $_POST['naturalidade'];
+$nome_8 = $_POST['ufnaturalidade'];
 
-$nome_9 = $_GET['dt_nascimento'];
+$nome_9 = $_POST['dt_nascimento'];
 
-$nome_10 = $_GET['sexo'];
-$nome_11 = $_GET['email'];
-$nome_12 = $_GET['horario']; 
-$nome_13 = $_GET['dt_cadastro'];
-$nome_14 = $_GET['endereco']; 
+$nome_10 = $_POST['sexo'];
+$nome_11 = $_POST['email'];
+$nome_12 = $_POST['horario']; 
+$nome_13 = $_POST['dt_cadastro'];
+$nome_14 = $_POST['endereco']; 
 
-$nome_15 = $_GET['numero'];
-$nome_16 = $_GET['bairro'];
-$nome_17 = $_GET['cep']; 
-$nome_18 = $_GET['orgao_emissor'];
+$nome_15 = $_POST['numero'];
+$nome_16 = $_POST['bairro'];
+$nome_17 = $_POST['cep']; 
+$nome_18 = $_POST['orgao_emissor'];
 
 
 

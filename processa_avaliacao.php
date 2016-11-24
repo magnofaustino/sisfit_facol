@@ -6,13 +6,13 @@ include ("conexao.php");
 
 require_once "class_avalicao.php"; 
 
-$n_aluno=$_GET['n_aluno'];
-$obj_atividade =$_GET['obj_atividade'];
-$atv_atual = $_GET['atv_atual'];
-$tipo_med = $_GET['tipo_med']; 
-$tipo_cirg =$_GET['tipo_cirg'];
-$tipo_doenca = $_GET['tipo_doenca'];
-$obs_aval = $_GET['obs_aval']; 
+$n_aluno=$_POST['n_aluno'];
+$obj_atividade =$_POST['obj_atividade'];
+$atv_atual = $_POST['atv_atual'];
+$tipo_med = $_POST['tipo_med']; 
+$tipo_cirg =$_POST['tipo_cirg'];
+$tipo_doenca = $_POST['tipo_doenca'];
+$obs_aval = $_POST['obs_aval']; 
 
 
 $prd=new avaliacao();

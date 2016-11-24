@@ -12,7 +12,7 @@ include "conexao.php";
                 
             <div class="container">
             <div class="row">
-            <form action="processa_pagar.php" method="GET" >
+            <form action="processa_pagar.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Contas a Pagar</h4></div>

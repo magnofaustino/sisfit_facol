@@ -6,14 +6,14 @@ include ("conexao.php");
 
 require_once "class_plano.php"; 
 
-$nome_plano = $_GET['nome_plano'];
-$atividades_plano = $_GET['atividades_plano'];
-$tipo_plano = $_GET['tipo_plano'];
-$duracao_plano = $_GET['duracao_plano'];
-$numero_aula = $_GET['numero_aula']; 
-$vl_matricula = $_GET['vl_matricula'];
-$vl_mensal = $_GET['vl_mensal'];
-$data_cadastro = $_GET['data_cadastro'];
+$nome_plano = $_POST['nome_plano'];
+$atividades_plano = $_POST['atividades_plano'];
+$tipo_plano = $_POST['tipo_plano'];
+$duracao_plano = $_POST['duracao_plano'];
+$numero_aula = $_POST['numero_aula']; 
+$vl_matricula = $_POST['vl_matricula'];
+$vl_mensal = $_POST['vl_mensal'];
+$data_cadastro = $_POST['data_cadastro'];
 
 $prd=new plano();
 $prd->setNome_Plano($nome_plano);
