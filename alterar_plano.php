@@ -33,6 +33,8 @@ $result = "select * from planos where id = $id";
            
            <div class="panel panel-primary">
            <div class="panel-heading"><h4>Alterar Plano</h4>
+           <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
+           
            </div>
            <div class="panel-body">                
            <div class="input-group">

@@ -107,6 +107,8 @@
                 <li ><a href="plano.php">Planos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li ><a href="avaliacoes.php">Avaliacao<span style="font-size:16px;"></span></a></li>
+                <li class="divider"></li>
+                <li ><a href="perimetro.php">Perimetro<span style="font-size:16px;"></span></a></li>
                 
               </ul>
             </li>
