@@ -53,7 +53,7 @@ $result = "select * from tb_aluno where id = $id";
              
             <div class="container">
             <div class="row">
-                <form action="update_aluno.php" method="GET" >
+                <form action="update_aluno.php" method="POST" >
             <fieldset>
                 
                 <div class="panel panel-primary">

@@ -43,7 +43,7 @@ $result = "select * from fornecedor where id = $id";
             
             <div class="container">
             <div class="row">
-                <form action="update_fornecedor.php" method="GET" >
+                <form action="update_fornecedor.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Fornecedores</h4></div>

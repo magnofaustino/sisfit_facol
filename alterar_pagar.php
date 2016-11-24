@@ -32,7 +32,7 @@ $result = "select * from pagar where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_pagar.php" method="GET" >
+            <form action="update_pagar.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Contas a Pagar</h4></div>

@@ -41,7 +41,7 @@ $result = "select * from produtos where id = $id";
              
             <div class="container">
             <div class="row">
-                <form action="update_produto.php" method="GET" >
+                <form action="update_produto.php" method="POST" >
             <fieldset>
                 
                 <div class="panel panel-primary">

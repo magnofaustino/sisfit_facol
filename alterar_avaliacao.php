@@ -35,7 +35,7 @@ $result = "select * from avaliacao where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_avaliacao.php" method="GET" >
+            <form action="update_avaliacao.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Avaliacao Fisica</h4></div>

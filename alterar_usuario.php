@@ -29,7 +29,7 @@ $result = "select * from usuarios where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_usuario.php" method="GET" >
+            <form action="update_usuario.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Usuario</h4></div>

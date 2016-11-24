@@ -32,7 +32,7 @@ $result = "select * from receber where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_receber.php" method="GET" >
+            <form action="update_receber.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Contas a Receber</h4></div>
