@@ -176,9 +176,12 @@ $result = "select * from personal where id = $id";
                 </div>
                      <div class="form-group">
                          <div class="well well-sm">Estado:
+                             
+                 
+                             
                          <select class="form-control" name="orgao_emissor" value="<?php echo $orgao_emissor; ?>">
                        <option value="<?php echo  $orgao_emissor ?>"><?php echo  $orgao_emissor ?></option>
-                         <option value="Acre">Acre</option>
+                        <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
                          <option value="Amazonas">Amazonas</option>
