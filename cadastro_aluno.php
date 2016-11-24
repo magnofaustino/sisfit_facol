@@ -11,7 +11,7 @@ include "conexao.php";
              
             <div class="container">
             <div class="row">
-                <form action="processa_aluno.php" method="GET" >
+                <form action="processa_aluno.php" method="POST" >
             <fieldset>
                 
                 <div class="panel panel-primary">

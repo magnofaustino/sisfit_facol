@@ -18,7 +18,7 @@ include "conexao.php";
             <div class="container">
             <div class="row">
     
-           <form  action="processa_atividades.php"  method="GET">     
+           <form  action="processa_atividades.php"  method="POST">     
                 
                 
             <fieldset>
