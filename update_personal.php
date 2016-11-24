@@ -3,25 +3,25 @@ include ("conexao.php");
 ?>
 
 <?php
-$id =$_GET['id'];
-$nome =$_GET['nome'];
-$cpf = $_GET['cpf'];
-$rg = $_GET['rg']; 
-$telefone =$_GET['telefone'];
-$estadocivil = $_GET['estadocivil'];
-$nacionalidade =$_GET['nacionalidade'];
-$naturalidade = $_GET['naturalidade'];
-$ufnaturalidade = $_GET['ufnaturalidade']; 
-$dt_nascimento =$_GET['dt_nascimento'];
-$sexo = $_GET['sexo'];
-$email = $_GET['email']; 
-$horario =$_GET['horario'];
-$dt_cadastro= $_GET['dt_cadastro'];
-$endereco = $_GET['endereco']; 
-$numero = $_GET['numero'];
-$bairro = $_GET['bairro'];
-$cep = $_GET['cep']; 
-$orgao_emissor =$_GET['orgao_emissorr'];
+$id =$_POST['id'];
+$nome =$_POST['nome'];
+$cpf = $_POST['cpf'];
+$rg = $_POST['rg']; 
+$telefone =$_POST['telefone'];
+$estadocivil = $_POST['estadocivil'];
+$nacionalidade =$_POST['nacionalidade'];
+$naturalidade = $_POST['naturalidade'];
+$ufnaturalidade = $_POST['ufnaturalidade']; 
+$dt_nascimento =$_POST['dt_nascimento'];
+$sexo = $_POST['sexo'];
+$email = $_POST['email']; 
+$horario =$_POST['horario'];
+$dt_cadastro= $_POST['dt_cadastro'];
+$endereco = $_POST['endereco']; 
+$numero = $_POST['numero'];
+$bairro = $_POST['bairro'];
+$cep = $_POST['cep']; 
+$orgao_emissor =$_POST['orgao_emissorr'];
 
  
 

@@ -3,32 +3,32 @@ include ("conexao.php");
 ?>
 
 <?php
-$id =$_GET['id'];
-$nome =$_GET['nome'];
-$cpf = $_GET['cpf'];
-$rg = $_GET['rg']; 
-$telefone =$_GET['telefone'];
-$matricula = $_GET['matricula'];
-$estadocivil = $_GET['estadocivil']; 
-$nacionalidade =$_GET['nacionalidade'];
-$naturalidade = $_GET['naturalidade'];
-$ufnaturalidade = $_GET['ufnaturalidade']; 
-$nascimento =$_GET['nascimento'];
-$sexo = $_GET['sexo'];
-$deficiente = $_GET['deficiente']; 
-$obs_deficiente =$_GET['obs_deficiente'];
-$email= $_GET['email'];
-$plano = $_GET['plano']; 
-$bolsa=$_GET['bolsa'];
-$tipo_bolsa= $_GET['tipo_bolsa'];
-$horario = $_GET['horario']; 
-$dt_cadastro =$_GET['dt_cadastro'];
+$id =$_POST['id'];
+$nome =$_POST['nome'];
+$cpf = $_POST['cpf'];
+$rg = $_POST['rg']; 
+$telefone =$_POST['telefone'];
+$matricula = $_POST['matricula'];
+$estadocivil = $_POST['estadocivil']; 
+$nacionalidade =$_POST['nacionalidade'];
+$naturalidade = $_POST['naturalidade'];
+$ufnaturalidade = $_POST['ufnaturalidade']; 
+$nascimento =$_POST['nascimento'];
+$sexo = $_POST['sexo'];
+$deficiente = $_POST['deficiente']; 
+$obs_deficiente =$_POST['obs_deficiente'];
+$email= $_POST['email'];
+$plano = $_POST['plano']; 
+$bolsa=$_POST['bolsa'];
+$tipo_bolsa= $_POST['tipo_bolsa'];
+$horario = $_POST['horario']; 
+$dt_cadastro =$_POST['dt_cadastro'];
 
-$endereco = $_GET['endereco'];
-$numero= $_GET['numero']; 
-$bairro =$_GET['bairro'];
-$cep = $_GET['cep'];
-$orgao_emissor = $_GET['orgao_amissor']; 
+$endereco = $_POST['endereco'];
+$numero= $_POST['numero']; 
+$bairro =$_POST['bairro'];
+$cep = $_POST['cep'];
+$orgao_emissor = $_POST['orgao_amissor']; 
 
 $sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$telefone', matricula = '$matricula', est_civil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', uf_natur = '$ufnaturalidade', dt_nasc = '$nascimento', sexo = '$sexo', deficiente = '$deficiente', obs_def = '$obs_deficiente', email = '$email', plano = '$plano', bolsa = '$bolsa', tipo_bolsa = '$tipo_bolsa', h_treino = '$horario', dt_cadastro = '$dt_cadastro', rua = '$endereco', numero = '$numero', bairro = '$bairro', cep = '$cep', orgao_emissor = '$orgao_emissor' WHERE id= $id";
 

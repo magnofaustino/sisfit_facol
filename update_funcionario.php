@@ -3,32 +3,32 @@ include ("conexao.php");
 ?>
 
 <?php
-$id =$_GET['id'];
-$nome =$_GET['nome'];
-$cpf = $_GET['cpf'];
-$rg = $_GET['rg']; 
-$nascimento = $_GET['nascimento'];
-$telefone =$_GET['telefone'];
-$matricula = $_GET['matricula'];
-$estadocivil = $_GET['estadocivil']; 
-$nacionalidade =$_GET['nacionalidade'];
-$naturalidade = $_GET['naturalidade'];
-$ufnaturalidade = $_GET['ufnaturalidade']; 
-$admissao =$_GET['admissao'];
-$saida = $_GET['saida'];
-$sexo = $_GET['sexo'];
-$deficiente = $_GET['deficiente']; 
-$obsdeficiente =$_GET['obsdeficiente'];
-$nomepai= $_GET['nomepai'];
-$nomemae = $_GET['nomemae']; 
-$apelido = $_GET['apelido'];
-$funcao = $_GET['funcao'];
-$numcarteira = $_GET['numcarteira']; 
-$seriecarteira =$_GET['seriecarteira'];
+$id =$_POST['id'];
+$nome =$_POST['nome'];
+$cpf = $_POST['cpf'];
+$rg = $_POST['rg']; 
+$nascimento = $_POST['nascimento'];
+$telefone =$_POST['telefone'];
+$matricula = $_POST['matricula'];
+$estadocivil = $_POST['estadocivil']; 
+$nacionalidade =$_POST['nacionalidade'];
+$naturalidade = $_POST['naturalidade'];
+$ufnaturalidade = $_POST['ufnaturalidade']; 
+$admissao =$_POST['admissao'];
+$saida = $_POST['saida'];
+$sexo = $_POST['sexo'];
+$deficiente = $_POST['deficiente']; 
+$obsdeficiente =$_POST['obsdeficiente'];
+$nomepai= $_POST['nomepai'];
+$nomemae = $_POST['nomemae']; 
+$apelido = $_POST['apelido'];
+$funcao = $_POST['funcao'];
+$numcarteira = $_POST['numcarteira']; 
+$seriecarteira =$_POST['seriecarteira'];
 
-$uf_naturalidade = $_GET['uf_naturalidade'];
-$turnotrab = $_GET['turnotrab']; 
-$tipotrab =$_GET['tipotrab'];
+$uf_naturalidade = $_POST['uf_naturalidade'];
+$turnotrab = $_POST['turnotrab']; 
+$tipotrab =$_POST['tipotrab'];
 
 
 

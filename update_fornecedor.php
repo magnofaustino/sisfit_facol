@@ -3,18 +3,18 @@ include ("conexao.php");
 ?>
 
 <?php
-$id =$_GET['id'];
-$razao =$_GET['razao'];
-$nome_fantasia = $_GET['nome_fantasia'];
-$tipo = $_GET['tipo']; 
-$cpf_cnpj =$_GET['cpf_cnpj'];
-$telefone = $_GET['telefone'];
-$email =$_GET['email'];
-$endereco = $_GET['endereco'];
-$bairro = $_GET['bairro']; 
-$cidade =$_GET['cidade'];
-$numero = $_GET['numero'];
-$cep = $_GET['cep']; 
+$id =$_POST['id'];
+$razao =$_POST['razao'];
+$nome_fantasia = $_POST['nome_fantasia'];
+$tipo = $_POST['tipo']; 
+$cpf_cnpj =$_POST['cpf_cnpj'];
+$telefone = $_POST['telefone'];
+$email =$_POST['email'];
+$endereco = $_POST['endereco'];
+$bairro = $_POST['bairro']; 
+$cidade =$_POST['cidade'];
+$numero = $_POST['numero'];
+$cep = $_POST['cep']; 
 
 
  
