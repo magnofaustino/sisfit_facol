@@ -12,7 +12,7 @@ include "menu.php";
                 
             <div class="container">
             <div class="row">
-            <form action="processa_perimetro.php" method="GET" >
+            <form action="processa_perimetro.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Perimetros</h4></div>

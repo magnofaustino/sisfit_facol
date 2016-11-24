@@ -332,6 +332,38 @@ ENGINE = InnoDB
 AUTO_INCREMENT = 4
 DEFAULT CHARACTER SET = latin1;
 
+-- -----------------------------------------------------
+-- Table `sisfit`.`perimetros`
+-- -----------------------------------------------------
+
+CREATE TABLE IF NOT EXISTS `sisfit`.`perimetros` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `nome_aluno` VARCHAR(255) NOT NULL,
+  `pescoco` VARCHAR(255) NOT NULL,
+  `ombro_esq` VARCHAR(255) NOT NULL,
+  `ombro_dir` VARCHAR(255) NOT NULL,
+  `braco_rilex_esq` VARCHAR(255) NOT NULL,
+  `braco_rilex_dir` VARCHAR(255) NOT NULL,
+  `braco_contra_esq` VARCHAR(11) NOT NULL,
+  `braco_contra_dir` VARCHAR(255) NOT NULL,
+  `ante_braco_esq` VARCHAR(255) NOT NULL,
+  `ante_braco_dir` VARCHAR(255) NOT NULL,
+  `torax_rilex` VARCHAR(255) NOT NULL,
+  `torax_insp` VARCHAR(255) NOT NULL,
+  `cintura` VARCHAR(255) NOT NULL,
+  `abdomen` VARCHAR (11) NOT NULL,
+  `quadril` VARCHAR(255)  NOT NULL,
+  `coxa_esq` VARCHAR(255) NOT NULL,
+  `coxa_dir` VARCHAR(255) NOT NULL,
+  `pantu_esq` VARCHAR(255) NOT NULL,
+  `pantu_dir` VARCHAR(255) NOT NULL,
+  
+  
+PRIMARY KEY (`id`))
+ENGINE = InnoDB
+AUTO_INCREMENT = 4
+DEFAULT CHARACTER SET = latin1;
+
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

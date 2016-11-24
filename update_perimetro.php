@@ -4,6 +4,7 @@ include ("conexao.php");
 
 <?php
 
+$id =$_POST['id'];
 $nome_aluno= $_POST['nome_aluno'];
 $pescoco= $_POST['pescoco'];
 $ombro_esq =$_POST['ombro_esq'];
