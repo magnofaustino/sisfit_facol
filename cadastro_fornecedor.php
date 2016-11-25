@@ -33,12 +33,10 @@ include "conexao.php";
                 <br>
                 <div class="form-inline">
                 <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Pessoa:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Tipo de Pessoa:</span>
+                        <label class="form-control">
                         <input type="radio" name="tipo" value="F">Fisica
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="tipo" value="J">Juridica
                         </label>
                     </div>
@@ -46,7 +44,7 @@ include "conexao.php";
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf_cnpj">
-                </div></div>
+                </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>

@@ -107,28 +107,22 @@ include "conexao.php";
                 </div><br>
                 
                 <div class="form-inline">
-                <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Sexo:
-                        <label class="radio-inline">   
+                    <div class="input-group">
+                    <span class="input-group-addon">Sexo:</span>
+                        <label class="form-control">  
                         <input type="radio" name="sexo" value="M" >Masculino
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="sexo" value="F" >Feminino
                         </label>
                     </div>
-                </div>
-                <div class="input-group">
-                   
-                    <div class="well">Deficiente:
-                        <label class="radio-inline">
-                  <input type="radio" name="deficiente" value="N" >Não
-                        </label>
-                        <label class="radio-inline">
+                
+                    <div class="input-group">
+                    <span class="input-group-addon">Deficiente:</span>
+                        <label class="form-control">
+                      <input type="radio" name="deficiente" value="N" >Não
                       <input type="radio" name="deficiente" value="S" >Sim
                         </label>
                     </div>
-                </div></div></div>              
+                </div>   <br>         
                 <div class="input-group">
                     <span class="input-group-addon">Obs da deficiencia:</span>
                     <input type="text" class="form-control" name="obs_deficiente" >

@@ -65,23 +65,20 @@ include "conexao.php";
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">   
-                
                     <div class="input-group">
                     <span class="input-group-addon">Pago:</span>
-                        <label class="radio-inline">
+                        <label class="form-control">
                         <input type="radio" name="nome_7" value="N">Não
-                        </label>
-                        
-                        <label class="radio-inline">
                         <input type="radio" name="nome_7" value="S">Sim
-                        </label>
+                        </label></div>
+                    
                      <div class="input-group">
                     <span class="input-group-addon">Data da baixa:</span>
                     <input type="date" class="form-control" name="nome_8">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                      </div>
                         
-                    </div></div></div><br>
+                    </div></div><br>
                                     <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
