@@ -61,21 +61,15 @@ $result = "select * from usuarios where id = $id";
                     <input type="email" class="form-control" title="Preencha o campo E-mail" required name="nome_5" value="<?php echo $email; ?>">
                 </div>
                 <div class="form-group">
-                         <div class="well well-sm">Bloqueado:
-                         <select class="form-control" name="nome_6" value="<?php echo $bloqueado; ?>">
+                         <div class="input-group">
+                         <span class="input-group-addon">Bloqueado:</span>
+                         <select class="form-control" name="Nome_6" value="<?php echo $bloqueado; ?>">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>
                         </select>
                 </div></div>
                 </div></div><br><br>
-
-
-
-
-
-
-
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">

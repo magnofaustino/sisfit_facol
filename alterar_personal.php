@@ -88,7 +88,8 @@ $result = "select * from personal where id = $id";
                     <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>">
                 </div>
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" name="ufnaturalidade" value="<?php echo $ufnaturalidade; ?>">
                          <option value="<?php echo  $ufnaturalidade ?>"><?php echo  $ufnaturalidade ?></option>
                          <option value="Acre">Acre</option>
@@ -120,25 +121,24 @@ $result = "select * from personal where id = $id";
                          <option value="Tocantins">Tocantins</option>
                         </select>
                       </div>
-                </div></div><br>
+                </div></div><br><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" name="dt_nascimento" title="Preencha o campo Nome" required value="<?php echo $nascimento; ?>" readonly>
+                    <input type="date" class="form-control" name="dt_nascimento" title="Preencha o campo Nome" required value="<?php echo $nascimento; ?>" readonly>
                 </div>
-                <div class="input-group">
-                    <div class="well">Sexo:
-                        <label class="radio-inline">
-                        <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
-                        </label>
-                        <label class="radio-inline">
-                        <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
-                        </label>
-                    </div>
+                    <div class="input-group">
+                    <div class="input-group">
+                    <span class="input-group-addon">Sexo:</span>
+                        <label class="form-control">
+                                <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
+                                <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
+                                </label>
+                            </div>
+                        </div>
                 </div>
-                </div>
-                </div>
+                </div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -151,7 +151,7 @@ $result = "select * from personal where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="date" name="dt_cadastro" title="Preencha o campo Nome" required value="<?php echo $dt_cadastro; ?>" readonly>
+                    <input type="date" class="form-control" name="dt_cadastro" title="Preencha o campo Nome" required value="<?php echo $dt_cadastro; ?>" readonly>
                 </div></div></div><br>
                 
                 <div class="form-inline">
@@ -175,13 +175,11 @@ $result = "select * from personal where id = $id";
                     <input type="text" class="form-control" name="cep" value="<?php echo $cep; ?>">
                 </div>
                      <div class="form-group">
-                         <div class="well well-sm">Estado:
-                             
-                 
-                             
+                         <div class="input-group">
+                         <span class="input-group-addon">Estado:</span>
                          <select class="form-control" name="orgao_emissor" value="<?php echo $orgao_emissor; ?>">
-                       <option value="<?php echo  $orgao_emissor ?>"><?php echo  $orgao_emissor ?></option>
-                        <option value="Acre">Acre</option>
+                         <option value="<?php echo  $orgao_emissor ?>"><?php echo  $orgao_emissor ?></option>
+                         <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
                          <option value="Amazonas">Amazonas</option>

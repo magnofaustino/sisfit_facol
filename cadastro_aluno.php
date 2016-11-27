@@ -122,7 +122,7 @@ include "conexao.php";
                       <input type="radio" name="deficiente" value="S" >Sim
                         </label>
                     </div>
-                </div>   <br>         
+                </div><br>         
                 <div class="input-group">
                     <span class="input-group-addon">Obs da deficiencia:</span>
                     <input type="text" class="form-control" name="obs_deficiente" >
@@ -227,7 +227,7 @@ include "conexao.php";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-               <a href="aluno.php?tx=<?php echo $id?>" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div></div>
             </fieldset>

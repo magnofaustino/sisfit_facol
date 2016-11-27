@@ -103,12 +103,9 @@ $result = "select * from tb_aluno where id = $id";
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonly>
                 </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" name="ufnaturalidade" value="<?php echo $natur; ?>">
                          <option value="<?php echo  $uf_natur ?>"><?php echo  $uf_natur ?></option>
                          <option value="Acre">Acre</option>
@@ -140,7 +137,7 @@ $result = "select * from tb_aluno where id = $id";
                          <option value="Tocantins">Tocantins</option>
                         </select>
                       </div>
-                </div></div><br>
+                </div></div><br><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -150,47 +147,33 @@ $result = "select * from tb_aluno where id = $id";
                 </div>
                 </div>
                 </div><br>
-                
                 <div class="form-inline">
-                <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Sexo:
-                        <label class="radio-inline">
-                            
-                            
-                            
+                    <div class="input-group">
+                    <span class="input-group-addon">Sexo:</span>
+                        <label class="form-control">  
                         <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
                         </label>
                     </div>
-                </div>
-                <div class="input-group">
-                    <div class="well">Deficiente:
-                        <label class="radio-inline">
-                  <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>Não
-                        </label>
-                        <label class="radio-inline">
+                
+                    <div class="input-group">
+                    <span class="input-group-addon">Deficiente:</span>
+                        <label class="form-control">
+                      <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>Não
                       <input type="radio" name="deficiente" value="S" <?php if($deficiente == "S") echo "checked" ?>>Sim
                         </label>
                     </div>
-                </div></div></div>              
+                </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Obs da deficiencia:</span>
                     <input type="text" class="form-control" name="obs_deficiente" value="<?php echo $obs_deficiente; ?>">
-                </div><br>
+                </div><br><br>
                 <div class="form-inline">
                 <div class="form-group">
-                <div class="input-group">
-                  
-              
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
                     <input type="text" class="form-control" name="email" value="<?php echo $email; ?>">
-                </div></div></div><br>
-                <div class="form-inline">
-                <div class="form-group">
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
                     <input type="text" class="form-control" name="plano" value="<?php echo $plano; ?>">
@@ -198,13 +181,13 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="input-group">
                     <span class="input-group-addon">Bolsa:</span>
                     <input type="text" class="form-control" name="bolsa" value="<?php echo $bolsa; ?>">
-                </div>
-                <div class="input-group">
-                    <span class="input-group-addon">Tipo da bolsa:</span>
-                    <input type="text" class="form-control" name="tipo_bolsa" value="<?php echo $tipo_bolsa; ?>">
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Tipo da bolsa:</span>
+                    <input type="text" class="form-control" name="tipo_bolsa" value="<?php echo $tipo_bolsa; ?>">
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
                     <input type="text" class="form-control" name="horario" value="<?php echo $h_treino; ?>">
@@ -220,20 +203,24 @@ $result = "select * from tb_aluno where id = $id";
                     <span class="input-group-addon">Endereço:</span>
                     <input type="text" class="form-control" name="endereco" value="<?php echo $rua; ?>">
                 </div>
-                           <span class="input-group-addon">Numero:</span>
+                <div class="input-group">
+                    <span class="input-group-addon">Numero:</span>
                     <input type="text" class="form-control" name="numero" value="<?php echo $numero; ?>">
                 </div>
                  
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
                     <input type="text" class="form-control" name="bairro" value="<?php echo $bairro; ?>">
-                </div>
-                      <div class="input-group">
+                </div></div><br><br>
+                <div class="form-inline">
+                <div class="form-group">      
+                    <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
                     <input type="text" class="form-control" name="cep" value="<?php echo $cep; ?>">
                 </div>
                      <div class="form-group">
-                         <div class="well well-sm">Estado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Estado:</span>
                          <select class="form-control" name="orgao_amissor" >
                          <option value="<?php echo  $orgao_emissor ?>"><?php echo  $orgao_emissor ?></option>
                          <option value="Acre">Acre</option>
@@ -271,7 +258,7 @@ $result = "select * from tb_aluno where id = $id";
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-               <a href="aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div></div>
             </fieldset>

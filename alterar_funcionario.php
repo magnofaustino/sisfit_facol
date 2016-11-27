@@ -105,15 +105,12 @@ $result = "select * from funcionario where id = $id";
                     <span class="input-group-addon">Naturalidade:</span>
                     <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonlys>
                 </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Naturalidade:</span>
                          <select class="form-control" name="ufnaturalidade">
-                       <option value="<?php echo  $ufnaturalidade ?>"><?php echo  $ufnaturalidade ?></option>
-                          <option value="Acre">Acre</option>
+                         <option value="<?php echo  $ufnaturalidade ?>"><?php echo  $ufnaturalidade ?></option>
+                         <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
                          <option value="Amazonas">Amazonas</option>
@@ -142,7 +139,7 @@ $result = "select * from funcionario where id = $id";
                          <option value="Tocantins">Tocantins</option>
                         </select>
                       </div>                
-                </div></div><br>
+                </div></div><br><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -157,41 +154,40 @@ $result = "select * from funcionario where id = $id";
                 </div>
                 </div>
                 </div><br>
-                
                 <div class="form-inline">
                 <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Sexo:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Sexo:</span>
+                        <label class="form-control">
                         <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
                         </label>
                     </div>
                 </div>
                 <div class="input-group">
-                    <div class="well">Deficiente:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Deficiente:</span>
+                        <label class="form-control">
                         <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>Não
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="deficiente" value="S" <?php if($deficiente == "S") echo "checked" ?>>Sim
                         </label>
                     </div>
-                </div></div></div>              
+                </div></div><br> 
+                <div class="form-inline">
+                <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Obs da deficiencia:</span>
                     <input type="text" class="form-control" name="obsdeficiente" value="<?php echo $obsdeficiente; ?>">
-                </div><br>
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome do pai:</span>
                     <input type="text" class="form-control" name="nomepai" value="<?php echo $nomepai; ?>">
-                </div><br>
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome da mãe:</span>
                     <input type="text" class="form-control" name="nomemae" value="<?php echo $nomemae; ?>">
-                </div><br>
+                </div>
+                </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -213,15 +209,11 @@ $result = "select * from funcionario where id = $id";
                     <span class="input-group-addon">Serie da carteira:</span>
                     <input type="text" class="form-control" name="seriecarteira" value="<?php echo $seriecarteira; ?>">
                 </div>
-               </div>
-                <!-- <div class="input-group">
-                    <span class="input-group-addon">Uf Naturalidade:</span>
-                    <input type="text" class="form-control" name="ufnaturalidade">
-                </div> -->
                 <div class="form-group">
-                         <!-- <div class="well well-sm">Uf Naturalidade: -->
+                         <div class="input-group">
+                         <span class="input-group-addon">UF Carteira</span>
                          <select class="form-control" name="uf_naturalidade">
-                           <option value="<?php echo  $uf_naturalidade ?>"><?php echo  $uf_naturalidade ?></option>
+                         <option value="<?php echo  $uf_naturalidade ?>"><?php echo  $uf_naturalidade ?></option>
                          <option value="Acre">Acre</option>
                          <option value="Alagoas">Alagoas</option>
                          <option value="Amapá">Amapá</option>
@@ -249,9 +241,10 @@ $result = "select * from funcionario where id = $id";
                          <option value="Santa Catarina">Santa Catarina</option>
                          <option value="Sergipe">Sergipe</option>
                          <option value="Tocantins">Tocantins</option>
-                      </div><br><br>
-                
-                
+                         </select>
+                </div></div>
+                <br><br>
+                </div>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -264,6 +257,7 @@ $result = "select * from funcionario where id = $id";
                     <input type="text" class="form-control" name="tipotrab" value="<?php echo $tipotrab; ?>">
                 </div></div></div>
                 <br><br>
+                
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">

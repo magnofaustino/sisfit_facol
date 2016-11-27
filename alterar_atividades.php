@@ -13,6 +13,7 @@ $result = "select * from atividades where id = $id";
             $dtini = $ras['dtini'];
             $dtfim = $ras['dtfim'];
             $atvtemp = $ras['atvtemp'];
+            $duracao_aula = $ras['duracao_aula'];
               
 
 }
@@ -35,7 +36,7 @@ $result = "select * from atividades where id = $id";
 		<div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon">Atividade:</span>
+                    <span class="input-group-addon">Modalidades:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade" value="<?php echo $atividade; ?>" readonly>
                 </div>
                 <div class="input-group">
@@ -43,6 +44,23 @@ $result = "select * from atividades where id = $id";
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
+                <div class="form-inline">
+                <div class="form-group">   
+                <div class="input-group">
+                
+                    <span class="input-group-addon">Duracao da aula:</span>
+                    <input type="time" class="form-control" title="Preencha o campo Nome" required name="duracao_aula" value="<?php echo $duracao_aula; ?>">
+                    
+                </div>
+                    <div class="input-group">
+                    <span class="input-group-addon">Atividade Temporaria:</span>
+                        <label class="form-control">
+                            <input type="radio" name="atvtemp" value="N" <?php if($atvtemp == "N") echo "checked" ?>>Não
+                            <input type="radio" name="atvtemp" value="S" <?php if($atvtemp == "S") echo "checked" ?>>Sim
+                        </label> 
+                    </div>
+                </div><br>    
+                </div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -56,17 +74,6 @@ $result = "select * from atividades where id = $id";
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
-                </div><br>
-                
-                <div class="input-group">
-                    <div class="well">É uma Atividade Temporaria?:
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="N" <?php if($atvtemp == "N") echo "checked" ?>>Não
-                        </label>
-                        <label class="radio-inline">
-                        <input type="radio" name="atvtemp" value="S" <?php if($atvtemp == "S") echo "checked" ?>>Sim
-                        </label>
-                    </div>
                 </div><br><br>
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>

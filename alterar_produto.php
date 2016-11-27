@@ -93,32 +93,30 @@ $result = "select * from produtos where id = $id";
                 </div>
                 </div></div><br>
                 <div class="form-inline">
-                <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Garantia?:
-                        <label class="radio-inline">
-                        <input type="radio" name="garantia" value="N">Não
-                        </label>
-                        <label class="radio-inline">
-                        <input type="radio" name="garantia" value="S">Sim
-                        </label>
+                    <div class="form-group">
+                        <div class="input-group">
+                        <span class="input-group-addon">Garantia:</span>
+                            <label class="form-control">
+                            <input type="radio" name="nome_9" value="N" <?php if($garantia == "N") echo "checked" ?>>Não
+                            <input type="radio" name="nome_9" value="S" <?php if($garantia == "S") echo "checked" ?>>Sim
+                            </label>
+                        </div>
+                        <div class="input-group">
+                                <span class="input-group-addon">Quantidade da Garantia:</span>
+                                <input type="text" class="form-control" name="nome_10" value="<?php echo $duracao; ?>">
+                        </div><br><br>
+                        <div class="input-group">
+                             <span class="input-group-addon">Periodo:</span>
+                             <select class="form-control" name="nome_11">
+                             <option value=""><?php echo $duracao; ?></option>
+                             <option value="D">Dias</option>
+                             <option value="M">Meses</option>
+                             <option value="A">Anos</option>
+                            </select>
+                        </div>
                     </div>
-                </div>   
-                <div class="input-group">
-                    <span class="input-group-addon">Quantidade da Garantia:</span>
-                    <input type="text" class="form-control" name="nome_9" value="<?php echo $duracao; ?>">
-                </div>
-                     <div class="form-group">
-                         <div class="well well-sm">Periodo:
-                         <select class="form-control" name="nome_10">
-                         <option value=""><?php echo $duracao; ?></option>
-                         <option value="D">Dias</option>
-                         <option value="M">Meses</option>
-                         <option value="A">Anos</option>
-                        </select>
-                      </div></div>
-                </div></div><br>
-                             
+                </div><br>                   
+                    
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -126,21 +124,24 @@ $result = "select * from produtos where id = $id";
                     <input type="date" class="form-control" title="Preencha o campo Nome" required name="nome_11" value="<?php echo $compra; ?>" readonly>
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
-                     <div class="form-group">
-                         <div class="well well-sm">Fornecedor:
+                <div class="form-group">  
+                    <div class="input-group">
+                         <span class="input-group-addon">Fornecedor:</span>
                          <select class="form-control" title="Preencha o campo Nome" required name="Nome_12" >
                            <option value="">Selecione ...</option>
-                       	<?php
+                                        <?php
 						$result_niveis_acessos = "SELECT * FROM fornecedor";
 						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
 						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
-							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
+                                                <option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
 						}
 					?>
                         </select>
-                      </div></div>
+                    </div>
+                </div>
                 <div class="form-group">
-                         <div class="well well-sm">Bloqueado:
+                         <div class="input-group">
+                         <span class="input-group-addon">Bloqueado:</span>
                          <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>

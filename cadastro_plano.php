@@ -42,44 +42,44 @@ include "conexao.php";
                     </select></div><br>
             
                 <div class="form-inline">
-                <div class="form-group">   
-                <div class="input-group">
-                <span class="input-group-addon">Tipo de Plano:</span>  
-		        <select class="form-control" title="Preencha o campo Nome" required name="tipo_plano" >
-		        <option value="N">familiar"a"</option>
-                <option value="S">individual"b"
-                
-                 </option></select>
-                  </div>
-                 <div class="input-group">
-                <span class="input-group-addon">Duracao do Plano:</span>
-		        <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" >
-		            </div>
-		        
-                <div class="input-group">
-                <span class="input-group-addon">Numero de aulas:</span>    
-		                   <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="5">
-		                   </div></div></div><br>
-		                   
-		                   <div class="form-inline">
-                           <div class="form-group">   
-		                   <div class="input-group">
-		                   <span class="input-group-addon">Valor da Matricula:</span>           
-		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" >
-		                   </div>
-		                   
-		                   <div class="input-group">
-		                   		 <span class="input-group-addon">R$</span>
-		        <span class="input-group-addon">Valor da Mensalidade:</span>
-		                   <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" >
-		                   <span class="input-group-addon">R$</span>
-		                   </div><br><br>
-		                   <div class="input-group">
-				        <span class="input-group-addon">Data de Cadastro:</span>
-	 <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly >
-                </div></div>
-		
-                </div></div><br><br>
+                    <div class="form-group">   
+                        <div class="input-group">
+                        <span class="input-group-addon">Tipo de Plano:</span>  
+                                <select class="form-control" title="Preencha o campo Nome" required name="tipo_plano" >
+                                <option value="N">familiar"a"</option>
+                        <option value="S">individual"b"
+
+                        </option></select>
+                        </div>
+                        <div class="input-group">
+                        <span class="input-group-addon">Duracao do Plano:</span>
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="duracao_plano" >
+                        </div>
+
+                        <div class="input-group">
+                        <span class="input-group-addon">Numero de aulas:</span>    
+                                           <input type="number" class="form-control" title="Preencha o campo Nome" required name="numero_aula" min="1"max="5">
+                        </div>
+                    </div>
+                </div><br>                  
+                <div class="form-inline">
+                    <div class="form-group">   
+		        <div class="input-group">
+		            <span class="input-group-addon">Valor da Matricula:</span>           
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" >
+		            <span class="input-group-addon">R$</span>
+                        </div>         
+		        <div class="input-group">      		 
+                            <span class="input-group-addon">Valor da Mensalidade:</span>
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" >
+		            <span class="input-group-addon">R$</span>
+		        </div><br><br>
+                        <div class="input-group">
+                            <span class="input-group-addon">Data de Cadastro:</span>
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro"  value="<?php echo date("d/m/Y"); ?>" readonly >
+                        </div>
+                    </div>
+                </div><br><br>
                 
                 
          <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>

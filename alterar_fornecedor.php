@@ -66,12 +66,10 @@ $result = "select * from fornecedor where id = $id";
                 <br>
                 <div class="form-inline">
                 <div class="form-group">
-                <div class="input-group">
-                    <div class="well">Pessoa:
-                        <label class="radio-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Tipo de Pessoa:</span>
+                        <label class="form-control">
                         <input type="radio" name="tipo" value="F" <?php if($tipo == "F") echo "checked" ?>>Fisica
-                        </label>
-                        <label class="radio-inline">
                         <input type="radio" name="tipo" value="J" <?php if($tipo == "J") echo "checked" ?>>Juridica
                         </label>
                     </div>
@@ -79,7 +77,7 @@ $result = "select * from fornecedor where id = $id";
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
                     <input type="text" class="form-control" name="cpf_cnpj" value="<?php echo $cpf_cnpj; ?>" readonly>
-                </div></div>
+                </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>

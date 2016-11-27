@@ -61,13 +61,12 @@ include "conexao.php";
                         <input type="radio" name="nome_7" value="N">Não
                         <input type="radio" name="nome_7" value="S">Sim
                         </label></div>
-                     <div class="input-group">
+                    <div class="input-group">
                     <span class="input-group-addon">Data da baixa:</span>
                     <input type="date" class="form-control" name="nome_8">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
-                     </div>
-                        
-                    </div></div><br>
+                    </div>      
+                </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
