@@ -49,8 +49,10 @@
                 
                 </tbody>
             </table>
-           
                 </div>
+            
+               <button type="button"  name="imprimir" class="btn btn-default" onclick="window.print()">Imprimir</button>
+                <!-- onclick="window.location.href='imprimir.php'" -->
              </fieldset>
     </div>
 </div>
