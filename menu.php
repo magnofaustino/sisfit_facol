@@ -115,15 +115,31 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="pagar.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
+                <li><a href="pagar.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
-                <li ><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
+                <li><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
               </ul>
             </li>
-            <li class="dropdown">
+           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="relatorio_aluno.php">Relatório de Alunos</a></li>                     
+                <li><a href="relatorio_aluno.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
+                <li class="divider"></li>
+                <li><a href="relatorio_fornecedor.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
+                <li class="divider"></li>
+                <li><a href="relatorio_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
+                <li class="divider"></li>
+                <li><a href="relatorio_funcionarios.php">Funcionarios<span style="font-size:16px;"></span></a></li> 
+                <li class="divider"></li>
+                <li><a href="relatorio_personal.php">Personal<span style="font-size:16px;"></span></a></li> 
+                <li class="divider"></li>
+                <li><a href="relatorio_planos.php">Planos<span style="font-size:16px;"></span></a></li> 
+                <li class="divider"></li>
+                <li><a href="contas_receber.php">Cont. a Receber<span style="font-size:16px;"></span></a></li>
+                <li class="divider"></li>
+                <li><a href="relatorio_contas_a_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
+                <li class="divider"></li>
+                <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
               </ul>
             </li>
             <li class="dropdown">
