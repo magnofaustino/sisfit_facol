@@ -19,18 +19,27 @@
         <img src="imagens\Logo2.png" alt="132" class="center-block img-responsive">
         </div></div>  
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">Entrar</h2>
-        <label for="inputEmail" class="sr-only">Email</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
-        <label for="inputPassword" class="sr-only">Senha</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
-        <div class="checkbox">
+      <form class="form-signin" method="POST" action="login.php">
+          
+        
+          <h2 class="form-signin-heading">Entrar</h2>
+        
+          <label for="inputEmail" class="sr-only">Email</label>
+        
+          <input type="text" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+        
+          <label for="inputPassword" class="sr-only">Senha</label>
+        
+          <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+        
+          <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Mantenha-me conectado
           </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar </button>
+        
+          </div>
+        
+          <button class="btn btn-lg btn-primary btn-block" type="submit" value="entrar" id="entrar" name="entrar">Entrar </button>
       </form>
 
     </div>
