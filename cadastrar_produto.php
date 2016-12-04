@@ -101,7 +101,8 @@ include "conexao.php";
                          <select class="form-control" name="Nome_13">
                          <option value="">Selecione ...</option>
                        	<?php
-						$result_niveis_acessos = "SELECT * FROM fornecedor";
+                             $id = 4;
+						$result_niveis_acessos = "SELECT * FROM fornecedor where id = $id";
 						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
 						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
 							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_fantasia']; ?></option> <?php
