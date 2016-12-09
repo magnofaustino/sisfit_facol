@@ -8,12 +8,12 @@ include ("conexao.php");
 require_once "class_atividades.php"; 
 
 
-$atividade = $_GET['atividade'];
-$valor = $_GET['valor'];
-$duracao_aula = $_GET['duracao_aula'];
-$atvtemp = $_GET['atvtemp']; 
-$dtini = $_GET['dtini'];
-$dtfim = $_GET['dtfim']; 
+$atividade = $_POST['atividade'];
+$valor = $_POST['valor'];
+$duracao_aula = $_POST['duracao_aula'];
+$atvtemp = $_POST['atvtemp']; 
+$dtini = $_POST['dtini'];
+$dtfim = $_POST['dtfim']; 
 
 $prd=new Atividades();
 $prd->setAtividade($atividade);

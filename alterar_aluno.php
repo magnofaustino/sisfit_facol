@@ -152,8 +152,8 @@ $result = "select * from tb_aluno where id = $id";
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">  
-                        <input type="radio" name="sexo" value="  M" <?php if($sexo == "  M") echo "checked" ?>>  Masculino
-                        <input type="radio" name="sexo" value="  F" <?php if($sexo == "  F") echo "checked" ?>>  Feminino
+                        <input type="radio" name="sexo" value="M" <?php if($sexo == "  M") echo "checked" ?>>  Masculino
+                        <input type="radio" name="sexo" value="F" <?php if($sexo == "  F") echo "checked" ?>>  Feminino
                         </label>
                     </div>
                 
