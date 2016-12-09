@@ -29,11 +29,12 @@ $seriecarteira =$_POST['seriecarteira'];
 $uf_naturalidade = $_POST['uf_naturalidade'];
 $turnotrab = $_POST['turnotrab']; 
 $tipotrab =$_POST['tipotrab'];
+$limitcao =$_POST['limitacao'];
+$tipo_lim =$_POST['tipo_lim'];
 
 
 
-
-$sql = "UPDATE funcionario SET nome='$nome', cpf ='$cpf', rg = '$rg', nascimento = '$nascimento', telefone = '$telefone', matricula = '$matricula', estadocivil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', ufnaturalidade = '$ufnaturalidade', admissao = '$admissao', saida = '$saida', sexo = '$sexo', deficiente = '$deficiente', obsdeficiente = '$obsdeficiente', nomepai = '$nomepai', nomemae = '$nomemae', apelido = '$apelido', funcao = '$funcao', numcarteira = '$numcarteira', seriecarteira= '$seriecarteira', uf_naturalidade = '$uf_naturalidade', turnotrab= '$turnotrab', tipotrab = '$tipotrab' WHERE id= $id";
+$sql = "UPDATE funcionario SET nome='$nome', cpf ='$cpf', rg = '$rg', nascimento = '$nascimento', telefone = '$telefone', matricula = '$matricula', estadocivil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', ufnaturalidade = '$ufnaturalidade', admissao = '$admissao', saida = '$saida', sexo = '$sexo', deficiente = '$deficiente', obsdeficiente = '$obsdeficiente', nomepai = '$nomepai', nomemae = '$nomemae', apelido = '$apelido', funcao = '$funcao', numcarteira = '$numcarteira', seriecarteira= '$seriecarteira', uf_naturalidade = '$uf_naturalidade', turnotrab= '$turnotrab', tipotrab = '$tipotrab',limitacao='$limitacao',tipo_lim='$tipo_lim' WHERE id= $id";
 
 
 

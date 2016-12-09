@@ -118,32 +118,52 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">
-                        <input type="radio" name="sexo" value="M">Masculino
-                        <input type="radio" name="sexo" value="F">Feminino
+                        <input type="radio" name="sexo" value="M">  Masculino
+                        <input type="radio" name="sexo" value="F">  Feminino
                         </label>
                     </div>
-                </div>
+                
+                
                 <div class="input-group">
                     <div class="input-group">
                     <span class="input-group-addon">Deficiente:</span>
                         <label class="form-control">
-                        <input type="radio" name="deficiente" value="N">Não
-                        <input type="radio" name="deficiente" value="S">Sim
+                        <input type="radio" name="deficiente" value="N">  Nao
+                        <input type="radio" name="deficiente" value="S">  Sim
                         </label>
-                    </div>
-                </div></div><br>             
+                    </div></div>
+                            
                 <div class="input-group">
-                    <span class="input-group-addon">Obs da deficiencia:</span>
+                    <span class="input-group-addon">Tipo da deficiencia:</span>
                     <input type="text" class="form-control" name="obsdeficiente">
-                </div><br>
+                </div></div><br><br>
+                
+                <div class="input-group">
+                    <div class="input-group">
+                    <span class="input-group-addon">Limitacao Fisica:</span>
+                        <label class="form-control">
+                        <input type="radio" name="limitacao" value="N">  Nao
+                        <input type="radio" name="limitacao" value="S">  Sim
+                        </label>
+                    </div></div>
+                             
+                <div class="input-group">
+                    <span class="input-group-addon">Tipo da Limitacao:</span>
+                    <input type="text" class="form-control" name="tipo_lim">
+                </div><br><br>
+                
+                <div class="form-inline">
+                <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nome do pai:</span>
                     <input type="text" class="form-control" name="nomepai">
-                </div><br>
+                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome da mãe:</span>
                     <input type="text" class="form-control" name="nomemae">
-                </div><br>
+                
+                
+                </div><br><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">

@@ -147,6 +147,8 @@ CREATE TABLE IF NOT EXISTS `sisfit`.`funcionario` (
   `uf_naturalidade` VARCHAR(20) NOT NULL,
   `turnotrab` VARCHAR(255) NOT NULL,
   `tipotrab` VARCHAR(255) NOT NULL,
+  `limitacao` VARCHAR(255) NOT NULL,
+  `tipo_lim` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 2
@@ -311,6 +313,8 @@ CREATE TABLE IF NOT EXISTS `sisfit`.`tb_aluno` (
   `bairro` VARCHAR(50) NOT NULL,
   `cep` VARCHAR(10) NOT NULL,
   `orgao_emissor` VARCHAR(20) NOT NULL,
+  `limitacao` VARCHAR(255) NOT NULL,
+  `tipo_lim` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 3

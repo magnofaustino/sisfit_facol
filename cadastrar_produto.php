@@ -65,9 +65,9 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Garantia:</span>
                         <label class="form-control">
-                        <input type="radio" name="nome_9" value="N">Não
+                        <input type="radio" name="nome_9" value="N">  Nao
 
-                        <input type="radio" name="nome_9" value="S">Sim
+                        <input type="radio" name="nome_9" value="S">  Sim
                         </label>
                     </div>
                 

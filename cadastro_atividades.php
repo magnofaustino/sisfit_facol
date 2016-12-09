@@ -52,8 +52,8 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Atividade Temporaria:</span>
                         <label class="form-control">
-                            <input type="radio" name="atvtemp" value="N">Não
-                            <input type="radio" name="atvtemp" value="S"> Sim 
+                            <input type="radio" name="atvtemp" value="N">  Nao
+                            <input type="radio" name="atvtemp" value="S">  Sim 
                         </label> 
                     </div>
                 </div><br>    

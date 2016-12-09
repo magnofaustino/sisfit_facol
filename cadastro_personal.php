@@ -98,8 +98,8 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">
-                                <input type="radio" name="sexo" value="M">Masculino
-                                <input type="radio" name="sexo" value="F">Feminino
+                                <input type="radio" name="sexo" value="M">  Masculino
+                                <input type="radio" name="sexo" value="F">  Feminino
                                 </label>
                             </div>
                         </div>

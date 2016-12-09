@@ -27,7 +27,8 @@ public $numero;
 public $bairro;
 public $cep;
 public $orgao_emissor;
-
+public $limitacao;
+public $tipo_lim;
      
     
     function _construct()
@@ -60,7 +61,8 @@ public function getNumero(){return $this->numero;}
 public function getBairro(){return $this->bairro;}    
 public function getCep(){return $this->cep;}
 public function getOrgao_emissor(){return $this->orgao_emissor;}
-
+public function getLimitacao(){return $this->limitacao;}
+public function getTipo_Lim(){return $this->tipo_lim;}
     
     
     
@@ -94,6 +96,8 @@ public function getOrgao_emissor(){return $this->orgao_emissor;}
         public function setBairro($bairro){$this->bairro=$bairro;}
         public function setCep($cep){$this->cep=$cep;}    
         public function setOrgao_emissor($orgao_emissor){$this->orgao_emissor=$orgao_emissor;}
+        public function setLimitacao($limitacao){$this->limitacao=$limitacao;} 
+        public function setTipo_Lim($tipo_lim){$this->tipo_lim=$tipo_lim;}
         
 }
 ?>

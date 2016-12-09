@@ -36,8 +36,8 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Tipo de Pessoa:</span>
                         <label class="form-control">
-                        <input type="radio" name="tipo" value="F">Fisica
-                        <input type="radio" name="tipo" value="J">Juridica
+                        <input type="radio" name="tipo" value="F">  Fisica
+                        <input type="radio" name="tipo" value="J">  Juridica
                         </label>
                     </div>
                 </div>

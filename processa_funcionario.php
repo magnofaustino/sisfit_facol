@@ -33,7 +33,8 @@ $seriecarteira = $_POST['seriecarteira'];
 $uf_naturalidade= $_POST['uf_naturalidade'];
 $turnotrab = $_POST['turnotrab'];
 $tipotrab = $_POST['tipotrab'];
-
+$limitacao =$_POST ['limitacao'];
+$tipo_lim =$_POST ['tipo_lim'];
 
 $prd=new Funcionario();
 $prd->setNome_1($nome);
@@ -63,12 +64,13 @@ $prd->setNome_21($seriecarteira);
 $prd->setNome_22($uf_naturalidade);
 $prd->setNome_23($turnotrab);
 $prd->setNome_24($tipotrab);
+$prd->setNome_25($limitacao);
+$prd->setNome_26($tipo_lim);
 
 
 
 
-
-$sql = "INSERT INTO funcionario(nome, cpf, rg, nascimento,telefone, matricula, estadocivil, nacionalidade, naturalidade, ufnaturalidade, admissao, saida, sexo, deficiente, obsdeficiente,  nomepai, nomemae, apelido, funcao, numcarteira, seriecarteira, uf_naturalidade, turnotrab, tipotrab) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."', '".$prd->getNome_14()."' , '".$prd->getNome_15()."', '".$prd->getNome_16()."', '".$prd->getNome_17()."' , '".$prd->getNome_18()."', '".$prd->getNome_19()."', '".$prd->getNome_20()."' , '".$prd->getNome_21()."', '".$prd->getNome_22()."', '".$prd->getNome_23()."' , '".$prd->getNome_24()."')";
+$sql = "INSERT INTO funcionario(nome, cpf, rg, nascimento,telefone, matricula, estadocivil, nacionalidade, naturalidade, ufnaturalidade, admissao, saida, sexo, deficiente, obsdeficiente,  nomepai, nomemae, apelido, funcao, numcarteira, seriecarteira, uf_naturalidade, turnotrab, tipotrab,limitacao,tipo_lim) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."', '".$prd->getNome_6()."', '".$prd->getNome_7()."', '".$prd->getNome_8()."', '".$prd->getNome_9()."', '".$prd->getNome_10()."', '".$prd->getNome_11()."', '".$prd->getNome_12()."', '".$prd->getNome_13()."', '".$prd->getNome_14()."' , '".$prd->getNome_15()."', '".$prd->getNome_16()."', '".$prd->getNome_17()."' , '".$prd->getNome_18()."', '".$prd->getNome_19()."', '".$prd->getNome_20()."' , '".$prd->getNome_21()."', '".$prd->getNome_22()."', '".$prd->getNome_23()."' , '".$prd->getNome_24()."','".$prd->getNome_25()."','".$prd->getNome_26()."')";
 
 
 

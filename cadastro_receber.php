@@ -58,8 +58,8 @@ include "conexao.php";
                     <div class="input-group">
                     <span class="input-group-addon">Pago:</span>
                         <label class="form-control">
-                        <input type="radio" name="nome_7" value="N">Não
-                        <input type="radio" name="nome_7" value="S">Sim
+                        <input type="radio" name="nome_7" value="N">  Nao
+                        <input type="radio" name="nome_7" value="S">  Sim
                         </label></div>
                     <div class="input-group">
                     <span class="input-group-addon">Data da baixa:</span>

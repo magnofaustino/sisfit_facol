@@ -31,7 +31,8 @@ $result = "select * from tb_aluno where id = $id";
               $bairro = $ras['bairro'];
               $cep = $ras['cep'];
               $orgao_emissor = $ras['orgao_emissor'];
-              
+              $limitacao=$ras['limitacao'];
+              $tipo_lim =$ras['tipo_lim'];
      
           
           }
@@ -151,23 +152,39 @@ $result = "select * from tb_aluno where id = $id";
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">  
-                        <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>Masculino
-                        <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>Feminino
+                        <input type="radio" name="sexo" value="  M" <?php if($sexo == "  M") echo "checked" ?>>  Masculino
+                        <input type="radio" name="sexo" value="  F" <?php if($sexo == "  F") echo "checked" ?>>  Feminino
                         </label>
                     </div>
                 
                     <div class="input-group">
                     <span class="input-group-addon">Deficiente:</span>
                         <label class="form-control">
-                      <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>Não
-                      <input type="radio" name="deficiente" value="S" <?php if($deficiente == "S") echo "checked" ?>>Sim
+                      <input type="radio" name="deficiente" value="  N" <?php if($deficiente == "  N") echo "checked" ?>>  Nao
+                      <input type="radio" name="deficiente" value="  S" <?php if($deficiente == "  S") echo "checked" ?>>  Sim
                         </label>
                     </div>
-                </div><br>
+                
                 <div class="input-group">
-                    <span class="input-group-addon">Obs da deficiencia:</span>
+                    <span class="input-group-addon">Tipo da deficiencia:</span>
                     <input type="text" class="form-control" name="obs_deficiente" value="<?php echo $obs_deficiente; ?>">
                 </div><br><br>
+                
+                <div class="input-group">
+                    <span class="input-group-addon">Limitacao Fisica:</span>
+                      <label class="form-control">
+                      <input type="radio" name="limitacao" value="  N" <?php if($limitacao == "  N") echo "checked" ?>>  Nao
+                      <input type="radio" name="limitacao" value="  S" <?php if($limitacao == "  S") echo "checked" ?>>  Sim
+                        </label>
+                    </div>
+                
+                <div class="input-group">
+                    <span class="input-group-addon">Tipo da limitacao:</span>
+                    <input type="text" class="form-control" name="tipo_lim" value="<?php echo $tipo_lim; ?>">
+                </div><br><br>
+                
+                
+                
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
