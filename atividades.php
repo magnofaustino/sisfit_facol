@@ -45,9 +45,9 @@
       ?> 
                         <td><?php echo $ras['atividade'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
-                        <td><?php echo $ras['atvtemp']; ?></td>
-                        <td><?php echo $ras['dtini']; ?></td>
-                        <td><?php echo $ras['dtfim']; ?></td>
+                        <td><?php if($ras['atvtemp'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['dtini'])); ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['dtfim'])); ?></td>
                         
 <td class="text-center"><a href="alterar_atividades.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
     

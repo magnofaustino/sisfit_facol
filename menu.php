@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/menu.css">
     <script src="js/grid.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>    
+    
 </head>
 <body>
     <!-- MENU SUPERIOR -->
@@ -140,6 +141,8 @@
                 <li><a href="relatorio_contas_a_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
+                <li class="divider"></li>
+                <li><a href="tela_aniversariantes.php">Aniversariantes<span style="font-size:16px;"></span></a></li>
               </ul>
             </li>
             <li class="dropdown">
