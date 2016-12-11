@@ -45,8 +45,8 @@
       ?> 
                         <td><?php echo $ras['usuario'];?></td>
                         <td><?php echo $ras['nome']; ?></td>
-                         <td><?php echo $ras['email']; ?></td>
-                        <td><?php echo $ras['bloqueado']; ?></td>
+                        <td><?php echo $ras['email']; ?></td>
+                        <td><?php if($ras['bloqueado'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
                       
                         
 <td class="text-center"><a href="alterar_usuario.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>

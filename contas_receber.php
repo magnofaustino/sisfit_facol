@@ -44,12 +44,12 @@
                         
                         
                         
-                         <td><?php echo $ras['aluno'];?></td>
+                        <td><?php echo $ras['aluno'];?></td>
                         <td><?php echo $ras['nome'];?></td>
-                         <td><?php echo $ras['descricao'];?></td>
+                        <td><?php echo $ras['descricao'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
-                         <td><?php echo $ras['pago'];?></td>
-                        <td><?php echo $ras['vencimento']; ?></td>
+                        <td><?php if($ras['pago'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['vencimento'])); ?></td>
                       
                     
                     </tr>
