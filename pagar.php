@@ -45,8 +45,8 @@
       ?> 
                         <td><?php echo $ras['nome'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
-                        <td><?php if($ras['pago'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
-                        <td><?php echo date('d/m/Y', strtotime($ras['vencimento'])); ?></td>
+                         <td><?php echo $ras['pago']; ?></td>
+                        <td><?php echo $ras['vencimento']; ?></td>
                       
                         
 <td class="text-center"><a href="alterar_pagar.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
