@@ -138,7 +138,7 @@
                 <li class="divider"></li>
                 <li><a href="contas_receber.php">Cont. a Receber<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
-                <li><a href="relatorio_contas_a_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
+                <li><a href="tela_par_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
