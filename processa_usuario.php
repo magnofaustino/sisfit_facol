@@ -15,7 +15,8 @@ $nome_2 = $_POST['nome_2'];
 $senha = MD5($_POST['nome_3']); 
 $nome_4 = $_POST['nome_4'];
 $nome_5 = $_POST['nome_5']; 
-$nome_6 = $_POST['nome_6'];
+$usuario = $_POST['usuario'];
+$block = $_POST['block'];
 
 
 
@@ -27,11 +28,11 @@ $prd->setNome_2($nome_2);
 $prd->setNome_3($senha);
 $prd->setNome_4($nome_4);
 $prd->setNome_5($nome_5);
-$prd->setNome_6($nome_6);
+$prd->setNome_6($usuario);
+$prd->setNome_7($block);
 
 
-
-$sql=("SELECT * FROM usuarios WHERE usuario = '$login' AND senha = '$prd->getNome_3()'") or die("erro ao selecionar");
+$sql=("SELECT * FROM usuarios WHERE login = '$login' AND senha = '$prd->getNome_3()'") or die("erro ao selecionar");
 
 $verifica = mysqli_query($conn, $sql);
 
@@ -58,7 +59,7 @@ $logarray = $array['usuario'];
 
 
 
-$query = "INSERT INTO usuarios(usuario, nome, senha, contrasenha, email, bloqueado) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."' , '".$prd->getNome_6()."')";
+$query = "INSERT INTO usuario(login, nome, senha, contrasenha, email, usuario, block) VALUES ('".$prd->getNome_1()."', '".$prd->getNome_2()."', '".$prd->getNome_3()."', '".$prd->getNome_4()."', '".$prd->getNome_5()."' , '".$prd->getNome_6()."', '".$prd->getNome_7()."')" ;
 
           
           

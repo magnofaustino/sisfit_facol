@@ -43,14 +43,27 @@ include "conexao.php";
                 </div>
                 <div class="form-group">
                          <div class="input-group">
+                         <span class="input-group-addon">Nível de Acesso:</span>
+                         <select class="form-control" required name="usuario">
+                         <option value="">Selecione ...</option>
+                         <option value="3">Gerente</option>
+                         <option value="2">Personal</option>
+                         <option value="1">Atendente</option>
+                        </select>
+                      </div></div>
+                </div></div>
+                       <div class="form-group">
+                         <div class="input-group">
                          <span class="input-group-addon">Bloqueado:</span>
-                         <select class="form-control" name="Nome_6">
+                         <select class="form-control" required name="block">
                          <option value="">Selecione ...</option>
                          <option value="S">Sim</option>
                          <option value="N">Não</option>
+                       
                         </select>
                       </div></div>
                 </div></div><br><br>
+                    
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">

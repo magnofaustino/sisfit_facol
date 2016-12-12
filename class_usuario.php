@@ -11,6 +11,7 @@ public $nome_3;
 public $nome_4;
 public $nome_5;
 public $nome_6;
+public $nome_7;
 
     
     function _construct()
@@ -25,6 +26,7 @@ public $nome_6;
         
         public function getNome_5(){return $this->nome_5;}
         public function getNome_6(){return $this->nome_6;}
+        public function getNome_7(){return $this->nome_7;}
        
        
     
@@ -36,6 +38,7 @@ public $nome_6;
     
         public function setNome_5($nome_5){$this->nome_5=$nome_5;}
         public function setNome_6($nome_6){$this->nome_6=$nome_6;}
+        public function setNome_7($nome_7){$this->nome_7=$nome_7;}
     
     
     

@@ -2,7 +2,7 @@
     
      include ("conexao.php");   
 
-    $result = "select * from usuarios";
+    $result = "select * from usuario";
     $resultado = mysqli_query($conn, $result);
  ?>
     
@@ -28,8 +28,8 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
+                        <th><input type="text" class="form-control" placeholder="Login" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Usuario" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
                         <th><input type="text" class="form-control" placeholder="E-mail" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Bloqueado" disabled></th>
                       
@@ -43,10 +43,10 @@
                    $id = $ras['id'];
             
       ?> 
-                        <td><?php echo $ras['usuario'];?></td>
+                        <td><?php echo $ras['login'];?></td>
                         <td><?php echo $ras['nome']; ?></td>
                         <td><?php echo $ras['email']; ?></td>
-                        <td><?php if($ras['bloqueado'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
+                        <td><?php if($ras['usuario'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
                       
                         
 <td class="text-center"><a href="alterar_usuario.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
