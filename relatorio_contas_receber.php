@@ -1,13 +1,23 @@
 <?php
     
-     include ("conexao.php");   
+    include ("conexao.php");   
 
-    $result = "select *from receber";
+    $dtini = $_GET['dtini'];
+    $dtfim = $_GET['dtfim'];
+    $sit = $_GET['sit'];
+    
+    $result = "select * from receber where vencimento between '$dtini' and '$dtfim' ";
+   
+    If($sit == 'N') {
+    $result .= " and pago = 'N'"; } 
+    elseif ($sit == 'S') {
+    $result .= " and pago = 'S'";}
+   
     $resultado = mysqli_query($conn, $result);
  ?>
 <html>
 	<head>
-		<title>Relatorio Contas a Receber</title>
+		<title>Relatório de Contas a Receber</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -16,20 +26,15 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Relatorio Contas a Receber</h3>
-                <div class="pull-right">
-                    <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
-                </div>
+                <h3 class="panel-title">Relatório de Contas a Receber <?php If($sit == 'N') { echo "( A Receber )"; } elseif ($sit == 'S') {echo "( Recebidos )";} else {echo "( Ambos )";} ?></h3>
             </div>
             <table class="table">
                 <thead>
                     <tr class="filters">
                       
-                         <th><input type="text" class="form-control" placeholder="Aluno" disabled></th>
-                         <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="descricão" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Aluno" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Descricão" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Valor" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Pago?" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Vencimento" disabled></th>
                        
                     </tr>
@@ -42,13 +47,9 @@
             
       ?> 
                         
-                        
-                        
                         <td><?php echo $ras['aluno'];?></td>
-                        <td><?php echo $ras['nome'];?></td>
-                        <td><?php echo $ras['descricao'];?></td>
-                        <td><?php echo $ras['valor']; ?></td>
-                        <td><?php if($ras['pago'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
+                        <td><?php echo $ras['descricao']; ?></td>
+                        <td><?php echo $ras['valor'];?></td>
                         <td><?php echo date('d/m/Y', strtotime($ras['vencimento'])); ?></td>
                       
                     
@@ -60,11 +61,10 @@
             ?>
                 
                 </tbody>
-            </table>
-           
-                </div>
-             </fieldset>
+            </table></div>
+           <button type="button"  name="imprimir" class="btn btn-default" onclick="window.print()">Imprimir</button>
+        </fieldset>
     </div>
 </div>
-            </body>
+</body>
 </html>
