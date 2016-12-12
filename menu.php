@@ -128,7 +128,7 @@
                 <li class="divider"></li>
                 <li><a href="relatorio_fornecedor.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
                 <li class="divider"></li>
-                <li><a href="relatorio_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
+                <li><a href="tela_par_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
                 <li class="divider"></li>
                 <li><a href="relatorio_funcionarios.php">Funcionarios<span style="font-size:16px;"></span></a></li> 
                 <li class="divider"></li>

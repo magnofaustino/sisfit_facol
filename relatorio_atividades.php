@@ -1,8 +1,18 @@
 <?php
     
-     include ("conexao.php");   
+    include ("conexao.php");   
 
-    $result = "select *from atividades";
+    $dtini = $_GET['dtini'];
+    $dtfim = $_GET['dtfim'];
+    $atividade = $_GET['atividade'];
+    
+    $result = "select * from atividades where dtini between '$dtini' and '$dtfim' ";
+    
+    If($atividade == 'N') {
+    $result .= " and atvtemp = 'N'"; } 
+    elseif ($atividade == 'S') {
+    $result .= " and atvtemp = 'S'";}
+   
     $resultado = mysqli_query($conn, $result);
  ?>
 <html>
@@ -16,7 +26,7 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Relatorio de Atividades</h3>
+                <h3 class="panel-title">Relatorio de Atividades <?php If($atividade == 'N') { echo "( Fixas )"; } elseif ($atividade == 'S') {echo "( Temporárias )";} else {echo "( Ambas )";} ?></h3>
                 <div class="pull-right">
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
@@ -43,8 +53,8 @@
                         <td><?php echo $ras['atividade'];?></td>
                         <td><?php echo $ras['valor']; ?></td>
                         <td><?php echo $ras['duracao_aula']; ?></td>
-                         <td><?php echo $ras['dtini']; ?></td>
-                        <td><?php echo $ras['dtfim']; ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['dtini'])); ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['dtfim'])); ?></td>
                     
                     </tr>
                     
