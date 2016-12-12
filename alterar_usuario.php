@@ -3,17 +3,17 @@ include ("conexao.php");
 
 $id = $_GET['tx'];
 
-$result = "select * from usuarios where id = $id";
+$result = "select * from usuario where id = $id";
 
       $resultadobusca = mysqli_query($conn, $result);
         while($ras = mysqli_fetch_array($resultadobusca)){
     
-           $usuario = $ras['usuario'];
+           $login = $ras['login'];
            $nome = $ras['nome'];
            $senha = $ras['senha'];
            $contrasenha = $ras['contrasenha'];
            $email = $ras['email'];
-           $bloqueado = $ras['bloqueado'];
+           $usuario = $ras['usuario'];
               
 
 }
@@ -36,11 +36,11 @@ $result = "select * from usuarios where id = $id";
                 <div class="panel-body">  
                 <div class="input-group">
                     <span class="input-group-addon">Usuario:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Usuario" required name="nome_1"  value="<?php echo $usuario; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Usuario" required name="nome_1"  value="<?php echo $login; ?>" >
                 </div><br>
                 <div class="input-group">
                     <span class="input-group-addon">Nome Completo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2"  value="<?php echo $nome; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_2"  value="<?php echo $nome; ?>" >
                 </div><br>
 		<div class="form-inline">
                 <div class="form-group">
@@ -60,15 +60,17 @@ $result = "select * from usuarios where id = $id";
                     <span class="input-group-addon">E-mail:</span>
                     <input type="email" class="form-control" title="Preencha o campo E-mail" required name="nome_5" value="<?php echo $email; ?>">
                 </div>
-                <div class="form-group">
-                         <div class="input-group">
-                         <span class="input-group-addon">Bloqueado:</span>
-                         <select class="form-control" name="Nome_6" value="<?php echo $bloqueado; ?>">
-                         <option value="">Selecione ...</option>
-                         <option value="S">Sim</option>
-                         <option value="N">Não</option>
-                        </select>
-                </div></div>
+              
+                  <div class="form-inline">
+                    <div class="input-group">
+                    <span class="input-group-addon">Permissão:</span>
+                        <label class="form-control">  
+                        <input type="radio" name="usuario" value="1" <?php if($usuario == "1") echo "checked" ?>>  Gerente
+                        <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Pesonal
+                             <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Atendente
+                        </label>
+                    </div>
+                    
                 </div></div><br><br>
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
