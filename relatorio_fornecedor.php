@@ -1,9 +1,19 @@
 <?php
-    
-     include ("conexao.php");   
 
-    $result = "select *from fornecedor";
+    include ("conexao.php"); 
+
+    $tipo = $_GET['tipo'];
+
+    $result = "select *from fornecedor ";
+    
+    If($tipo == 'J') {
+    $result .= " where tipo = 'J' "; } 
+    elseif ($tipo == 'F') {
+    $result .= " where tipo = 'F' ";}
+   
+    
     $resultado = mysqli_query($conn, $result);
+        
  ?>
 <html>
 	<head>
@@ -16,7 +26,7 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Relatorio de Fornecedores</h3>
+                <h3 class="panel-title">Relatorio de Fornecedores <?php If($tipo == 'J') { echo "( P.Juridica )"; } elseif ($tipo == 'F') {echo "( P.Fisica )";} ?></h3>
                 <div class="pull-right">
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>

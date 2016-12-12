@@ -126,7 +126,7 @@
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="relatorio_aluno.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
-                <li><a href="relatorio_fornecedor.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
+                <li><a href="tela_par_fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
                 <li class="divider"></li>
                 <li><a href="tela_par_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
                 <li class="divider"></li>
