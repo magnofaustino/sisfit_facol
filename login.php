@@ -1,44 +1,36 @@
-<?php
-
-include "conexao.php";
-
-$login = $_POST['login'];
-$senha = $_POST['senha'];
-
-$sql = mysqli_query($conn, "SELECT * FROM usuarios WHERE usuario = '$login'");    
+<?php 
+  $login = $_POST['login'];
+  $entrar = $_POST['entrar'];
+  $senha = md5($_POST['senha']);
 
 
-while($linha = mysqli_fetch_array($sql))
-{
-    $senha_db = $linha['senha'];
-    $login_db = $linha['usuario'];
-}
+  //$connect = mysql_connect('localhost','root','sos101os');
+  //$db = mysql_select_db('seila');
 
-$cont = mysqli_num_rows($sql);
+$conn = mysqli_connect('localhost', 'root', 'sos101os', 'seila');
 
-if($login_db != $login || $login == "")
-{       
-    
-    echo "<meta http-equiv='refresh' content='0; url=login.html'>
-    <script type='text/javascript'>alert('Usuario ou Senha Incorreto')</script>";   
-    sleep(3);
-}
-else
-{
-    if($senha_db != $senha )
-    {
-       
-        echo "<meta http-equiv='refresh' content='0; url=login.html'>
-        <script type='text/javascript'>alert('Usuario ou Senha Incorreto')</script>";  
-          sleep(2);
+$sql=("SELECT * FROM usuarios WHERE login = '$login' AND senha = '$senha'") or die("erro ao selecionar");
+
+    if (isset($entrar)) {
+            
+      if($verifica = mysqli_query($conn, $sql)){
+        
+		
+		if (mysqli_num_rows($verifica)<=0){
+          echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location.href='login.html';</script>";
+          die();
+			
+			
+        }else{
+			
+			
+          setcookie("login",$login);
+          header("Location:home.php");
+        
+		
+		}
+		
+		
     }
-    else
-    {
-        ("Location: home.php ");
-        sleep(2);
-    }
-}
-
-mysqli_close($conn);
-
+	}
 ?>
