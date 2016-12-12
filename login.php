@@ -23,14 +23,28 @@ $sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or di
 			
         }else{
 			
-			
-          setcookie("login",$login);
-          header("Location:home.php");
-        
 		
+       		($ras = mysqli_fetch_array($verifica));
+			$usuario = $ras['senha'];
+			
+			if($senha == 'da64c7daf16c4687b0b8686147448223 '){
+				
+         
+          header("Location:home_atendente.php");
+				
+			}else {
+					
+                if($usuario == 'seila'){
+				 header("Location:home.php");	
+        
+		}
+                
+            }
+        
+        }
 		}
 		
-		
     }
-	}
+    
+	
 ?>
