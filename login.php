@@ -20,7 +20,7 @@ if($login_db != $login || $login == "")
 {       
     
     echo "<meta http-equiv='refresh' content='0; url=login.html'>
-    <script type='text/javascript'>alert('Este usuario não existe')</script>";   
+    <script type='text/javascript'>alert('Usuario ou Senha Incorreto')</script>";   
     sleep(3);
 }
 else
@@ -29,17 +29,13 @@ else
     {
        
         echo "<meta http-equiv='refresh' content='0; url=login.html'>
-        <script type='text/javascript'>alert('Senha incorreta')</script>";  
+        <script type='text/javascript'>alert('Usuario ou Senha Incorreto')</script>";  
           sleep(2);
     }
     else
     {
-        
-
-      
-
+        ("Location: home.php ");
         sleep(2);
-("Location: home.php ");
     }
 }
 
