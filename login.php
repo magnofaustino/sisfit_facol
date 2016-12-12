@@ -20,31 +20,22 @@ $sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or di
           echo"<script language='javascript' type='text/javascript'>alert('Login e/ou senha incorretos');window.location.href='login.html';</script>";
           die();
 			
+			 }else{
+			($ras = mysqli_fetch_array($verifica));
+			$usuario = $ras['usuario'];
 			
-        }else{
-			
-		
-       		($ras = mysqli_fetch_array($verifica));
-			$usuario = $ras['senha'];
-			
-			if($senha == 'da64c7daf16c4687b0b8686147448223 '){
+			if($usuario == 1){
 				
-         
           header("Location:home_atendente.php");
 				
-			}else {
-					
-                if($usuario == 'seila'){
+			}else if($usuario == 3){
+              
 				 header("Location:home.php");	
         
+	  }
+     }
 		}
-                
-            }
-        
-        }
 		}
-		
-    }
     
 	
 ?>
