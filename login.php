@@ -9,7 +9,7 @@
 
 $conn = mysqli_connect('localhost', 'root', 'sos101os', 'sisfit');
 
-$sql=("SELECT * FROM usuarios WHERE usuario = '$login' AND senha = '$senha'") or die("erro ao selecionar");
+$sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or die("erro ao selecionar");
 
     if (isset($entrar)) {
             
