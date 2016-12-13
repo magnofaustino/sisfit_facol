@@ -1,6 +1,6 @@
 <?php
     $id = $_GET['tx'];
-     include ("conexao.php");
+     include ("conexao_atendente.php");
     
 
 

@@ -1,6 +1,6 @@
 <?php
     
-     include ("conexao.php");   
+     include ("conexao_atendente.php");   
    
     $result = "select * from funcionario";
     $resultado = mysqli_query($conn, $result);

@@ -96,9 +96,9 @@ $nome_usuario = $_COOKIE['nome'];
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="c_a_a.php">Alunos</a></li>
                 <li class="divider"></li>
-                <li ><a href="fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
+                <li ><a href="fornecedor_atendente.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="f_v_a.php">Funcionarios<span style="font-size:16px;"></span></a></li>        
+                <li ><a href="f_v_a.php">Funcionários<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
                 <li ><a href="personal.php">Personal<span style="font-size:16px;"></span></a></li>        
               </ul>

@@ -1,5 +1,5 @@
 <?php
-     include ("conexao.php");
+     include ("conexao_atendente.php");
 
 
     $result = "select * from tb_aluno";
