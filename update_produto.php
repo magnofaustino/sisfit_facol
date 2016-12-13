@@ -27,7 +27,7 @@ $sql = "UPDATE produtos SET nome='$nome', des ='$cpf', vcusto = '$rg', vvenda = 
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Produto Atualizado com Sucesso";
+     echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='produto.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

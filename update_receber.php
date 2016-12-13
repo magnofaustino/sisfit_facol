@@ -22,7 +22,7 @@ $sql = "UPDATE receber SET aluno = '$nome_1', nome = '$nome_2', descricao = '$no
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Contas a receber atualizado com sucesso!";
+     echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='receber.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

@@ -68,7 +68,8 @@ $sql = "INSERT INTO tb_aluno(nome, cpf, rg, telefone, matricula, est_civil, naci
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+   echo"<script language='javascript' type='text/javascript'>alert('Aluno Cadastrado!');window.location.href='aluno.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

@@ -31,7 +31,7 @@ $sql = "UPDATE perimetros SET nome_aluno='$nome_aluno' ,pescoco='$pescoco' ,ombr
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Perimetros Atualizado com Sucesso";
+    echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='perimetro.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

@@ -41,7 +41,7 @@ $sql = "UPDATE funcionario SET nome='$nome', cpf ='$cpf', rg = '$rg', nascimento
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Cadastro de Funcionario Atualizado com Sucesso";
+ echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo');window.location.href='funcionario.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

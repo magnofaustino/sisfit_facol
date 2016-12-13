@@ -22,7 +22,7 @@ $sql = "UPDATE pagar SET fornecedor = '$nome_1', nome = '$nome_2', descricao = '
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Contas a pagar atualizado com sucesso!";
+    echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='pagar.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

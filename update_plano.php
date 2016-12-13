@@ -19,7 +19,7 @@ $sql = "UPDATE planos SET nome_plano='$nome_plano',atividades_plano ='$atividade
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Plano Atualizado com Sucesso";
+       echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='plano.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

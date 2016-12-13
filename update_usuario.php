@@ -17,7 +17,7 @@ $sql = "UPDATE usuarios SET usuario='$nome_1',nome ='$nome_2',senha = '$nome_3',
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Usuario Atualizado com Sucesso";
+       echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='usuarios.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

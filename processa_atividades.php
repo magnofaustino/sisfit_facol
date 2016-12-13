@@ -28,7 +28,8 @@ $result = mysqli_query($conn,"insert into atividades(atividade, valor, duracao_a
 
 if($result){
 
-echo("Registro inserido com sucesso");
+  echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='atividades.php';</script>";
+          die();
 }
 else{
     echo("Erro ao enserir registro");   

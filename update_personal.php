@@ -33,7 +33,7 @@ $sql = "UPDATE personal SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Personal Atualizado com Sucesso";
+      echo"<script language='javascript' type='text/javascript'>alert('Atulização feita com Successo');window.location.href='personal.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
