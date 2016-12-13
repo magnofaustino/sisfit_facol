@@ -1,6 +1,7 @@
 <?php
 
 include "menu_atendente.php";
+
 ?>
 <html>
 	<head>
