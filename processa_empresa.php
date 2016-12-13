@@ -48,7 +48,8 @@ $sql = "INSERT INTO empresa(razao, nome_fantasia, tipo, cpf_cnpj, insc_estadual,
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+        echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='cadastro_empresa.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

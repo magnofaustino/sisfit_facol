@@ -30,7 +30,8 @@ $sql = "INSERT INTO avaliacao (	n_aluno,obj_atividade,atv_atual,tipo_med,tipo_ci
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+     echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='avaliacoes.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
