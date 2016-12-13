@@ -13,7 +13,7 @@ include "menu_personal.php";
         <fieldset>
         <div class="col-lg-12">
                 <p>
-                    <a href="aluno.php" class="btn btn-sq-lg btn-primary">
+                    <a href="relat_aluno_p.php" class="btn btn-sq-lg btn-primary">
                       <i class="fa fa-user fa-5x"></i><br/>
                     <br>Alunos
                   </a>
@@ -22,7 +22,7 @@ include "menu_personal.php";
                     <i class="fa fa-file fa-5x"></i><br/>
                     Avaliação<br>Física 
                   </a>
-                    <a href="produto.php" class="btn btn-sq-lg btn-danger">
+                    <a href="#" class="btn btn-sq-lg btn-danger">
                     <i class="fa fa-star  fa-5x"></i><br/>
                     Treino<br>Aluno
                   </a>
