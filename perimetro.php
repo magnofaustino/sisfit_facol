@@ -27,6 +27,8 @@
                 <thead>
                     <tr class="filters">
                         <th><input type="text" class="form-control" placeholder="Nome do Aluno" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="                                                   Alterar / Excluir" disabled></th>
+                       
                         </tr>
                 </thead>
                 <tbody>

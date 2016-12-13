@@ -15,15 +15,21 @@ include "menu.php";
             <form action="processa_perimetro.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Perimetros</h4></div>
-                
+                <div class="panel-heading"><h4>Cadastro de Perimetros</h4></div>
                 <div class="panel-body">
                 
-                <div class="input-group">
+               <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
-                <input type="text" class="form-control"  title="Preencha o campo Nome" required name="nome_aluno">
-                      </div><br>
-                
+                   	     <select class="form-control" title="Aluno ja Cadastrado" required name="n_aluno" >
+                             <option value="">Selecione o Aluno ...</option>
+		   	<?php
+						$result_niveis_acessos = "SELECT * FROM tb_aluno";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome']; ?></option> <?php
+						}
+					?>
+                    </select></div><br>
                 
                 <div class="input-group">
                     <span class="input-group-addon">Pescoco:</span>
