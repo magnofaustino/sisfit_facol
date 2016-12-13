@@ -1,3 +1,6 @@
+<?php
+$nome_usuario = $_COOKIE['nome'];
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,7 +31,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-user"></span> 
-                        <strong>Nome Usuario</strong>
+                        <strong>Nome Usuário</strong>
                         <span class="glyphicon glyphicon-chevron-down"></span>
                     </a>
                     <ul class="dropdown-menu">
@@ -41,7 +44,7 @@
                                         </p>
                                     </div>
                                     <div class="col-lg-8">
-                                        <p class="text-left"><strong>Nome do Usuario</strong></p>
+                                        <p class="text-left"><strong><?php echo $nome_usuario ?> </strong></p>
                                         <p class="text-left small">Sisfit@sisfit.com.br</p>
                                         <p class="text-left">
                                             <a href="#" class="btn btn-primary btn-block btn-sm">Atualizar dados do usuario</a>
@@ -91,11 +94,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-pencil"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="aluno.php">Alunos</a></li>
+                <li><a href="c_a_a.php">Alunos</a></li>
                 <li class="divider"></li>
                 <li ><a href="fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="funcionario.php">Funcionarios<span style="font-size:16px;"></span></a></li>        
+                <li ><a href="f_v_a.php">Funcionarios<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
                 <li ><a href="personal.php">Personal<span style="font-size:16px;"></span></a></li>        
               </ul>
