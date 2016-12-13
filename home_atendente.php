@@ -14,21 +14,18 @@ include "menu_atendente.php";
         <fieldset>
         <div class="col-lg-12">
                 <p>
-                    <a href="aluno.php" class="btn btn-sq-lg btn-primary">
-                      <i class="fa fa-user fa-5x"></i><br/>
-                    Cadastro<br>Alunos
+                    <a href="c_a_a.php" class="btn btn-sq-lg btn-primary">
+                      <i class="fa fa-user fa-5x"></i><br/><br>
+                    Alunos
                   </a>
-                    <a href="fornecedores.php" class="btn btn-sq-lg btn-success">
-                    <i class="fa fa-heart fa-5x"></i><br/>
-                    Cadastro<br>Fornecedores
+                    <a href="fornecedor_atendente.php" class="btn btn-sq-lg btn-success">
+                    <i class="fa fa-heart fa-5x"></i><br/><br>Fornecedores
                   </a>
-                    <a href="atividades.php" class="btn btn-sq-lg btn-warning">
-                    <i class="fa fa-file fa-5x"></i><br/>
-                    Cadastro<br>Atividades
+                    <a href="a_atividades.php" class="btn btn-sq-lg btn-warning">
+                    <i class="fa fa-file fa-5x"></i><br/> <br>Atividades
                   </a>
-                    <a href="produto.php" class="btn btn-sq-lg btn-danger">
-                    <i class="fa fa-star  fa-5x"></i><br/>
-                    Cadastro<br>Produtos
+                    <a href="produto_a.php" class="btn btn-sq-lg btn-danger">
+                    <i class="fa fa-star  fa-5x"></i><br/><br>Produtos
                   </a>
                 </p>
         </div>

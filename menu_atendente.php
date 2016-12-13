@@ -125,12 +125,12 @@ $nome_usuario = $_COOKIE['nome'];
            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="relatorio_aluno.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
+                <li><a href="r_a_a.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
                
-                <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
+                <li><a href="r_p_a.php">Produtos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
-                <li><a href="tela_aniversariantes.php">Aniversariantes<span style="font-size:16px;"></span></a></li>
+                <li><a href="a_a.php">Aniversáriantes<span style="font-size:16px;"></span></a></li>
               </ul>
             </li>
             <li class="dropdown">

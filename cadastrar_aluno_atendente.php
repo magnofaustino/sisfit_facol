@@ -44,7 +44,7 @@ include ("conexao_atendente.php");
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
-                    <span class="input-group-addon">Matricula:</span>
+                    <span class="input-group-addon">Matrícula:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="matricula" >
                 </div>
                 <div class="input-group">
@@ -116,7 +116,7 @@ include ("conexao_atendente.php");
                     </div>
                 
                     <div class="input-group">
-                    <span class="input-group-addon">Deficiente:</span>
+                    <span class="input-group-addon">Deficiênte:</span>
                         <label class="form-control">
                       <input type="radio" name="deficiente" value="N" >  Nao
                       <input type="radio" name="deficiente" value="S" >  Sim
@@ -124,14 +124,14 @@ include ("conexao_atendente.php");
                     </div>
                         
                 <div class="input-group">
-                    <span class="input-group-addon">Tipo da deficiencia:</span>
+                    <span class="input-group-addon">Tipo da deficiência:</span>
                     <input type="text" class="form-control" name="obs_deficiente" >
                 </div></div><br>
                
                 <div class="form-inline">
                
                 <div class="input-group">
-                    <span class="input-group-addon">Limitacao Fisica:</span>
+                    <span class="input-group-addon">Limitação Física:</span>
                         <label class="form-control">
                       <input type="radio" name="limitacao" value="N" >  Nao
                       <input type="radio" name="limitacao" value="S" >  Sim
@@ -139,7 +139,7 @@ include ("conexao_atendente.php");
                     </div>
                  
                 <div class="input-group">
-                    <span class="input-group-addon">Tipo da limitacao:</span>
+                    <span class="input-group-addon">Tipo da limitação:</span>
                     <input type="text" class="form-control" name="tipo_lim" >
                 </div></div><br>
                 
@@ -190,7 +190,7 @@ include ("conexao_atendente.php");
                     <input type="text" class="form-control" name="endereco" >
                 </div>
                      <div class="input-group">
-                           <span class="input-group-addon">Numero:</span>
+                           <span class="input-group-addon">Número:</span>
                     <input type="text" class="form-control" name="numero" >
                 </div>
                  
