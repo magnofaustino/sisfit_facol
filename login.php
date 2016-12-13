@@ -28,14 +28,15 @@ $sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or di
 				
           header("Location:home_atendente.php");
 				
-			}else if($usuario == 3){
+			}else if($usuario == 2){
               
-				 header("Location:home.php");	
+				 header("Location:home_personal.php");	
         
-	  }
+	  }else if($usuario == 3){
+                header("Location:home.php");	
      }
 		}
 		}
-    
+    }
 	
 ?>
