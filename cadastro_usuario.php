@@ -52,8 +52,7 @@ include "conexao.php";
                         <option value="0">Nenhum</option>
                         </select>
                       </div></div>
-                </div></div>
-                       <div class="form-group">
+                <div class="form-group">
                          <div class="input-group">
                          <span class="input-group-addon">Bloqueado:</span>
                          <select class="form-control" required name="block">
@@ -62,13 +61,14 @@ include "conexao.php";
                          <option value="N">Não</option>
                        
                         </select>
-                      </div></div>
-                </div></div><br><br>
+                </div></div>
+                </div></div>
+                <br><br>
                     
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="usuario.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="usuarios.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>

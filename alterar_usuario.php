@@ -60,8 +60,6 @@ $result = "select * from usuario where id = $id";
                     <span class="input-group-addon">E-mail:</span>
                     <input type="email" class="form-control" title="Preencha o campo E-mail" required name="nome_5" value="<?php echo $email; ?>">
                 </div>
-              
-                  <div class="form-inline">
                     <div class="input-group">
                     <span class="input-group-addon">Permissão:</span>
                         <label class="form-control">  
@@ -69,9 +67,8 @@ $result = "select * from usuario where id = $id";
                         <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Pesonal
                              <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Atendente
                         </label>
-                    </div>
-                    
-                </div></div><br><br>
+                </div></div><br><br><br>
+                
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
