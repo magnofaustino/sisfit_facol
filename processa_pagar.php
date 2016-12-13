@@ -39,7 +39,8 @@ $sql = "INSERT INTO pagar (fornecedor, nome, descricao, valor, desconto, acresci
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Contas a pagar inserido com sucesso";
+     echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='pagar.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

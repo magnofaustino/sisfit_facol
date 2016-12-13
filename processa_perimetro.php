@@ -52,7 +52,8 @@ $sql = "INSERT INTO perimetros ( nome_aluno ,pescoco ,ombro_esq ,ombro_dir ,brac
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+      echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='perimetro.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

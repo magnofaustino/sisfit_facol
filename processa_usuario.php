@@ -47,7 +47,7 @@ $logarray = $array['usuario'];
     }else{
       if($logarray == $login){
 
-        echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='cadastro_usuario.php';</script>";
+        echo"<script language='javascript' type='text/javascript'>alert('Esse login já existe');window.location.href='usuarios.php';</script>";
         die();
 
       }else{

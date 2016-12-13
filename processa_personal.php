@@ -64,7 +64,8 @@ $sql = "INSERT INTO personal(nome, cpf, rg, telefone, estadocivil, nacionalidade
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "New records created successfully";
+   echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='personal.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }

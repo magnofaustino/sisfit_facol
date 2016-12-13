@@ -45,7 +45,8 @@ $sql = "INSERT INTO produtos(nome, des, vcusto, vvenda, umedida, qproduto, grupo
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Produto Cadastrado";
+     echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='produto.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
