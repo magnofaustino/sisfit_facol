@@ -98,8 +98,7 @@ $nome_usuario = $_COOKIE['nome'];
                 <li class="divider"></li>
                 <li ><a href="fornecedor_atendente.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="f_v_a.php">Funcionários<span style="font-size:16px;"></span></a></li>        
-                <li class="divider"></li>
+              
                 <li ><a href="t_p_a.php">Personal<span style="font-size:16px;"></span></a></li>        
               </ul>
             </li>
@@ -114,14 +113,7 @@ $nome_usuario = $_COOKIE['nome'];
                 
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="contas_pagar_atendente.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
-                <li class="divider"></li>
-                <li><a href="c_r_a.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
-              </ul>
-            </li>
+       
            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
