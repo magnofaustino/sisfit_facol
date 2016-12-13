@@ -26,7 +26,6 @@ $bolsa=$_POST['bolsa'];
 $tipo_bolsa= $_POST['tipo_bolsa'];
 $horario = $_POST['horario']; 
 $dt_cadastro =$_POST['dt_cadastro'];
-
 $endereco = $_POST['endereco'];
 $numero= $_POST['numero']; 
 $bairro =$_POST['bairro'];

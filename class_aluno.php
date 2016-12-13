@@ -21,7 +21,6 @@ public $bolsa;
 public $tipo_bolsa;
 public $horario;
 public $dt_cadastro;
-    
 public $endereco;
 public $numero;
 public $bairro;

@@ -152,16 +152,16 @@ $result = "select * from tb_aluno where id = $id";
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">  
-                        <input type="radio" name="sexo" value="M" <?php if($sexo == "  M") echo "checked" ?>>  Masculino
-                        <input type="radio" name="sexo" value="F" <?php if($sexo == "  F") echo "checked" ?>>  Feminino
+                        <input type="radio" name="sexo" value="M" <?php if($sexo == "M") echo "checked" ?>>  Masculino
+                        <input type="radio" name="sexo" value="F" <?php if($sexo == "F") echo "checked" ?>>  Feminino
                         </label>
                     </div>
                 
                     <div class="input-group">
                     <span class="input-group-addon">Deficiente:</span>
                         <label class="form-control">
-                      <input type="radio" name="deficiente" value="  N" <?php if($deficiente == "  N") echo "checked" ?>>  Nao
-                      <input type="radio" name="deficiente" value="  S" <?php if($deficiente == "  S") echo "checked" ?>>  Sim
+                      <input type="radio" name="deficiente" value="N" <?php if($deficiente == "N") echo "checked" ?>>  Nao
+                      <input type="radio" name="deficiente" value="S" <?php if($deficiente == "S") echo "checked" ?>>  Sim
                         </label>
                     </div>
                 
@@ -193,8 +193,16 @@ $result = "select * from tb_aluno where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
-                    <input type="text" class="form-control" name="plano" value="<?php echo $plano; ?>">
-                </div>
+                    <select class="form-control" name="plano" value ="<?php echo $plano;?>
+                    <option value="">Selecione ...</option>
+		   	<?php
+						$result_niveis_acessos = "SELECT * FROM planos";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome_plano']; ?></option> <?php
+						}
+					?>
+                    </select></div><br>                </div>
                 <div class="input-group">
                     <span class="input-group-addon">Bolsa:</span>
                     <input type="text" class="form-control" name="bolsa" value="<?php echo $bolsa; ?>">

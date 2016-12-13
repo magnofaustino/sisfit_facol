@@ -23,14 +23,13 @@ $bolsa=$_POST['bolsa'];
 $tipo_bolsa= $_POST['tipo_bolsa'];
 $horario = $_POST['horario']; 
 $dt_cadastro =$_POST['dt_cadastro'];
-
 $endereco = $_POST['endereco'];
 $numero= $_POST['numero']; 
 $bairro =$_POST['bairro'];
 $cep = $_POST['cep'];
 $orgao_emissor = $_POST['orgao_amissor']; 
-$limitacao =$_POST ['limitacao'];
-$tipo_lim =$_POST ['tipo_lim'];
+$limitacao = $_POST ['limitacao'];
+$tipo_lim = $_POST ['tipo_lim'];
 
 $sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$telefone', matricula = '$matricula', est_civil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', uf_natur = '$ufnaturalidade', dt_nasc = '$nascimento', sexo = '$sexo', deficiente = '$deficiente', obs_def = '$obs_deficiente', email = '$email', plano = '$plano', bolsa = '$bolsa', tipo_bolsa = '$tipo_bolsa', h_treino = '$horario', dt_cadastro = '$dt_cadastro', rua = '$endereco', numero = '$numero', bairro = '$bairro', cep = '$cep', orgao_emissor = '$orgao_emissor',limitacao='$limitacao', tipo_lim='$tipo_lim' WHERE id= $id";
 

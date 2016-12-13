@@ -43,15 +43,23 @@ $result = "select * from planos where id = $id";
 		            
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_plano" value="<?php echo $nome_plano; ?>">
                    
+                   
            </div><br>
                
                 <div class="form-group">   
                 <div class="input-group">
-             <span class="input-group-addon">Atividade:</span>
-		     <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividades_plano" value="<?php echo $atividades_plano; ?>">
-
-		     </div><br>
-            
+              <span class="input-group-addon">Atividade:</span>
+                      <select class="form-control" title="Preencha o campo Nome" required name="atividades_plano" >
+		   	<option value=""> Selecione o Plano</option>
+                          <?php
+						$result_niveis_acessos = "SELECT * FROM atividades";
+						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
+						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
+							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['atividade']; ?></option> <?php
+						}
+					?>
+                    </select></div><br>
+                      
                 <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
