@@ -1,6 +1,6 @@
 <?php
     
-     include ("conexao.php");   
+     include ("conexao_personal.php");   
     
     $result = "select * from avaliacao";
     $resultado = mysqli_query($conn, $result);
@@ -29,6 +29,7 @@
                         <th><input type="text" class="form-control" placeholder="Nome do Aluno" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Atividade Atual" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Observação da Avaliação" disabled></th>
+                         <th><input type="text" class="form-control" placeholder="Alterar" disabled></th>
                         </tr>
                 </thead>
                 <tbody>
@@ -45,7 +46,7 @@
                         
 <td class="text-center"><a href="alt_av_per.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
     
-<a href="del_avaliacao.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+
                     </tr>
                     
                     <?php

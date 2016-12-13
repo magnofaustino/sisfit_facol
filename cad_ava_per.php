@@ -1,7 +1,7 @@
 <?php
 
 
-include "conexao_personal.php";
+include ("conexao_personal.php");
 ?>
 <html>
 	<head>
@@ -12,10 +12,10 @@ include "conexao_personal.php";
                 
             <div class="container">
             <div class="row">
-            <form action="processa_avaliacao.php" method="POST" >
+            <form action="pro_av_per.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Cadastro de Avaliação Fisica</h4></div>
+                <div class="panel-heading"><h4>Cadastro de Avaliação Física</h4></div>
                 <div class="panel-body">
                 
                 <div class="input-group">
@@ -47,13 +47,13 @@ include "conexao_personal.php";
                     </div><br>
                     
                     <div class="input-group">
-                    <span class="input-group-addon">Ja passou por alguma cirurgia?:</span>
+                    <span class="input-group-addon">Ja fez alguma cirurgia?:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_cirg">
                     </div><br>
                     
                 
                 <div class="input-group">
-                <span class="input-group-addon">Doenças na família?:</span>
+                <span class="input-group-addon">Doencas na família?:</span>
                 <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_doenca">
                 </div><br>
                 
@@ -68,7 +68,7 @@ include "conexao_personal.php";
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="avaliacoes.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="av_per.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>

@@ -35,7 +35,7 @@ $result = "select * from avaliacao where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_avaliacao.php" method="POST" >
+            <form action="a_u_p.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Avaliação Física</h4></div>
@@ -49,7 +49,7 @@ $result = "select * from avaliacao where id = $id";
                         
                     <div class="input-group">
                     <span class="input-group-addon">Objetivos com relação a atividades físicas:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade" value="<?php echo $obj_atividade; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="obj_atividade" value="<?php echo $obj_atividade; ?>">
                       </div><br>
 
                     <div class="input-group">
@@ -63,7 +63,7 @@ $result = "select * from avaliacao where id = $id";
                     </div><br>
                     
                     <div class="input-group">
-                    <span class="input-group-addon">Ja passou por alguma cirurgia?:</span>
+                    <span class="input-group-addon">Ja fez alguma cirurgia?:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="tipo_cirg" value="<?php echo $tipo_cirg; ?>">
                     </div><br>
                     
@@ -74,7 +74,7 @@ $result = "select * from avaliacao where id = $id";
                 </div><br>
                 
                     <div class="input-group">
-                    <span class="input-group-addon">Observacoes:</span>
+                    <span class="input-group-addon">Observações:</span>
                     <input type="text" class="form-control" title="Preencha o campo Nome" required name="obs_aval" value="<?php echo $obs_aval; ?>">
                 </div>
                 
@@ -84,7 +84,7 @@ $result = "select * from avaliacao where id = $id";
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                    <a href="avaliacoes.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                    <a href="av_per.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>
