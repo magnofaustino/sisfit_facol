@@ -100,7 +100,7 @@ $nome_usuario = $_COOKIE['nome'];
                 <li class="divider"></li>
                 <li ><a href="f_v_a.php">Funcionários<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="personal.php">Personal<span style="font-size:16px;"></span></a></li>        
+                <li ><a href="t_p_a.php">Personal<span style="font-size:16px;"></span></a></li>        
               </ul>
             </li>
             <li class="dropdown">
@@ -119,7 +119,7 @@ $nome_usuario = $_COOKIE['nome'];
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="pagar.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
+                <li><a href="contas_pagar_atendente.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
                 <li><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
               </ul>
@@ -154,13 +154,9 @@ $nome_usuario = $_COOKIE['nome'];
                 <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
               </ul>
             </li>            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configurações<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                  <li><a href="cadastro_empresa.php">Empresa</a></li>
-                <li class="divider"></li>
-                <li><a href="usuarios.php">Usuarios</a></li>
-                <li class="divider"></li>
+          
+             
+               
                 <li><a href="#">Build</a></li>
               </ul>
             </li>
