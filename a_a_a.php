@@ -55,7 +55,7 @@ $result = "select * from tb_aluno where id = $id";
              
             <div class="container">
             <div class="row">
-                <form action="update_aluno.php" method="POST" >
+                <form action="up_alu_at.php" method="POST" >
             <fieldset>
                 
                 <div class="panel panel-primary">
@@ -88,7 +88,7 @@ $result = "select * from tb_aluno where id = $id";
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
-                    <span class="input-group-addon">Matricula:</span>
+                    <span class="input-group-addon">Matrícula:</span>
                     <input type="text" class="form-control" name="matricula" value="<?php echo $matricula; ?>">
                 </div>
                 <div class="input-group">
@@ -159,7 +159,7 @@ $result = "select * from tb_aluno where id = $id";
                     </div>
                 
                     <div class="input-group">
-                    <span class="input-group-addon">Deficiente:</span>
+                    <span class="input-group-addon">Deficiênte:</span>
                         <label class="form-control">
                       <input type="radio" name="deficiente" value="  N" <?php if($deficiente == "  N") echo "checked" ?>>  Nao
                       <input type="radio" name="deficiente" value="  S" <?php if($deficiente == "  S") echo "checked" ?>>  Sim
@@ -167,12 +167,12 @@ $result = "select * from tb_aluno where id = $id";
                     </div>
                 
                 <div class="input-group">
-                    <span class="input-group-addon">Tipo da deficiencia:</span>
+                    <span class="input-group-addon">Tipo da deficiência:</span>
                     <input type="text" class="form-control" name="obs_deficiente" value="<?php echo $obs_deficiente; ?>">
                 </div><br><br>
                 
                 <div class="input-group">
-                    <span class="input-group-addon">Limitacao Fisica:</span>
+                    <span class="input-group-addon">Limitação Física:</span>
                       <label class="form-control">
                       <input type="radio" name="limitacao" value="  N" <?php if($limitacao == "  N") echo "checked" ?>>  Nao
                       <input type="radio" name="limitacao" value="  S" <?php if($limitacao == "  S") echo "checked" ?>>  Sim
@@ -180,7 +180,7 @@ $result = "select * from tb_aluno where id = $id";
                     </div>
                 
                 <div class="input-group">
-                    <span class="input-group-addon">Tipo da limitacao:</span>
+                    <span class="input-group-addon">Tipo da limitação:</span>
                     <input type="text" class="form-control" name="tipo_lim" value="<?php echo $tipo_lim; ?>">
                 </div><br><br>
                 
@@ -222,7 +222,7 @@ $result = "select * from tb_aluno where id = $id";
                     <input type="text" class="form-control" name="endereco" value="<?php echo $rua; ?>">
                 </div>
                 <div class="input-group">
-                    <span class="input-group-addon">Numero:</span>
+                    <span class="input-group-addon">Número:</span>
                     <input type="text" class="form-control" name="numero" value="<?php echo $numero; ?>">
                 </div>
                  
