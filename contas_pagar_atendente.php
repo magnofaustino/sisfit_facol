@@ -21,7 +21,7 @@
             <div class="panel-heading">
                 <h3 class="panel-title">Contas a Pagar</h3>
                 <div class="pull-right">
-                    <a href="cadastro_pagar.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
+                 
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
             </div>

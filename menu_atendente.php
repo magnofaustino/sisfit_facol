@@ -121,7 +121,7 @@ $nome_usuario = $_COOKIE['nome'];
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="contas_pagar_atendente.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
-                <li><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
+                <li><a href="c_r_a.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
               </ul>
             </li>
            <li class="dropdown">
@@ -151,7 +151,7 @@ $nome_usuario = $_COOKIE['nome'];
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Loja<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
+                <li ><a href="produto_a.php">Produtos<span style="font-size:16px;"></span></a></li>                            
               </ul>
             </li>            
           

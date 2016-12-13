@@ -1,8 +1,6 @@
-<?php
+   <?php 
      include ("conexao_atendente.php");
-
-
-    $result = "select * from tb_aluno";
+    $result = "select * from receber";
     $resultado = mysqli_query($conn, $result);
  ?>
     
@@ -10,7 +8,7 @@
 
 <html>
 	<head>
-		<title>Alunos</title>
+		<title>Contas a Receber</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -19,9 +17,9 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Alunos</h3>
+                <h3 class="panel-title">Contas a Receber</h3>
                 <div class="pull-right">
-                    <a href="cadastrar_aluno_atendente.php" class="btn btn-warning btn-sm" role="button">Incluir</a>
+                   
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>
                 </div>
             </div>
@@ -29,10 +27,11 @@
                 <thead>
                     <tr class="filters">
                         <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Cpf" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Identidade" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Telefone" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Valor" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Pago" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Vencimento" disabled></th>
+                      
+                      
                     </tr>
                 </thead>
                 <tbody>
@@ -43,12 +42,11 @@
             
       ?> 
                         <td><?php echo $ras['nome'];?></td>
-                        <td><?php echo $ras['cpf']; ?></td>
-                        <td><?php echo $ras['rg']; ?></td>
-                        <td><?php echo $ras['telefone']; ?></td>
+                        <td><?php echo $ras['valor']; ?></td>
+                        <td><?php if($ras['pago'] == "S") {echo "Sim"; } Else { echo "Não";}; ?></td>
+                        <td><?php echo date('d/m/Y', strtotime($ras['vencimento'])); ?></td>
+                      
                         
-<td class="text-center"><a href="a_a_a.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
-    
 
                     </tr>
                     
