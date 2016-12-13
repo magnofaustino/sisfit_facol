@@ -18,7 +18,8 @@ $sql = "UPDATE avaliacao SET obj_atividade='$obj_atividade',atv_atual='$atv_atua
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Avaliação Atualizada com Sucesso";
+    echo"<script language='javascript' type='text/javascript'>alert('Cadastro Feito con Successo');window.location.href='av_per.php';</script>";
+          die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
