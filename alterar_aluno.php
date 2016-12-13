@@ -33,6 +33,7 @@ $result = "select * from tb_aluno where id = $id";
               $orgao_emissor = $ras['orgao_emissor'];
               $limitacao=$ras['limitacao'];
               $tipo_lim =$ras['tipo_lim'];
+              $situacao =$ras['situacao'];
      
           
           }
@@ -277,6 +278,15 @@ $result = "select * from tb_aluno where id = $id";
                          <option value="Tocantins">Tocantins</option>
                         </select>
                       </div></div>
+                    <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Situação:</span>
+                         <select class="form-control" name="situacao"  >
+                         <option value="<?php echo  $situacao ?>"><?php echo  $situacao ?></option>
+                         <option value="Acre">Ativo</option>
+                         <option value="Alagoas">Trancado</option>
+                        </select>
+                    </div></div>
                 </div></div><br>
                 <br><br>
                 

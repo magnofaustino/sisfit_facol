@@ -236,6 +236,14 @@ include ("conexao.php");
                          <option value="Tocantins">Tocantins</option>
                         </select>
                       </div></div>
+                <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Situação:</span>
+                         <select class="form-control" name="situacao"  >
+                         <option value="Acre">Ativo</option>
+                         <option value="Alagoas">Trancado</option>
+                        </select>
+                      </div></div>
                 </div></div><br>
                 <br><br>
                 
