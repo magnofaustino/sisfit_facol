@@ -34,7 +34,10 @@ $sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or di
         
 	  }else if($usuario == 3){
                 header("Location:home.php");	
-     }
+     }else{
+                  echo"<script language='javascript' type='text/javascript'>alert('Você não tem permissão para acessar esse sistema!');window.location.href='login.html';</script>";
+          die();
+            }
 		}
 		}
     }

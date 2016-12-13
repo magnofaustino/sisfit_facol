@@ -49,6 +49,7 @@ include "conexao.php";
                          <option value="3">Gerente</option>
                          <option value="2">Personal</option>
                          <option value="1">Atendente</option>
+                        <option value="0">Nenhum</option>
                         </select>
                       </div></div>
                 </div></div>
