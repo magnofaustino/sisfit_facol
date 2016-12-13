@@ -23,6 +23,7 @@ $sql=("SELECT * FROM usuario WHERE login = '$login' AND senha = '$senha'") or di
 			 }else{
 			($ras = mysqli_fetch_array($verifica));
 			$usuario = $ras['usuario'];
+            $nome = $ras['nome'];
 			
 			if($usuario == 1){
 				
