@@ -106,13 +106,11 @@ $nome_usuario = $_COOKIE['nome'];
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academia<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flash"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
+                <li ><a href="a_atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
-                <li ><a href="plano.php">Planos<span style="font-size:16px;"></span></a></li>
+                <li ><a href="a_p_a.php">Planos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
-                <li ><a href="avaliacoes.php">Avaliacao<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li ><a href="perimetro.php">Perimetro<span style="font-size:16px;"></span></a></li>
+                
                 
               </ul>
             </li>
@@ -129,20 +127,7 @@ $nome_usuario = $_COOKIE['nome'];
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="relatorio_aluno.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
-                <li><a href="tela_par_fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="tela_par_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_funcionarios.php">Funcionarios<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_personal.php">Personal<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_planos.php">Planos<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="tela_par_receber.php">Cont. a Receber<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li><a href="tela_par_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
+               
                 <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li><a href="tela_aniversariantes.php">Aniversariantes<span style="font-size:16px;"></span></a></li>

@@ -242,7 +242,7 @@ include ("conexao_atendente.php");
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="aluno.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="c_a_a.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div></div>
             </fieldset>
