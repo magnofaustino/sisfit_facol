@@ -27,7 +27,7 @@ $result = "select * from atividades where id = $id";
                 
             <div class="container">
             <div class="row">
-            <form action="update_atividades.php" method="POST" >
+            <form action="a_u_a.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Alterar Atividades</h4></div>
@@ -41,7 +41,7 @@ $result = "select * from atividades where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">

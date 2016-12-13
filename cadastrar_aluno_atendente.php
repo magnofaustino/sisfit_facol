@@ -11,7 +11,7 @@ include ("conexao_atendente.php");
              
             <div class="container">
             <div class="row">
-                <form action="processa_aluno.php" method="POST" >
+                <form action="p_a_a.php" method="POST" >
             <fieldset>
                 
                 <div class="panel panel-primary">
