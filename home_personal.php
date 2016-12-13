@@ -15,19 +15,16 @@ include "menu_personal.php";
                 <p>
                     <a href="aluno.php" class="btn btn-sq-lg btn-primary">
                       <i class="fa fa-user fa-5x"></i><br/>
-                    Cadastro<br>Alunos
+                    <br>Alunos
                   </a>
-                    <a href="fornecedores.php" class="btn btn-sq-lg btn-success">
-                    <i class="fa fa-heart fa-5x"></i><br/>
-                    Cadastro<br>Fornecedores
-                  </a>
-                    <a href="atividades.php" class="btn btn-sq-lg btn-warning">
+                
+                    <a href="av_per.php" class="btn btn-sq-lg btn-warning">
                     <i class="fa fa-file fa-5x"></i><br/>
-                    Cadastro<br>Atividades
+                    Avaliação<br>Física 
                   </a>
                     <a href="produto.php" class="btn btn-sq-lg btn-danger">
                     <i class="fa fa-star  fa-5x"></i><br/>
-                    Cadastro<br>Produtos
+                    Treino<br>Aluno
                   </a>
                 </p>
         </div>

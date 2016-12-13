@@ -80,7 +80,7 @@
         <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
-            <span class="sr-only">Menu de navegação</span>
+            <span class="sr-only">Menu de Personal</span>
             <span class="icon-bar"></span>
 
           </button>      
@@ -88,79 +88,21 @@
         <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="home_atendente.php">Início<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cadastros<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-pencil"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="aluno.php">Alunos</a></li>
-                <li class="divider"></li>
-                <li ><a href="fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li>        
-                <li class="divider"></li>
-                <li ><a href="funcionario.php">Funcionarios<span style="font-size:16px;"></span></a></li>        
-                <li class="divider"></li>
-                <li ><a href="personal.php">Personal<span style="font-size:16px;"></span></a></li>        
-              </ul>
-            </li>
+      
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Academia<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-flash"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
-                <li class="divider"></li>
-                <li ><a href="plano.php">Planos<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li ><a href="avaliacoes.php">Avaliacão<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li ><a href="perimetro.php">Perímetro<span style="font-size:16px;"></span></a></li>
+                 
+               
+                <li ><a href="av_per.php">Avaliação Física<span style="font-size:16px;"></span></a></li>
+                
                 
               </ul>
             </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Financeiro<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-usd"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="pagar.php">Contas a pagar<span style="font-size:16px;" class=""></span></a></li>       
-                <li class="divider"></li>
-                <li><a href="receber.php">Contas a Receber<span style="font-size:16px;"></span></a></li>                
-              </ul>
-            </li>
-           <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Relatórios<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list-alt"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                <li><a href="relatorio_aluno.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
-                <li class="divider"></li>
-                <li><a href="tela_par_fornecedores.php">Fornecedores<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="tela_par_atividades.php">Atividades<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_funcionarios.php">Funcionarios<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_personal.php">Personal<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="relatorio_planos.php">Planos<span style="font-size:16px;"></span></a></li> 
-                <li class="divider"></li>
-                <li><a href="tela_par_receber.php">Cont. a Receber<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li><a href="tela_par_pagar.php">Cont. a Pagar<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li><a href="relatorio_produtos.php">Produtos<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li><a href="tela_aniversariantes.php">Aniversariantes<span style="font-size:16px;"></span></a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Loja<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
-              </ul>
-            </li>            
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configurações<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
-              <ul class="dropdown-menu forAnimate" role="menu">
-                  <li><a href="cadastro_empresa.php">Empresa</a></li>
-                <li class="divider"></li>
-                <li><a href="usuarios.php">Usuarios</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Build</a></li>
-              </ul>
-            </li>
+        
+       
+                  
+     
           </ul>
         </div>
       </div>
