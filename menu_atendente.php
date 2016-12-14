@@ -120,7 +120,7 @@ $nome_usuario = $_COOKIE['nome'];
                 <li><a href="r_a_a.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
                
-                <li><a href="r_p_a.php">Produtos<span style="font-size:16px;"></span></a></li>
+                <li><a href="r_p_a.php">Equipamentos<span style="font-size:16px;"></span></a></li>
                 <li class="divider"></li>
                 <li><a href="a_a.php">Aniversáriantes<span style="font-size:16px;"></span></a></li>
               </ul>

@@ -5,7 +5,7 @@ include "conexao.php";
 ?>
 <html>
 	<head>
-		<title>Cadastro de Produto</title>
+		<title>Cadastro de Ativo Fixo</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -15,7 +15,7 @@ include "conexao.php";
             <form action="processa_produto.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Cadastro de Produto</h4></div>
+                <div class="panel-heading"><h4>Cadastro de Ativo Fixo</h4></div>
                 <div class="panel-body">
                     
                 <div class="input-group">

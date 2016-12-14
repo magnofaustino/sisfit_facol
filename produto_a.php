@@ -9,7 +9,7 @@
 
 <html>
 	<head>
-		<title>Produtos</title>
+		<title>Ativo Fixo</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -18,7 +18,7 @@
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Produtos</h3>
+                <h3 class="panel-title">Ativo Fixo</h3>
                 <div class="pull-right">
                     
                     <button class="btn btn-default btn-xs btn-filter"><span class="glyphicon glyphicon-filter"></span> Filtro</button>

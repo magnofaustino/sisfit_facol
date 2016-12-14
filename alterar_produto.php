@@ -34,7 +34,7 @@ $result = "select * from produtos where id = $id";
 
 <html>
 	<head>
-		<title>Editar Produto</title>
+		<title>Editar Ativo Fixo</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -45,7 +45,7 @@ $result = "select * from produtos where id = $id";
             <fieldset>
                 
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Alterar Produto</h4></div>
+                <div class="panel-heading"><h4>Alterar Ativo Fixo</h4></div>
                     <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
              
                                  <div class="panel-body">

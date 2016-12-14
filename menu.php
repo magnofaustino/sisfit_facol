@@ -146,9 +146,9 @@
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Miscelania<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipamentos<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="produto.php">Produtos<span style="font-size:16px;"></span></a></li>                            
+                <li ><a href="produto.php">Ativo Fixo<span style="font-size:16px;"></span></a></li>                            
               </ul>
             </li>            
             <li class="dropdown">
