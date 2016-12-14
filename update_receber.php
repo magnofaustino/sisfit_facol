@@ -3,7 +3,7 @@ include ("conexao.php");
 ?>
 
 <?php
-$id =$_GET['id'];
+$id =$_POST['id'];
 $nome_1 = $_POST['nome_1'];
 $nome_2 = $_POST['nome_2'];
 $nome_3 = $_POST['nome_3']; 
