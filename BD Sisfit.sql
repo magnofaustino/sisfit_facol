@@ -352,6 +352,9 @@ CREATE TABLE IF NOT EXISTS `sisfit`.`tb_aluno` (
   `bairro` VARCHAR(50) NOT NULL,
   `cep` VARCHAR(10) NOT NULL,
   `orgao_emissor` VARCHAR(20) NOT NULL,
+  `motivo` VARCHAR(255) NOT NULL ,
+  `limitacao` VARCHAR(1) NOT NULL,
+  `tipo_lim` VARCHAR(255) NOT NULL,
   `situacao` VARCHAR(10) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB

@@ -28,6 +28,8 @@ public $cep;
 public $orgao_emissor;
 public $limitacao;
 public $tipo_lim;
+public $situacao;
+public $motivo;
      
     
     function _construct()
@@ -62,6 +64,8 @@ public function getCep(){return $this->cep;}
 public function getOrgao_emissor(){return $this->orgao_emissor;}
 public function getLimitacao(){return $this->limitacao;}
 public function getTipo_Lim(){return $this->tipo_lim;}
+public function getSituazao(){return $this->situacao;}
+public function getMotivo(){return $this->motivo;}
     
     
     
@@ -97,6 +101,8 @@ public function getTipo_Lim(){return $this->tipo_lim;}
         public function setOrgao_emissor($orgao_emissor){$this->orgao_emissor=$orgao_emissor;}
         public function setLimitacao($limitacao){$this->limitacao=$limitacao;} 
         public function setTipo_Lim($tipo_lim){$this->tipo_lim=$tipo_lim;}
+        public function setSituacao($situacao){$this->situacao=$situacao;} 
+        public function setMotivo($motivo){$this->motivo=$motivo;}
         
 }
 ?>

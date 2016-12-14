@@ -288,6 +288,10 @@ $result = "select * from tb_aluno where id = $id";
                         </select>
                     </div></div>
                 </div></div><br>
+                <div class="input-group">
+                    <span class="input-group-addon">Motivo de Trancar:</span>
+                    <input type="text" class="form-control" name="motivo" >
+                </div><br>
                 <br><br>
                 
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>

@@ -30,8 +30,9 @@ $orgao_emissor = $_POST['orgao_amissor'];
 $limitacao = $_POST ['limitacao'];
 $tipo_lim = $_POST ['tipo_lim'];
 $situacao = $_POST['situacao'];
+$motivo = $_POST['motivo'];
 
-$sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$telefone', matricula = '$matricula', est_civil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', uf_natur = '$ufnaturalidade', dt_nasc = '$nascimento', sexo = '$sexo', deficiente = '$deficiente', obs_def = '$obs_deficiente', email = '$email', plano = '$plano', bolsa = '$bolsa', tipo_bolsa = '$tipo_bolsa', h_treino = '$horario', dt_cadastro = '$dt_cadastro', rua = '$endereco', numero = '$numero', bairro = '$bairro', cep = '$cep', orgao_emissor = '$orgao_emissor',limitacao='$limitacao', tipo_lim='$tipo_lim', situacao='$situacao' WHERE id= $id";
+$sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$telefone', matricula = '$matricula', est_civil = '$estadocivil', nacionalidade = '$nacionalidade', naturalidade = '$naturalidade', uf_natur = '$ufnaturalidade', dt_nasc = '$nascimento', sexo = '$sexo', deficiente = '$deficiente', obs_def = '$obs_deficiente', email = '$email', plano = '$plano', bolsa = '$bolsa', tipo_bolsa = '$tipo_bolsa', h_treino = '$horario', dt_cadastro = '$dt_cadastro', rua = '$endereco', numero = '$numero', bairro = '$bairro', cep = '$cep', orgao_emissor = '$orgao_emissor',limitacao='$limitacao', tipo_lim='$tipo_lim', situacao='$situacao', motivo='$motivo' WHERE id= $id";
 
 
 if (mysqli_query($conn, $sql)) {
