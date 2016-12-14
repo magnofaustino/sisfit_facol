@@ -8,6 +8,7 @@ $result = "delete from atividades where id = $id";
 $deleteatividade = mysqli_query($conn, $result);
 
 if ($deleteatividade) {
-    Echo "Deletado com Sucesso";
+    Echo "<script language='javascript' type='text/javascript'>alert('Deletado com Sucesso!');window.location.href='atividades.php';</script>";
+       
 }
 ?>

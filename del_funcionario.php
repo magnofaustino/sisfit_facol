@@ -8,6 +8,7 @@ $result = "delete from funcionario where id = $id";
 $deletefuncionario = mysqli_query($conn, $result);
 
 if ($deletefuncionario) {
-    Echo "Deletado com Sucesso";
+    Echo "<script language='javascript' type='text/javascript'>alert('Deletado com Successo!');window.location.href='funcionario.php';</script>";
+         
 }
 ?>

@@ -8,6 +8,6 @@ $result = "delete from receber where id = $id";
 $deletereceber = mysqli_query($conn, $result);
 
 if ($deletereceber) {
-    Echo "Deletado com Sucesso";
+    Echo "<script language='javascript' type='text/javascript'>alert('Deletado com Successo!');window.location.href='receber.php';</script>";
 }
 ?>

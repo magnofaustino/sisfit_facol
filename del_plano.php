@@ -8,6 +8,7 @@ $result = "delete from planos where id = $id";
 $deleteplano = mysqli_query($conn, $result);
 
 if ($deleteplano) {
-    Echo "Deletado com Sucesso";
+    Echo "<script language='javascript' type='text/javascript'>alert('Deletado com Successo!');window.location.href='plano.php';</script>";
+         
 }
 ?>

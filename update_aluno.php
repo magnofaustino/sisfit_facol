@@ -35,7 +35,7 @@ $sql = "UPDATE tb_aluno SET nome='$nome', cpf ='$cpf', rg = '$rg', telefone = '$
 
 
 if (mysqli_query($conn, $sql)) {
-    echo "Aluno Atualizado com Sucesso";
+    echo "<script language='javascript' type='text/javascript'>alert('Atualização Feita com Sucesso!');window.location.href='aluno.php';</script>";
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
