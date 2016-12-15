@@ -70,7 +70,7 @@ $nome_usuario = $_COOKIE['nome'];
             </ul>
         </div>
     </div>
-</div><br><br><br>
+</div><br>
     
     
     

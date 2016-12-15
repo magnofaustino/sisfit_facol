@@ -4,32 +4,35 @@ include "menu_personal.php";
 ?>
 <html>
 	<head>
-            <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 		<title>Inicio</title>
                 <meta charset="UTF-8"></head>
         
+<div class="section">  
 <div class="container">
-      <div class="row">
-        <fieldset>
-        <div class="col-lg-12">
-                <p>
+<fieldset>
+<div class="col-md-12"> 
+
+        <div class="col-md-3">
+                <div class="row">
+		<div class="col-md-4">
                     <a href="relat_aluno_p.php" class="btn btn-sq-lg btn-primary">
-                      <i class="fa fa-user fa-5x"></i><br/>
+                      <i class="glyphicon glyphicon-user fa-12x img-responsive"></i><br/>
                     <br>Alunos
-                  </a>
-                
-                    <a href="av_per.php" class="btn btn-sq-lg btn-warning">
-                    <i class="fa fa-file fa-5x"></i><br/>
-                    Avaliação<br>Física 
-                  </a>
-                    <a href="#" class="btn btn-sq-lg btn-danger">
-                    <i class="fa fa-star  fa-5x"></i><br/>
-                    Treino<br>Aluno
-                  </a>
-                </p>
-        </div>
+                </a></div>
+		<div class="col-md-4">
+                    <a href="treino_p.php" class="btn btn-sq-lg btn-success">
+                    <i class="glyphicon glyphicon-flash fa-12x img-responsive"></i><br/>
+                    <br>Treinos
+                 </a></div>
+			<div class="col-md-4">
+                        <a href="av_per.php" class="btn btn-sq-lg btn-warning">
+                    <i class="glyphicon glyphicon-pencil fa-12x img-responsive"></i><br/>
+                    <br>Avaliação
+                  </a></div>
+		</div>
+		</div>
         </fieldset>
-      </div>
+</div>
 </div>    
 </html>
             

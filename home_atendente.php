@@ -1,36 +1,55 @@
 <?php
 
 include "menu_atendente.php";
-
 ?>
 <html>
 	<head>
-            <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-		<title>Inicio</title>
-                <meta charset="UTF-8"></head>
-        
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<title>Inicio</title><meta charset="UTF-8">
+	</head>
+ 
+<div class="section">  
 <div class="container">
-      <div class="row">
-        <fieldset>
-        <div class="col-lg-12">
-                <p>
+<fieldset>
+<div class="col-md-12"> 
+
+        <div class="col-md-8">
+                <div class="row">
+				<div class="col-md-4">
                     <a href="c_a_a.php" class="btn btn-sq-lg btn-primary">
-                      <i class="fa fa-user fa-5x"></i><br/><br>
-                    Alunos
-                  </a>
-                    <a href="fornecedor_atendente.php" class="btn btn-sq-lg btn-success">
-                    <i class="fa fa-heart fa-5x"></i><br/><br>Fornecedores
-                  </a>
-                    <a href="a_atividades.php" class="btn btn-sq-lg btn-warning">
-                    <i class="fa fa-file fa-5x"></i><br/> <br>Atividades
-                  </a>
-                    <a href="produto_a.php" class="btn btn-sq-lg btn-danger">
-                    <i class="fa fa-star  fa-5x"></i><br/><br>Produtos
-                  </a>
-                </p>
-        </div>
+                      <i class="glyphicon glyphicon-user fa-12x img-responsive"></i><br/>
+                    <br>Alunos
+                </a></div>
+                <div class="col-md-4">
+                   <a href="a_atividades.php" class="btn btn-sq-lg btn-success">
+                    <i class="glyphicon glyphicon-list-alt fa-12x img-responsive"></i><br/>
+                    <br>Atividades
+                  </a></div>
+		<div class="col-md-4">
+                    <a href="t_p_a.php" class="btn btn-sq-lg btn-success">
+                    <i class="glyphicon glyphicon-flash fa-12x img-responsive"></i><br/>
+                    <br>Personal
+                 </a></div>
+		</div><br>
+		<div class="row">
+			<div class="col-md-4">
+                        <a href="produto_a.php" class="btn btn-sq-lg btn-warning">
+                    <i class="glyphicon glyphicon-wrench fa-12x img-responsive"></i><br/>
+                    <br>Ativo Fixo
+                  </a></div>
+			<div class="col-md-4">
+                        <a href="a_p_a.php" class="btn btn-sq-lg btn-danger">
+                    <i class="glyphicon glyphicon-indent-left fa-12x img-responsive"></i><br/>
+                    <br>Planos
+                  </a></div>
+			<div class="col-md-4">
+                        <a href="tela_a_aniversariantes.php" class="btn btn-sq-lg btn-success">
+                    <i class="glyphicon glyphicon-gift fa-12x img-responsive"></i><br/>
+                    <br>Aniversariantes do Mês
+                  </a></div>
+		 		  </div>
+				  </div>
         </fieldset>
-      </div>
-</div>    
+</div></div>    
 </html>
             
