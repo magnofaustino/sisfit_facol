@@ -58,15 +58,13 @@ $result = "select * from pagar where id = $id";
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4" value="<?php echo $nome_4; ?>" readonly>
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_4"size="7" value="<?php echo $nome_4; ?>" readonly>
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5" value="<?php echo $nome_5; ?>" readonly>
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_5"size="3" value="<?php echo $nome_5; ?>" readonly>
                     </div>
                     
                     <div class="input-group">

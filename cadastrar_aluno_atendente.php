@@ -29,7 +29,7 @@ include ("conexao_atendente.php");
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf"size="36" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
@@ -40,7 +40,7 @@ include ("conexao_atendente.php");
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" >
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="27" >
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
@@ -49,21 +49,21 @@ include ("conexao_atendente.php");
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="estadocivil" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="estadocivil"size="11" >
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade"size="28" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="naturalidade" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="naturalidade"size="17" >
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Naturalidade:</span>
+                         <span class="input-group-addon">UF:</span>
                          <select class="form-control" title="Preencha o campo Nome" required name="ufnaturalidade" >
                           <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
@@ -113,8 +113,8 @@ include ("conexao_atendente.php");
                         <input type="radio" name="sexo" value="M" >  Masculino
                         <input type="radio" name="sexo" value="F" >  Feminino
                         </label>
-                    </div>
-                
+                    </div></div><br>
+                    <div class="form-inline">           
                     <div class="input-group">
                     <span class="input-group-addon">Deficiênte:</span>
                         <label class="form-control">
@@ -131,7 +131,7 @@ include ("conexao_atendente.php");
                 <div class="form-inline">
                
                 <div class="input-group">
-                    <span class="input-group-addon">Limitação Física:</span>
+                    <span class="input-group-addon">Limitação:</span>
                         <label class="form-control">
                       <input type="radio" name="limitacao" value="N" >  Nao
                       <input type="radio" name="limitacao" value="S" >  Sim
@@ -140,7 +140,7 @@ include ("conexao_atendente.php");
                  
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da limitação:</span>
-                    <input type="text" class="form-control" name="tipo_lim" >
+                    <input type="text" class="form-control" name="tipo_lim"size="22" >
                 </div></div><br>
                 
                 
@@ -149,7 +149,7 @@ include ("conexao_atendente.php");
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="email" >
+                    <input type="text" class="form-control" name="email" size="35" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
@@ -172,7 +172,7 @@ include ("conexao_atendente.php");
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da bolsa:</span>
-                    <input type="text" class="form-control" name="tipo_bolsa" >
+                    <input type="text" class="form-control" name="tipo_bolsa"size="29" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
@@ -180,27 +180,27 @@ include ("conexao_atendente.php");
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro"size="8" value="<?php echo date("d/m/Y"); ?>" readonly >
                 </div></div></div><br> 
                                                     
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" name="endereco" >
+                    <input type="text" class="form-control" name="endereco"size="33" >
                 </div>
                      <div class="input-group">
                            <span class="input-group-addon">Número:</span>
-                    <input type="text" class="form-control" name="numero" >
+                    <input type="text" class="form-control" name="numero"size="29" >
                 </div>
                  
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" name="bairro" >
+                    <input type="text" class="form-control" name="bairro"size="18" >
                 </div><br><br>
                       <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep" >
+                    <input type="text" class="form-control" name="cep"size="38" >
                 </div>
                      <div class="form-group">
                          <div class="input-group">

@@ -62,23 +62,23 @@ $result = "select * from produtos where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Custo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_3" value="<?php echo $vcusto; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_3"size="16" value="<?php echo $vcusto; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor de Venda:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_4" value="<?php echo $vvenda; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_4"size="15" value="<?php echo $vvenda; ?>" readonly>
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Unidade de Medida:</span>
-                    <input type="text" class="form-control" name="nome_5" value="<?php echo $umedida; ?>">
+                    <input type="text" class="form-control" name="nome_5"size="18" value="<?php echo $umedida; ?>">
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_6" value="<?php echo $qproduto; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_6"size="14" value="<?php echo $qproduto; ?>">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
@@ -89,7 +89,7 @@ $result = "select * from produtos where id = $id";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Tipo de Produto:</span>
-                    <input type="text" class="form-control" name="nome_8" value="<?php echo $tipo; ?>">
+                    <input type="text" class="form-control" name="nome_8"size="20" value="<?php echo $tipo; ?>">
                 </div>
                 </div></div><br>
                 <div class="form-inline">

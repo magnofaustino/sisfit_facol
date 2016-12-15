@@ -47,21 +47,18 @@ include "conexao.php";
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4"size="28">
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_4"size="9">
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5"size="24">
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_5"size="5">
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Acrescimo:</span>
-                    <input type="text" class="form-control" name="nome_6"size="15">
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_6"size="25">
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">   

@@ -58,20 +58,18 @@ $result = "select * from receber where id = $id";
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4" value="<?php echo $nome_4; ?>">
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_4"size="8" value="<?php echo $nome_4; ?>">
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5" value="<?php echo $nome_5; ?>">
-                    <span class="input-group-addon">R$</span>
+                    <input type="text" class="form-control" name="nome_5"size="4" value="<?php echo $nome_5; ?>">
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Acrescimo:</span>
-                    <input type="text" class="form-control" name="nome_6" value="<?php echo $nome_6; ?>">
+                    <input type="text" class="form-control" name="nome_6"size="19" value="<?php echo $nome_6; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 <div class="form-inline">
