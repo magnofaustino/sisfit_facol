@@ -5,7 +5,7 @@
 
 <?php
     
-     include ("conexao.php"); 
+     include ("conexao_aluno.php"); 
     
     $id = $_COOKIE['login'];
     

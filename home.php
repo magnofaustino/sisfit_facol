@@ -12,7 +12,7 @@ include "menu.php";
 <div class="container">
 <fieldset>
 <div class="col-md-12"> 
-<h1 class="text-left" contenteditable="true">Sisfit</h1></div>
+
         <div class="col-md-8">
                 <div class="row">
 				<div class="col-md-4">
