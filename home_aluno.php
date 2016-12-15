@@ -7,7 +7,7 @@
     
      include ("conexao.php");   
     
-    $result = "select * from avaliacao";
+    $result = "select * from segunda";
     $resultado = mysqli_query($conn, $result);
 ?>
     
@@ -39,10 +39,12 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Nome do Aluno" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Atividade Atual" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Observação da Avaliação" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="                Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Execício" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Serie" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Repetoções" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Intervalo" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Observações" disabled></th>
+                       
                         
                         </tr>
                 </thead>
@@ -53,14 +55,14 @@
                    $id = $ras['id'];
             
       ?> 
-                        <td><?php echo $ras['n_aluno'];?></td>
-                        <td><?php echo $ras['atv_atual'];?></td>
-                        <td><?php echo $ras['obs_aval'];?></td>
+                        <td><?php echo $ras['exercicio'];?></td>
+                        <td><?php echo $ras['serie'];?></td>
+                        <td><?php echo $ras['repeticao'];?></td>
+                         <td><?php echo $ras['intervalo'];?></td>
+                         <td><?php echo $ras['obs'];?></td>
                        
                         
-<td class="text-center"><a href="alterar_avaliacao.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
-    
-<a onclick="return confirma()" href="del_avaliacao.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+
                     </tr>
                     
                     <?php
