@@ -51,7 +51,8 @@
                         
 <td class="text-center"><a href="alterar_usuario.php?tx=<?php echo $id?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Editar</a>
     
-<a href="del_usuario.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+<a onclick="return confirma()" href="del_usuario.php?tx=<?php echo $id?>" class="btn btn-danger btn-xs" ><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                    
                     </tr>
                     
                     <?php

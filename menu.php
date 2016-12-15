@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/menu.css">
     <script src="js/grid.js"></script>
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>    
+    <script src="js/bootstrap.js"></script>   
+    <script src="js/delete.js"></script>   
     
 </head>
 <body>
