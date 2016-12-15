@@ -95,7 +95,7 @@
                  
                
                 <li ><a href="av_per.php">Avaliação Física<span style="font-size:16px;"></span></a></li>
-                
+                 <li><a href="treino_p.php">Cadastro de Treino<span style="font-size:16px;"></span></a></li>
                 
               </ul>
             </li>
