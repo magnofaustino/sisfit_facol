@@ -1,44 +1,10 @@
-  
-<html>
-	<head>
-		<title>Alunos</title>
-		<meta charset="UTF-8"></meta>
-	</head>
-        <body>
-
-<td class="text-center"><a href="alterar_avaliacao.php?tx=<?php echo 1?>" class='btn btn-info btn-xs'><span class="glyphicon glyphicon-edit"></span>Segunda</a>
-            
-<a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Terça</a>
-            
-            <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Quarta</a>
-            
-            
-            <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Quinta</a>
-            
-            <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Sexta</a><br></br>
-
-
-            <?php
-    
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "sos101os";
-$dbname = "sisfit";
+    
+    include ("conexao.php");   
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-
- 
-?>
-
-    $dtini = $_GET['dtini'];
-    $dtfim = $_GET['dtfim'];
-    $atividade = $_GET['atividade'];
+    $dia = $_GET['txt'];
+   
+    
     
     $result = "select * from atividades where dtini between '$dtini' and '$dtfim' ";
     
@@ -105,7 +71,4 @@ if (!$conn) {
     </div>
 </div>
             </body>
-</html>
-                        </body>
-
 </html>

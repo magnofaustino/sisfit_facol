@@ -190,7 +190,7 @@ $result = "select * from funcionario where id = $id";
                     <span class="input-group-addon">Tipo da Limitacao:</span>
                     <input type="text" class="form-control" name="tipo_lim" value="<?php echo $tipo_lim; ?>">
                 </div></div><br>
-               
+
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
