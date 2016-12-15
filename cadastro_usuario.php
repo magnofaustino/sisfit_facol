@@ -32,14 +32,14 @@ include "conexao.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Confirma Senha:</span>
-                    <input type="password" class="form-control" title="Preencha o campo Confirma Senha" required name="nome_4">
+                    <input type="password" class="form-control" title="Preencha o campo Confirma Senha" required name="nome_4"size="4">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-briefcase"></a></span>
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" title="Preencha o campo E-mail" required name="nome_5">
+                    <input type="email" class="form-control" title="Preencha o campo E-mail" required name="nome_5"size="26">
                 </div>
                 <div class="form-group">
                          <div class="input-group">

@@ -47,20 +47,20 @@ include "conexao.php";
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4">
+                    <input type="text" class="form-control" name="nome_4"size="28">
                     <span class="input-group-addon">R$</span>
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5">
+                    <input type="text" class="form-control" name="nome_5"size="24">
                     <span class="input-group-addon">R$</span>
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Acrescimo:</span>
-                    <input type="text" class="form-control" name="nome_6">
+                    <input type="text" class="form-control" name="nome_6"size="15">
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 <div class="form-inline">
@@ -83,7 +83,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Vencimento:</span>
-                    <input type="date" class="form-control" name="nome_9">
+                    <input size="50"type="date" class="form-control" name="nome_9">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
