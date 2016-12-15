@@ -31,9 +31,9 @@
                         <th><input type="text" class="form-control" placeholder="Atividade" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Valor" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Temporária?" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Início da Atividade" ></th>
+                        <th><input type="text" class="form-control" placeholder="Início da Atividade" disabled	></th>
                         <th><input type="text" class="form-control" placeholder="Fim da Atividade" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="      Alterar" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="             Alterar" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

@@ -32,7 +32,7 @@
                         <th><input type="text" class="form-control" placeholder="Cpf" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Identidade" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Telefone" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="                  Alterar" disabled></th>
                     </tr>
                 </thead>
                 <tbody>
