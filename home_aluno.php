@@ -18,7 +18,7 @@
             <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Sexta</a><br></br>
 
 
-            <?php
+          
     
 <?php
 $servername = "localhost";
@@ -34,7 +34,7 @@ if (!$conn) {
 }
 
  
-?>
+
 
     $dtini = $_GET['dtini'];
     $dtfim = $_GET['dtfim'];
