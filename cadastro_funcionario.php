@@ -26,11 +26,11 @@ include "conexao.php";
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf"size="35">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg"size="20">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg"size="21">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de nascimento:</span>
@@ -41,7 +41,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="16">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="31">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matricula:</span>
@@ -55,7 +55,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" name="nacionalidade"size="11">
+                    <input type="text" class="form-control" name="nacionalidade"size="26">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
@@ -63,7 +63,7 @@ include "conexao.php";
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Naturalidade:</span>
+                         <span class="input-group-addon">UF:</span>
                          <select class="form-control" name="ufnaturalidade">
                          <option value="">Selecione</option>
                           <option value="Acre">Acre</option>
