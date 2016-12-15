@@ -32,7 +32,7 @@ $sql = "INSERT INTO segunda ( dia, nome, exercicio, serie, repeticao, intervalo,
 
 
 if (mysqli_query($conn, $sql)) {
-     echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='treino.php';</script>";
+     echo"<script language='javascript' type='text/javascript'>alert('Cadastro feito com Successo!');window.location.href='cadastro_treino.php';</script>";
           die();
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

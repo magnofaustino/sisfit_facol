@@ -22,7 +22,7 @@
              
 <div class="container">
     <div class="row"><br><br><br>
-          <form action="#" method="GET" >
+          <form action="#" method="POST" >
            <div class="input-group">
                
                 <div class="form-inline">
@@ -71,9 +71,9 @@
                     <tr>
                            <?php
     
-    $nome = $_GET['nome_5'];
+    $nome = $_POST['nome_5'];
                                
-    echo $dia = $_GET['usuario'];
+     $dia = $_POST['usuario'];
      $result=("SELECT * FROM segunda WHERE dia = '$dia' AND nome = '$nome'") or die("erro ao selecionar");
 
     $resultado = mysqli_query($conn, $result);
