@@ -10,8 +10,7 @@
     $id = $_COOKIE['login'];
     
     $segunda = '';
-    $result = "select * from $segunda";
-    $resultado = mysqli_query($conn, $result);
+   
 ?>
     
 <html>
@@ -23,7 +22,7 @@
              
 <div class="container">
     <div class="row"><br><br><br>
-          <form action="processa_treino.php" method="POST" >
+          <form action="#" method="GET" >
            <div class="input-group">
                
                 <div class="form-inline">
@@ -38,12 +37,15 @@
                         <input type="radio" name="usuario" value="1" <?php if($usuario == "1") echo "checked" ?>> segunda
                         <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Terça
                              <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Quarta
+                            
+                              <input type="radio" name="usuario" value="4" <?php if($usuario == "3") echo "checked" ?>>  Quinta
+                              <input type="radio" name="usuario" value="5" <?php if($usuario == "3") echo "checked" ?>>  Sexta
                         </label>
                 </div></div><br><br><br>
                
                
                  
-               <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+               <button type="submit"  name="sub" class="btn btn-default">Visualizar</button>
         
         <fieldset>
         <div class="panel panel-primary filterable">
@@ -68,6 +70,13 @@
                 <tbody>
                     <tr>
                            <?php
+    
+    $nome = $_GET['nome_5'];
+                               
+    echo $dia = $_GET['usuario'];
+     $result=("SELECT * FROM segunda WHERE dia = '$dia' AND nome = '$nome'") or die("erro ao selecionar");
+
+    $resultado = mysqli_query($conn, $result);
         while($ras = mysqli_fetch_assoc($resultado)){ 
                    $id = $ras['id'];
             

@@ -22,7 +22,7 @@ $sql=("SELECT * FROM segunda WHERE nome = '$login' ") or die("erro ao selecionar
 			
 			 }else{
 			($ras = mysqli_fetch_array($verifica));
-			$nome = $ras['id'];
+			$nome = $ras['nome'];
             
             setcookie("login",$nome);
             header("Location:home_aluno.php");
