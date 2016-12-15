@@ -5,9 +5,12 @@
 
 <?php
     
-     include ("conexao.php");   
+     include ("conexao.php"); 
     
-    $result = "select * from segunda";
+    $id = $_COOKIE['login'];
+    
+    $segunda = '';
+    $result = "select * from $segunda";
     $resultado = mysqli_query($conn, $result);
 ?>
     
@@ -17,23 +20,37 @@
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
+             
 <div class="container">
-    <div class="row">
+    <div class="row"><br><br><br>
+          <form action="processa_treino.php" method="POST" >
+           <div class="input-group">
+               
+                <div class="form-inline">
+                <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">Aluno:</span>
+                    <input type="text" class="form-control" title="Preencha o campo E-mail" required name="nome_5" value="<?php echo $id; ?>">
+                </div>
+                    <div class="input-group">
+                    <span class="input-group-addon">Dia da Semana:</span>
+                        <label class="form-control">  
+                        <input type="radio" name="usuario" value="1" <?php if($usuario == "1") echo "checked" ?>> segunda
+                        <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Terça
+                             <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Quarta
+                        </label>
+                </div></div><br><br><br>
+               
+               
+                 
+               <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
+        
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
-                <h3 class="panel-title">Avaliacao</h3>
+                <h3 class="panel-title">Treino</h3>
                 <div class="pull-right">
-                  <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Segunda</a>
-            
-<a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Terça</a>
-            
- <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Quarta</a>
-            
-            
-  <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Quinta</a>
-            
-  <a href="cadastro_aluno.php" class="btn btn-warning btn-sm" role="button">Sexta</a><br></br>
+
                 </div>
             </div>
             <table class="table">
