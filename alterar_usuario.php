@@ -64,16 +64,26 @@ $result = "select * from usuario where id = $id";
                     <div class="input-group">
                     <span class="input-group-addon">Permissão:</span>
                         <label class="form-control">  
-                        <input type="radio" name="usuario" value="1" <?php if($usuario == "1") echo "checked" ?>>  Gerente
-                        <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Pesonal
-                             <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Atendente
+                        <input type="radio" name="usuario" value="3" <?php if($usuario == "3") echo "checked" ?>>  Gerente
+                        <input type="radio" name="usuario" value="2" <?php if($usuario == "2") echo "checked" ?>>  Personal
+                             <input type="radio" name="usuario" value="1" <?php if($usuario == "1") echo "checked" ?>>  Atendente
                         </label>
-                </div></div><br><br><br>
+                </div>  
+                    <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Bloqueado:</span>
+                         <select class="form-control" required name="block">
+                         <option value="">Selecione ...</option>
+                         <option value="S">Sim</option>
+                         <option value="N">Não</option>
+                       
+                        </select>
+                </div></div></div><br><br><br>
                 
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="usuario.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="usuarios.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>
