@@ -31,19 +31,11 @@ include "conexao.php";
                         </select>
                       </div></div>
             
-                <div class="input-group">
-                    <span class="input-group-addon">Nome do Aluno:</span>
-                   	     <select class="form-control" title="Aluno ja Cadastrado" required name="nome_1" >
-                             <option value="">Selecione o Aluno ...</option>
-		   	<?php
-						$result_niveis_acessos = "SELECT * FROM tb_aluno";
-						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
-						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
-							<option value="<?php echo $row_niveis_acessos['n_aluno']; ?>"><?php echo $row_niveis_acessos['nome']; ?></option> <?php
-						}
-					?>
-                    </select></div><br>
         
+          <div class="input-group">
+                    <span class="input-group-addon">Nome do aluno:</span>
+                   <input type="text" class="form-control" name="nome_1">
+                      </div>
             
                <div class="input-group">
                     <span class="input-group-addon">Exercício:</span>
