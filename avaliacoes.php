@@ -29,6 +29,8 @@
                         <th><input type="text" class="form-control" placeholder="Nome do Aluno" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Atividade Atual" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Observação da Avaliação" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="                Alterar / Excluir" disabled></th>
+                        
                         </tr>
                 </thead>
                 <tbody>

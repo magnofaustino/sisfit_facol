@@ -33,6 +33,7 @@ $result = "select * from usuario where id = $id";
             <fieldset>
                 <div class="panel panel-primary">
                 <div class="panel-heading"><h4>Cadastro de Usuario</h4></div>
+                <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
                 <div class="panel-body">  
                 <div class="input-group">
                     <span class="input-group-addon">Usuario:</span>
@@ -72,7 +73,7 @@ $result = "select * from usuario where id = $id";
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
                 <button type="reset" class="btn btn-default">Limpar</button>
                 <div class="pull-right">
-                <a href="usuarios.php"     class="btn btn-default btn-sm" role="button">Cancelar</a>  
+                <a href="usuario.php" class="btn btn-default btn-sm" role="button">Cancelar</a>  
                 </div>
                 </div></div>
             </fieldset>

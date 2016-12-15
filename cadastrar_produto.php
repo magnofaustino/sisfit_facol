@@ -42,22 +42,22 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Unidade de Medida:</span>
-                    <input type="text" class="form-control" name="nome_5">
+                    <input type="text" class="form-control" name="nome_5"size="22">
                 </div>
                                     <div class="input-group">
                     <span class="input-group-addon">Quantidade do Produto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_6">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nome_6"size="19">
                 </div>
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Grupo de Produto:</span>
-                    <input type="text" class="form-control" name="nome_7">
+                    <input type="text" class="form-control" name="nome_7"size="24">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Tipo de Produto:</span>
-                    <input type="text" class="form-control" name="nome_8">
+                    <input type="text" class="form-control" name="nome_8"size="25">
                 </div>
                 </div></div><br>
                 <div class="form-inline">

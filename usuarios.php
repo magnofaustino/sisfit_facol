@@ -33,7 +33,7 @@
                         <th><input type="text" class="form-control" placeholder="E-mail" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Bloqueado" disabled></th>
                       
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

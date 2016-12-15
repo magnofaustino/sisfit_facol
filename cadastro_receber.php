@@ -37,20 +37,20 @@ include "conexao.php";
                 <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" name="nome_4">
+                    <input type="text" class="form-control" name="nome_4"size="16">
                     <span class="input-group-addon">R$</span>
                     </div></div><br>
                     
                     <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Desconto:</span>
-                    <input type="text" class="form-control" name="nome_5">
+                    <input type="text" class="form-control" name="nome_5"size="12">
                     <span class="input-group-addon">R$</span>
                     </div>
                     
                     <div class="input-group">
                     <span class="input-group-addon">Acrescimo:</span>
-                    <input type="text" class="form-control" name="nome_6">
+                    <input type="text" class="form-control" name="nome_6"size="11">
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 <div class="form-inline">

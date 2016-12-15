@@ -51,12 +51,12 @@ include "conexao.php";
                     <div class="form-group">   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Relaxado Esquerdo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_esq">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_esq"size="12">
                     </div>
                   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Relaxado Direto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_dir">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_dir"size="12">
                     </div><br><br>
                     
                     
@@ -64,13 +64,13 @@ include "conexao.php";
                     <div class="form-group">   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Contraido Esquerdo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_esq">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_esq"size="12">
                     </div>
                     
                 
                 <div class="input-group">
                 <span class="input-group-addon">Braco Contraido Direito:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_dir">
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_dir"size="11">
                 </div><br><br>
                 
                 
@@ -78,34 +78,34 @@ include "conexao.php";
                     <div class="form-group">                   
                     <div class="input-group">
                     <span class="input-group-addon">Ante Braco Esquerdo:</span>
-                    <input type="text" class="form-control" name="ante_braco_esq">
+                    <input type="text" class="form-control" name="ante_braco_esq"size="17">
                 </div>
                    
                     <div class="input-group">
                 <span class="input-group-addon">Ante Braco Direito:</span>
-                <input type="text" class="form-control" name="ante_braco_dir">
+                <input type="text" class="form-control" name="ante_braco_dir"size="16">
                 </div><br><br>
                 
                 <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Torax Relaxado:</span>
-                <input type="text" class="form-control" name="torax_rilex">
+                <input type="text" class="form-control" name="torax_rilex"size="22">
                 </div>
                   
                 <div class="input-group">
                 <span class="input-group-addon">Torax Inspirado:</span>
-                <input type="text" class="form-control" name="torax_insp">
+                <input type="text" class="form-control" name="torax_insp"size="18">
                 </div><br><br>
                 
                 <div class="input-group">
                 <span class="input-group-addon">Cintura:</span>
-                <input type="text" class="form-control" name="cintura">
+                <input type="text" class="form-control" name="cintura"size="30">
                 </div>
                 
                 <div class="input-group">
                 <span class="input-group-addon">Abdomen:</span>
-                <input type="text" class="form-control" name="abdomen">
+                <input type="text" class="form-control" name="abdomen"size="23">
                 </div>
                 
                 <div class="input-group">
@@ -117,7 +117,7 @@ include "conexao.php";
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Coxa Esquerda:</span>
-                <input type="text" class="form-control" name="coxa_esq">
+                <input type="text" class="form-control" name="coxa_esq"size="23">
                 </div>
                    
                 <div class="input-group">
@@ -129,12 +129,12 @@ include "conexao.php";
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Panturrillha Esquerda:</span>
-                <input type="text" class="form-control" name="pantu_esq">
+                <input type="text" class="form-control" name="pantu_esq"size="18">
                 </div>
                   
                 <div class="input-group">
                 <span class="input-group-addon">Panturrillha Direita:</span>
-                <input type="text" class="form-control" name="pantu_dir">
+                <input type="text" class="form-control" name="pantu_dir"size="14">
                 </div></div></div>
                 
                 

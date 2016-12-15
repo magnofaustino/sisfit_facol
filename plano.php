@@ -30,7 +30,7 @@
                         <th><input type="text" class="form-control" placeholder="Aulas" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Valor Matricula" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Valor Mensalidade" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

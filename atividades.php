@@ -33,7 +33,7 @@
                         <th><input type="text" class="form-control" placeholder="Temporaria?" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Inidio da Atividade" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Fim da Atividade" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="       Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

@@ -32,7 +32,7 @@
                         <th><input type="text" class="form-control" placeholder="valor venda" disabled></th>
                         <th><input type="text" class="form-control" placeholder="valor custo" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Garantia" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="       Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

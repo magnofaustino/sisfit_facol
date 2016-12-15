@@ -66,17 +66,15 @@ include "conexao.php";
                     <div class="form-group">   
 		        <div class="input-group">
 		            <span class="input-group-addon">Valor da Matricula:</span>           
-                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula" >
-		            <span class="input-group-addon">R$</span>
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_matricula"size="6" >
                         </div>         
 		        <div class="input-group">      		 
                             <span class="input-group-addon">Valor da Mensalidade:</span>
-                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal" >
-		            <span class="input-group-addon">R$</span>
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="vl_mensal"size="17" >
 		        </div><br><br>
                         <div class="input-group">
                             <span class="input-group-addon">Data de Cadastro:</span>
-                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro"  value="<?php echo date("d/m/Y"); ?>" readonly >
+                            <input type="text" class="form-control" title="Preencha o campo Nome" required name="data_cadastro"size="6" value="<?php echo date("d/m/Y"); ?>" readonly >
                         </div>
                     </div>
                 </div><br><br>
