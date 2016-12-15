@@ -73,41 +73,41 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf"size="36" value="<?php echo $cpf; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg"size="23" value="<?php echo $rg; ?>" readonly>
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="27" value="<?php echo $telefone; ?>">
                     <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matrícula:</span>
-                    <input type="text" class="form-control" name="matricula" value="<?php echo $matricula; ?>">
+                    <input type="text" class="form-control" name="matricula"size="17" value="<?php echo $matricula; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
-                    <input type="text" class="form-control" name="estadocivil" value="<?php echo $est_civil; ?>">
+                    <input type="text" class="form-control" name="estadocivil"size="11" value="<?php echo $est_civil; ?>">
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" name="nacionalidade" value="<?php echo $nacionalidade; ?>">
+                    <input type="text" class="form-control" name="nacionalidade"size="28" value="<?php echo $nacionalidade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonly>
+                    <input type="text" class="form-control" name="naturalidade"size="14" value="<?php echo $naturalidade; ?>" readonly>
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Naturalidade:</span>
+                         <span class="input-group-addon">UF:</span>
                          <select class="form-control" name="ufnaturalidade" value="<?php echo $natur; ?>">
                          <option value="<?php echo  $uf_natur ?>"><?php echo  $uf_natur ?></option>
                          <option value="Acre">Acre</option>
@@ -156,8 +156,8 @@ $result = "select * from tb_aluno where id = $id";
                         <input type="radio" name="sexo" value="M" <?php if($sexo == "  M") echo "checked" ?>>  Masculino
                         <input type="radio" name="sexo" value="F" <?php if($sexo == "  F") echo "checked" ?>>  Feminino
                         </label>
-                    </div>
-                
+                    </div></div><br>
+                    <div class="form-inline">                
                     <div class="input-group">
                     <span class="input-group-addon">Deficiênte:</span>
                         <label class="form-control">
@@ -172,7 +172,7 @@ $result = "select * from tb_aluno where id = $id";
                 </div><br><br>
                 
                 <div class="input-group">
-                    <span class="input-group-addon">Limitação Física:</span>
+                    <span class="input-group-addon">Limitação:</span>
                       <label class="form-control">
                       <input type="radio" name="limitacao" value="  N" <?php if($limitacao == "  N") echo "checked" ?>>  Nao
                       <input type="radio" name="limitacao" value="  S" <?php if($limitacao == "  S") echo "checked" ?>>  Sim
@@ -181,7 +181,7 @@ $result = "select * from tb_aluno where id = $id";
                 
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da limitação:</span>
-                    <input type="text" class="form-control" name="tipo_lim" value="<?php echo $tipo_lim; ?>">
+                    <input type="text" class="form-control" name="tipo_lim"size="22"value="<?php echo $tipo_lim; ?>">
                 </div><br><br>
                 
                 
@@ -204,22 +204,22 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da bolsa:</span>
-                    <input type="text" class="form-control" name="tipo_bolsa" value="<?php echo $tipo_bolsa; ?>">
+                    <input type="text" class="form-control" name="tipo_bolsa"size="29" value="<?php echo $tipo_bolsa; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
-                    <input type="text" class="form-control" name="horario" value="<?php echo $h_treino; ?>">
+                    <input type="text" class="form-control" name="horario"size="12" value="<?php echo $h_treino; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" name="dt_cadastro" value="<?php echo $dt_cadastro; ?>" readonly>
+                    <input type="text" class="form-control" name="dt_cadastro"size="7" value="<?php echo $dt_cadastro; ?>" readonly>
                 </div></div></div><br> 
                                                     
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" name="endereco" value="<?php echo $rua; ?>">
+                    <input type="text" class="form-control" name="endereco"size="33" value="<?php echo $rua; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Número:</span>
@@ -228,13 +228,13 @@ $result = "select * from tb_aluno where id = $id";
                  
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" name="bairro" value="<?php echo $bairro; ?>">
+                    <input type="text" class="form-control" name="bairro"size="18" value="<?php echo $bairro; ?>">
                 </div></div><br><br>
                 <div class="form-inline">
                 <div class="form-group">      
                     <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep" value="<?php echo $cep; ?>">
+                    <input type="text" class="form-control" name="cep"size="38" value="<?php echo $cep; ?>">
                 </div>
                      <div class="form-group">
                          <div class="input-group">
