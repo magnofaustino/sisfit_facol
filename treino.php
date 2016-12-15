@@ -1,6 +1,8 @@
    <?php 
+
+    $segunda = 'segunda';
      include ("conexao.php");
-    $result = "select * from segunda";
+    $result = "select * from $segunda";
     $resultado = mysqli_query($conn, $result);
  ?>
     
