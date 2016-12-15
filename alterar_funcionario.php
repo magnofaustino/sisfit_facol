@@ -69,46 +69,44 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" value="<?php echo $cpf; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf"size="35"value="<?php echo $cpf; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" value="<?php echo $rg; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg"size="26" value="<?php echo $rg; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de nascimento:</span>
                     <input type="date" class="form-control" title="Preencha o campo Nome" required name="nascimento" value="<?php echo $nascimento; ?>" readonly>
-                    <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" value="<?php echo $telefone; ?>">
-                    <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="31" value="<?php echo $telefone; ?>">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matricula:</span>
-                    <input type="text" class="form-control" name="matricula" value="<?php echo $matricula; ?>" readonly>
+                    <input type="text" class="form-control" name="matricula"size="21" value="<?php echo $matricula; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
-                    <input type="text" class="form-control" name="estadocivil" value="<?php echo $estadocivil; ?>">
+                    <input type="text" class="form-control" name="estadocivil"size="25" value="<?php echo $estadocivil; ?>">
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" name="nacionalidade" value="<?php echo $nacionalidade; ?>">
+                    <input type="text" class="form-control" name="nacionalidade"size="26" value="<?php echo $nacionalidade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" name="naturalidade" value="<?php echo $naturalidade; ?>" readonlys>
+                    <input type="text" class="form-control" name="naturalidade"size="18" value="<?php echo $naturalidade; ?>" readonlys>
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Naturalidade:</span>
+                         <span class="input-group-addon">UF:</span>
                          <select class="form-control" name="ufnaturalidade">
                          <option value="<?php echo  $ufnaturalidade ?>"><?php echo  $ufnaturalidade ?></option>
                          <option value="Acre">Acre</option>
@@ -192,12 +190,7 @@ $result = "select * from funcionario where id = $id";
                     <span class="input-group-addon">Tipo da Limitacao:</span>
                     <input type="text" class="form-control" name="tipo_lim" value="<?php echo $tipo_lim; ?>">
                 </div></div><br>
-                
-                
-                
-                
-                
-                
+               
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
@@ -213,26 +206,26 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Apelido:</span>
-                    <input type="text" class="form-control" name="apelido" value="<?php echo $apelido; ?>">
+                    <input type="text" class="form-control" name="apelido"size="25" value="<?php echo $apelido; ?>">
                 </div>               
                 <div class="input-group">
                     <span class="input-group-addon">Funcao:</span>
-                    <input type="text" class="form-control" name="funcao" value="<?php echo $funcao; ?>">
+                    <input type="text" class="form-control" name="funcao"size="26" value="<?php echo $funcao; ?>">
                 </div><br></br>
                 </div></div>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Num. Carteira:</span>
-                    <input type="text" class="form-control" name="numcarteira" value="<?php echo $numcarteira; ?>">
+                    <input type="text" class="form-control" name="numcarteira"size="19" value="<?php echo $numcarteira; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Serie da carteira:</span>
-                    <input type="text" class="form-control" name="seriecarteira" value="<?php echo $seriecarteira; ?>">
+                    <input type="text" class="form-control" name="seriecarteira"size="18" value="<?php echo $seriecarteira; ?>">
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Carteira</span>
+                         <span class="input-group-addon">UF</span>
                          <select class="form-control" name="uf_naturalidade">
                          <option value="<?php echo  $uf_naturalidade ?>"><?php echo  $uf_naturalidade ?></option>
                          <option value="Acre">Acre</option>
@@ -270,12 +263,12 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Turno Trabalho:</span>
-                    <input type="text" class="form-control" name="turnotrab" value="<?php echo $turnotrab; ?>">
+                    <input type="text" class="form-control" name="turnotrab"size="18" value="<?php echo $turnotrab; ?>">
                 </div>
                 
                 <div class="input-group">
                     <span class="input-group-addon">Escala de Trabalho:</span>
-                    <input type="text" class="form-control" name="tipotrab" value="<?php echo $tipotrab; ?>">
+                    <input type="text" class="form-control" name="tipotrab"size="15" value="<?php echo $tipotrab; ?>">
                 </div></div></div>
                 <br><br>
                 
