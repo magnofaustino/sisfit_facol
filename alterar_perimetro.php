@@ -82,12 +82,12 @@ $pantu_dir =$ras['pantu_dir'];
                     <div class="form-group">   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Relaxado Esquerdo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_esq" value="<?php echo $braco_rilex_esq; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_esq"size="12" value="<?php echo $braco_rilex_esq; ?>" readonly>
                     </div>
                   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Relaxado Direto:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_dir" value="<?php echo $braco_rilex_dir; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_rilex_dir"size="12" value="<?php echo $braco_rilex_dir; ?>" readonly>
                     </div><br><br>
                     
                     
@@ -95,13 +95,13 @@ $pantu_dir =$ras['pantu_dir'];
                     <div class="form-group">   
                     <div class="input-group">
                     <span class="input-group-addon">Braco Contraido Esquerdo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_esq" value="<?php echo $braco_contra_esq; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_esq"size="12" value="<?php echo $braco_contra_esq; ?>" readonly>
                     </div>
                     
                 
                 <div class="input-group">
                 <span class="input-group-addon">Braco Contraido Direito:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_dir" value="<?php echo $braco_contra_dir; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="braco_contra_dir"size="11" value="<?php echo $braco_contra_dir; ?>" readonly>
                 </div><br><br>
                 
                 
@@ -109,34 +109,34 @@ $pantu_dir =$ras['pantu_dir'];
                     <div class="form-group">                   
                     <div class="input-group">
                     <span class="input-group-addon">Ante Braco Esquerdo:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="ante_braco_esq" value="<?php echo $ante_braco_esq; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="ante_braco_esq"size="17" value="<?php echo $ante_braco_esq; ?>" readonly>
                 </div>
                    
                     <div class="input-group">
                 <span class="input-group-addon">Ante Braco Direito:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="ante_braco_dir" value="<?php echo $ante_braco_dir; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="ante_braco_dir"size="16" value="<?php echo $ante_braco_dir; ?>" readonly>
                 </div><br><br>
                 
                 <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Torax Relaxado:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="torax_rilex" value="<?php echo $torax_rilex; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="torax_rilex"size="22" value="<?php echo $torax_rilex; ?>" readonly>
                 </div>
                   
                 <div class="input-group">
                 <span class="input-group-addon">Torax Inspirado:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="torax_insp" value="<?php echo $torax_insp; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="torax_insp"size="19" value="<?php echo $torax_insp; ?>" readonly>
                 </div><br><br>
                 
                 <div class="input-group">
                 <span class="input-group-addon">Cintura:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="cintura" value="<?php echo $cintura; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="cintura"size="30" value="<?php echo $cintura; ?>" readonly>
                 </div>
                 
                 <div class="input-group">
                 <span class="input-group-addon">Abdomen:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="abdomen" value="<?php echo $abdomen; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="abdomen"size="24" value="<?php echo $abdomen; ?>" readonly>
                 </div>
                 
                 <div class="input-group">
@@ -148,24 +148,24 @@ $pantu_dir =$ras['pantu_dir'];
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Coxa Esquerda:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="coxa_esq" value="<?php echo $coxa_esq; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="coxa_esq"size="23" value="<?php echo $coxa_esq; ?>" readonly>
                 </div>
                    
                 <div class="input-group">
                 <span class="input-group-addon">Coxa Direita:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="coxa_dir" value="<?php echo $coxa_dir; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="coxa_dir"size="21" value="<?php echo $coxa_dir; ?>" readonly>
                 </div><br><br>
                 
                 <div class="form-inline">
                 <div class="form-group">   
                 <div class="input-group">
                 <span class="input-group-addon">Panturrillha Esquerda:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="pantu_esq" value="<?php echo $pantu_esq; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="pantu_esq"size="17" value="<?php echo $pantu_esq; ?>" readonly>
                 </div>
                   
                 <div class="input-group">
                 <span class="input-group-addon">Panturrillha Direita:</span>
-                <input type="text" class="form-control" title="Preencha o campo Nome" required name="pantu_esq" value="<?php echo $pantu_esq; ?>" readonly>
+                <input type="text" class="form-control" title="Preencha o campo Nome" required name="pantu_esq"size="16" value="<?php echo $pantu_esq; ?>" readonly>
                 </div></div></div>
                 
                 
