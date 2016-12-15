@@ -4,15 +4,16 @@ include "menu_personal.php";
 ?>
 <html>
 	<head>
-		<title>Inicio</title>
-                <meta charset="UTF-8"></head>
-        
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<title>Inicio</title><meta charset="UTF-8">
+	</head>
+ 
 <div class="section">  
 <div class="container">
 <fieldset>
 <div class="col-md-12"> 
 
-        <div class="col-md-3">
+        <div class="col-md-8">
                 <div class="row">
 		<div class="col-md-4">
                     <a href="relat_aluno_p.php" class="btn btn-sq-lg btn-primary">
@@ -29,10 +30,9 @@ include "menu_personal.php";
                     <i class="glyphicon glyphicon-pencil fa-12x img-responsive"></i><br/>
                     <br>Avaliação
                   </a></div>
-		</div>
-		</div>
+                    </div><br>
+		 		  </div>
+				  </div>
         </fieldset>
-</div>
-</div>    
+</div></div>    
 </html>
-            
