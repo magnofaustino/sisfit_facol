@@ -22,7 +22,7 @@ $result = "select * from segunda where id = $id";
 
 <html>
 	<head>
-		<title>Cadastro de Treino</title>
+		<title>Alterar Treino</title>
 		<meta charset="UTF-8"></meta>
 	</head>
         <body>
@@ -32,7 +32,7 @@ $result = "select * from segunda where id = $id";
             <form action="update_treinoa.php" method="POST" >
             <fieldset>
                 <div class="panel panel-primary">
-                <div class="panel-heading"><h4>Cadastro de Treino</h4></div>
+                <div class="panel-heading"><h4>Alterar Treino</h4></div>
                 <input type="text" class="form-control" name="id" value="<?php echo $id; ?>" readonly>
                 <div class="panel-body">
                  
@@ -52,15 +52,17 @@ $result = "select * from segunda where id = $id";
                               <input type="radio" name="dia" value="4" <?php if($dia == "4") echo "checked" ?>>  Quinta
                               <input type="radio" name="dia" value="5" <?php if($dia == "5") echo "checked" ?>>  Sexta
                         </label>
-                </div>
-            
+                </div><br>
+               
+               <div class="form-inline">
+               <div class="form-group">
                <div class="input-group">
-                    <span class="input-group-addon">Exercício:</span>
-                   <input type="text" class="form-control" required name="exercicio" value="<?php echo $exercicio; ?>">
-                      </div><br><br>
+                    <span class="input-group-addon">Series:</span>
+                   <input type="text" class="form-control" required name="serie"size="8" value="<?php echo $exercicio; ?>">
+                      </div>
                 <div class="input-group">
-                    <span class="input-group-addon">Series</span>
-                    <input type="text" class="form-control" required name="serie"size="8"value="<?php echo $serie; ?>">
+                    <span class="input-group-addon">Exercicio</span>
+                    <input type="text" class="form-control" required name="exercicio"size="21"value="<?php echo $serie; ?>">
                    
                 </div>
 
@@ -68,9 +70,8 @@ $result = "select * from segunda where id = $id";
                     <span class="input-group-addon">Repetição:</span>
                     <input type="text" class="form-control" required name="repeticao"size="20" value="<?php echo $repeticao; ?>">
                    
-                </div></div><br>
+                </div></div><br><br>
                     
-                <div class="form-inline">
                     <div class="input-group">   
                     <span class="input-group-addon">Intervalo:</span>
                     <input type="time" class="form-control" required name="intervalo"size="14" value="<?php echo $intervalo; ?>">
