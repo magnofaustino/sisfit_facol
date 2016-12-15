@@ -25,7 +25,7 @@ include "conexao.php";
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf"size="22">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
@@ -36,7 +36,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="16">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="18">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
@@ -46,7 +46,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade"size="11" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade"size="12" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
@@ -91,7 +91,7 @@ include "conexao.php";
                     <div class="form-group">
                         <div class="input-group">
                             <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_nascimento"size="5" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_nascimento"size="7" >
                         </div>
                         <div class="input-group">
                     <div class="input-group">
@@ -108,7 +108,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="email"size="18" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="email"size="20" >
                     
                 </div>
                 <div class="input-group">
@@ -118,24 +118,24 @@ include "conexao.php";
                 </div>
                <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro"size="5" value="<?php echo date("d/m/Y"); ?>" readonly >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro"size="6" value="<?php echo date("d/m/Y"); ?>" readonly >
                 </div></div></div><br>
                 
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="endereco"size="53" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="endereco"size="55" >
                 </div>
                 <div class="input-group">
                 <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="numero"size="14">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="numero"size="15">
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group"> 
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="bairro"size="20" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="bairro"size="21" >
                 </div>
                       <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
