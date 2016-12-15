@@ -30,10 +30,11 @@
                     <tr class="filters">
                         <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Exercício" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Repetição" disabled></th>
+                          <th><input type="text" class="form-control" placeholder="Séries" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Repetiçõess" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Observação" disabled></th>
                       
-                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="       Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -45,6 +46,7 @@
       ?> 
                         <td><?php echo $ras['nome'];?></td>
                         <td><?php echo $ras['exercicio']; ?></td>
+                         <td><?php echo $ras['serie']; ?></td>
                         <td><?php echo $ras['repeticao']; ?></td>
                         <td><?php echo $ras['obs']; ?></td>
                         
