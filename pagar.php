@@ -33,7 +33,7 @@
                         <th><input type="text" class="form-control" placeholder="Pago" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Vencimento" disabled></th>
                       
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>
