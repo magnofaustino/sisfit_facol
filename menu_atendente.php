@@ -108,9 +108,6 @@ $nome_usuario = $_COOKIE['nome'];
                 <li ><a href="a_atividades.php">Atividades<span style="font-size:16px;"></span></a></li>        
                 <li class="divider"></li>
                 <li ><a href="a_p_a.php">Planos<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                
-                
               </ul>
             </li>
        
@@ -119,22 +116,14 @@ $nome_usuario = $_COOKIE['nome'];
               <ul class="dropdown-menu forAnimate" role="menu">
                 <li><a href="r_a_a.php">Alunos<span style="font-size:16px;" class=""></span></a></li>       
                 <li class="divider"></li>
-               
-                <li><a href="r_p_a.php">Equipamentos<span style="font-size:16px;"></span></a></li>
-                <li class="divider"></li>
-                <li><a href="a_a.php">Aniversáriantes<span style="font-size:16px;"></span></a></li>
+                <li><a href="tela_a_aniversariantes.php">Aniversáriantes<span style="font-size:16px;"></span></a></li>
               </ul>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Loja<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Equipamentos<span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
               <ul class="dropdown-menu forAnimate" role="menu">
-                <li ><a href="produto_a.php">Produtos<span style="font-size:16px;"></span></a></li>                            
+                <li ><a href="produto_a.php">Ativo Fixo<span style="font-size:16px;"></span></a></li>                            
               </ul>
-            </li>            
-          
-             
-               
-                <li><a href="#">Build</a></li>
               </ul>
             </li>
           </ul>

@@ -22,7 +22,7 @@ public $nome_7;
         public function getNome_2(){return $this->nome_2;}
         public function getNome_3(){return $this->nome_3;}
         public function getNome_4(){return $this->nome_4;}
-        public function getNome_5(){return $this->nome_5;}    s
+        public function getNome_5(){return $this->nome_5;}
         public function getNome_6(){return $this->nome_6;}
         public function getNome_7(){return $this->nome_7;}
         
