@@ -21,7 +21,7 @@ include "conexao.php";
                          <div class="input-group">
                     <span class="input-group-addon">Nome aluno:</span>
                    <input type="text" class="form-control" required name="nome_1">
-                      </div><br><br>
+                      </div><br>
   
 		<div class="form-inline">
                <div class="form-group">

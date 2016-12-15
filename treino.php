@@ -1,6 +1,6 @@
    <?php 
 
-    $segunda = 'segunda';
+     $segunda = 'segunda';
      include ("conexao.php");
     $result = "select * from $segunda";
     $resultado = mysqli_query($conn, $result);
@@ -28,12 +28,12 @@
             <table class="table">
                 <thead>
                     <tr class="filters">
-                        <th><input type="text" class="form-control" placeholder="Aluno" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="Nome" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Exercício" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Repetição" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Observação" disabled></th>
                       
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>

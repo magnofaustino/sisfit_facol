@@ -33,7 +33,7 @@
                         <th><input type="text" class="form-control" placeholder="Repetição" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Observação" disabled></th>
                       
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>
