@@ -64,7 +64,7 @@ public function getCep(){return $this->cep;}
 public function getOrgao_emissor(){return $this->orgao_emissor;}
 public function getLimitacao(){return $this->limitacao;}
 public function getTipo_Lim(){return $this->tipo_lim;}
-public function getSituazao(){return $this->situacao;}
+public function getSituacao(){return $this->situacao;}
 public function getMotivo(){return $this->motivo;}
     
     

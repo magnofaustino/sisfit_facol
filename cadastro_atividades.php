@@ -62,16 +62,16 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Inicio:</span>
-                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtini">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" name="dtini">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Fim:</span>
-                    <input type="date" class="form-control" title="Preencha o campo Nome" required name="dtfim">
+                    <input type="date" class="form-control" title="Preencha o campo Nome" name="dtfim">
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
                 </div>
                 </div>
-                </div><br>
+                </div><br><br>
                 
                 
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>
