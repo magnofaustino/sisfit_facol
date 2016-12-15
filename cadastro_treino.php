@@ -18,6 +18,18 @@ include "conexao.php";
                 <div class="panel-heading"><h4>Cadastro de Treino</h4></div>
                 <div class="panel-body">
 		<div class="form-inline">
+               <div class="form-group">
+                         <div class="input-group">
+                         <span class="input-group-addon">Dia de Treino:</span>
+                         <select class="form-control" required name="dia">
+                         <option value="">Selecione ...</option>
+                         <option value="5">Segunda</option>
+                         <option value="4">Terça</option>
+                         <option value="3">Quarta</option>
+                        <option value="2">Quinta</option>
+                              <option value="1">Sexta</option>
+                        </select>
+                      </div></div>
             
                 <div class="input-group">
                     <span class="input-group-addon">Nome do Aluno:</span>
@@ -27,7 +39,7 @@ include "conexao.php";
 						$result_niveis_acessos = "SELECT * FROM tb_aluno";
 						$resultado_niveis_acesso = mysqli_query($conn, $result_niveis_acessos);
 						while($row_niveis_acessos = mysqli_fetch_assoc($resultado_niveis_acesso)){ ?>
-							<option value="<?php echo $row_niveis_acessos['id']; ?>"><?php echo $row_niveis_acessos['nome']; ?></option> <?php
+							<option value="<?php echo $row_niveis_acessos['n_aluno']; ?>"><?php echo $row_niveis_acessos['nome']; ?></option> <?php
 						}
 					?>
                     </select></div><br>

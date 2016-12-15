@@ -4,7 +4,7 @@
 
 class Treino{
 
-    
+ public $nome_0;   
 public $nome_1;
 public $nome_2;
 public $nome_3;
@@ -18,6 +18,7 @@ public $nome_6;
 				
 	}
     
+         public function getNome_0(){return $this->nome_0;}
     	 public function getNome_1(){return $this->nome_1;}
         public function getNome_2(){return $this->nome_2;}
         public function getNome_3(){return $this->nome_3;}
@@ -26,7 +27,7 @@ public $nome_6;
         public function getNome_6(){return $this->nome_6;}
        
     
-    
+    public function setNome_0($nome_0){$this->nome_0=$nome_0;}
        public function setNome_1($nome_1){$this->nome_1=$nome_1;}
         public function setNome_2($nome_2){$this->nome_2=$nome_2;}
         public function setNome_3($nome_3){$this->nome_3=$nome_3;}
