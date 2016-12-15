@@ -37,11 +37,11 @@ $result = "select * from atividades where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Modalidades:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade" value="<?php echo $atividade; ?>" readonly>
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="atividade"size="9" value="<?php echo $atividade; ?>" readonly>
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor" value="<?php echo $valor; ?>">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor"size="16" value="<?php echo $valor; ?>">
                     <span class="input-group-addon">R$</span>
                 </div></div></div><br>
                 <div class="form-inline">

@@ -186,7 +186,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="text" class="form-control" name="email"size="26" value="<?php echo $email; ?>">
+                    <input type="text" class="form-control" name="email"size="36" value="<?php echo $email; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
@@ -208,7 +208,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da bolsa:</span>
-                    <input type="text" class="form-control" name="tipo_bolsa" value="<?php echo $tipo_bolsa; ?>">
+                    <input type="text" class="form-control" name="tipo_bolsa"size="30" value="<?php echo $tipo_bolsa; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
@@ -223,7 +223,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" name="endereco"size="24" value="<?php echo $rua; ?>">
+                    <input type="text" class="form-control" name="endereco"size="34" value="<?php echo $rua; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Numero:</span>
@@ -238,7 +238,7 @@ $result = "select * from tb_aluno where id = $id";
                 <div class="form-group">      
                     <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep"size="29" value="<?php echo $cep; ?>">
+                    <input type="text" class="form-control" name="cep"size="39" value="<?php echo $cep; ?>">
                 </div>
                      <div class="form-group">
                          <div class="input-group">

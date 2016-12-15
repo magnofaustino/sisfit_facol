@@ -195,7 +195,7 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nome do pai:</span>
-                    <input type="text" class="form-control" name="nomepai" value="<?php echo $nomepai; ?>">
+                    <input type="text" class="form-control" name="nomepai"size="29" value="<?php echo $nomepai; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome da mãe:</span>
@@ -206,7 +206,7 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Apelido:</span>
-                    <input type="text" class="form-control" name="apelido"size="25" value="<?php echo $apelido; ?>">
+                    <input type="text" class="form-control" name="apelido"size="34" value="<?php echo $apelido; ?>">
                 </div>               
                 <div class="input-group">
                     <span class="input-group-addon">Funcao:</span>
@@ -217,7 +217,7 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Num. Carteira:</span>
-                    <input type="text" class="form-control" name="numcarteira"size="19" value="<?php echo $numcarteira; ?>">
+                    <input type="text" class="form-control" name="numcarteira"size="28" value="<?php echo $numcarteira; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Serie da carteira:</span>
@@ -263,7 +263,7 @@ $result = "select * from funcionario where id = $id";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Turno Trabalho:</span>
-                    <input type="text" class="form-control" name="turnotrab"size="18" value="<?php echo $turnotrab; ?>">
+                    <input type="text" class="form-control" name="turnotrab"size="27" value="<?php echo $turnotrab; ?>">
                 </div>
                 
                 <div class="input-group">

@@ -31,12 +31,12 @@ include "conexao.php";
                <div class="input-group">
                     <span class="input-group-addon">Modalidades:</span>
                   
-                   <input id="nome" type=text class="form-control" title="Preencha o campo Nome" required name="atividade"/> 
+                   <input id="nome" type=text class="form-control" title="Preencha o campo Nome" required name="atividade"size="9"> 
                       </div>
 
                 <div class="input-group">
                     <span class="input-group-addon">Valor:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="valor"size="17">
                     <span class="input-group-addon">R$</span>
                 </div></div><br>
                 

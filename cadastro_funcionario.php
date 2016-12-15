@@ -154,7 +154,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nome do pai:</span>
-                    <input type="text" class="form-control" name="nomepai">
+                    <input type="text" class="form-control" name="nomepai"size="28">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Nome da mãe:</span>
@@ -166,7 +166,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Apelido:</span>
-                    <input type="text" class="form-control" name="apelido"size="25">
+                    <input type="text" class="form-control" name="apelido"size="33">
                 </div>               
                 <div class="input-group">
                     <span class="input-group-addon">Funcao:</span>
@@ -177,7 +177,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Num. Carteira:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="numcarteira"size="19">
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="numcarteira"size="27">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Serie da carteira:</span>
@@ -224,7 +224,7 @@ include "conexao.php";
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Turno Trabalho:</span>
-                    <input type="text" class="form-control" name="turnotrab"size="18">
+                    <input type="text" class="form-control" name="turnotrab"size="26">
                 </div>
                 
                 <div class="input-group">
