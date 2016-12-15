@@ -48,11 +48,11 @@ include "conexao.php";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" size="21">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="email">
+                    <input type="email" class="form-control" name="email"size="25">
                 </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
@@ -61,7 +61,7 @@ include "conexao.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero">
+                    <input type="text" class="form-control" name="numero"size="24">
                 </div>
                  <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
@@ -74,7 +74,7 @@ include "conexao.php";
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Cep:</span>
-                    <input type="text" class="form-control" name="cep">
+                    <input type="text" class="form-control" name="cep"size="28">
                 </div></div><br><br>
                 
                 <button type="submit"  name="sub" class="btn btn-default">Cadastrar</button>

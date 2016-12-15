@@ -29,41 +29,40 @@ include ("conexao.php");
                 <div class="form-group">   
                 <div class="input-group">
                     <span class="input-group-addon">CPF:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="cpf" size="40">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Rg:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="rg"size="30" >
                 </div>                
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" >
-                    <span class="input-group-addon"><a class="glyphicon glyphicon-earphone"></a></span>
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone" size="36" >
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">Matricula:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="matricula" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="matricula" size="25">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Estado civil:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="estadocivil" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="estadocivil"size="10" >
                 </div></div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Nacionalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nacionalidade" size="31" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Naturalidade:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="naturalidade" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="naturalidade" size="22" >
                 </div>
                 <div class="form-group">
                          <div class="input-group">
-                         <span class="input-group-addon">UF Naturalidade:</span>
+                         <span class="input-group-addon">UF:</span>
                          <select class="form-control" title="Preencha o campo Nome" required name="ufnaturalidade" >
                           <option value="">Selecione</option>
                          <option value="Acre">Acre</option>
@@ -100,21 +99,18 @@ include ("conexao.php");
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">Data de Nascimento:</span>
-                    <input type="date" class="form-control" name="nascimento" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="nascimento" size="20" >
                     <span class="input-group-addon"><a class="pull-right hidden-xs showopacity glyphicon glyphicon-calendar"></a></span>
+               
                 </div>
-                </div>
-                </div><br>
                 
-                    <div class="form-inline">
                     <div class="input-group">
                     <span class="input-group-addon">Sexo:</span>
                         <label class="form-control">  
-                        <input type="radio" name="sexo" value="M" >  Masculino
+                        <input type="radio" name="sexo" value="M" >  Masculino   
                         <input type="radio" name="sexo" value="F" >  Feminino
                         </label>
-                    </div>
-                
+                    </div></div><br><br>
                     <div class="input-group">
                     <span class="input-group-addon">Deficiente:</span>
                         <label class="form-control">
