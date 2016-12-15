@@ -127,7 +127,7 @@ include ("conexao.php");
                 <div class="form-inline">
                
                 <div class="input-group">
-                    <span class="input-group-addon">Limitacao Fisica:</span>
+                    <span class="input-group-addon">Limitacao:</span>
                         <label class="form-control">
                       <input type="radio" name="limitacao" value="N" >  Nao
                       <input type="radio" name="limitacao" value="S" >  Sim
@@ -136,7 +136,7 @@ include ("conexao.php");
                  
                 <div class="input-group">
                     <span class="input-group-addon">Tipo da limitacao:</span>
-                    <input type="text" class="form-control" name="tipo_lim" >
+                    <input type="text" class="form-control" name="tipo_lim"size="22" >
                 </div></div><br>
                 
                 
@@ -145,7 +145,7 @@ include ("conexao.php");
                 <div class="form-group">
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="email" >
+                    <input type="email" class="form-control" name="email"size="26" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Plano:</span>
@@ -162,7 +162,7 @@ include ("conexao.php");
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Bolsa:</span>
-                    <input type="text" class="form-control" name="bolsa" >
+                    <input type="text" class="form-control" name="bolsa"size="26" >
                 </div></div><br>
                 <div class="form-inline">
                 <div class="form-group">
@@ -172,31 +172,31 @@ include ("conexao.php");
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Horário de Treino:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="horario" >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="horario"size="9" >
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Data de Cadastro:</span>
-                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro" value="<?php echo date("d/m/Y"); ?>" readonly >
+                    <input type="text" class="form-control" title="Preencha o campo Nome" required name="dt_cadastro"size="6" value="<?php echo date("d/m/Y"); ?>" readonly >
                 </div></div></div><br> 
                                                     
                 <div class="form-inline">
                 <div class="form-group">               
                 <div class="input-group">
                     <span class="input-group-addon">Endereço:</span>
-                    <input type="text" class="form-control" name="endereco" >
+                    <input type="text" class="form-control" name="endereco"size="24" >
                 </div>
                      <div class="input-group">
                            <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero" >
+                    <input type="text" class="form-control" name="numero"size="17" >
                 </div>
                  
                 <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" name="bairro" >
+                    <input type="text" class="form-control" name="bairro"size="17" >
                 </div><br><br>
                       <div class="input-group">
                     <span class="input-group-addon">CEP:</span>
-                    <input type="text" class="form-control" name="cep" >
+                    <input type="text" class="form-control" name="cep"size="29">
                 </div>
                      <div class="form-group">
                          <div class="input-group">

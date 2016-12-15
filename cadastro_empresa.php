@@ -37,46 +37,48 @@ include "conexao.php";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">CNPJ/CPF:</span>
-                    <input type="text" class="form-control" name="cpf_cnpj">
+                    <input type="text" class="form-control" name="cpf_cnpj"size="22">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Insc. Estadual:</span>
-                    <input type="text" class="form-control" name="insc_estadual">
+                    <input type="text" class="form-control" name="insc_estadual"size="22">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Insc. Municipal:</span>
-                    <input type="text" class="form-control" name="insc_municipal">
+                    <input type="text" class="form-control" name="insc_municipal"size="4">
                 </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Telefone:</span>
-                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone">
+                    <input type="tel" class="form-control" title="Preencha o campo Nome" required name="telefone"size="24">
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="email">
-                </div>
+                    <input type="email" class="form-control" name="email"size="29">
+                </div></div><br>
+                
+                <div class="form-inline">          
                 <div class="input-group">
                     <span class="input-group-addon">Endereco:</span>
-                    <input type="text" class="form-control" name="endereco">
+                    <input type="text" class="form-control" name="endereco"size="23">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Bairro:</span>
+                    <input type="text" class="form-control" name="bairro"size="30">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Numero:</span>
+                    <input type="text" class="form-control" name="numero"size="17">
                 </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Complemento:</span>
-                    <input type="text" class="form-control" name="complemento">
+                    <input type="text" class="form-control" name="complemento"size="19">
                 </div>
-                <div class="input-group">
-                    <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero">
-                </div>
-                 <div class="input-group">
-                    <span class="input-group-addon">Bairro:</span>
-                    <input type="text" class="form-control" name="bairro">
-                 </div></div><br>
-                <div class="form-inline">
+                
                 <div class="input-group">
                     <span class="input-group-addon">Municipio:</span>
-                    <input type="text" class="form-control" name="municipio">
+                    <input type="text" class="form-control" name="municipio"size="27">
                 </div>
                 <div class="form-group">
                          <div class="input-group">
