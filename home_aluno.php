@@ -46,7 +46,9 @@
                
                  
                <button type="submit"  name="sub" class="btn btn-default">Visualizar</button>
-        
+                <div class="pull-right">
+                    <a href="login_aluno.html" class="btn btn-default btn-sm" role="button">Sair</a>  
+                </div>
         <fieldset>
         <div class="panel panel-primary filterable">
             <div class="panel-heading">
