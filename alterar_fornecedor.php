@@ -85,16 +85,16 @@ $result = "select * from fornecedor where id = $id";
                 </div> 
                 <div class="input-group">
                     <span class="input-group-addon">E-mail:</span>
-                    <input type="email" class="form-control" name="email" value="<?php echo $email; ?>">
+                    <input type="email" class="form-control" name="email"size="24" value="<?php echo $email; ?>">
                 </div></div><br>
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Endereco:</span>
-                    <input type="text" class="form-control" name="endereco" value="<?php echo $endereco; ?>">
+                    <input type="text" class="form-control" name="endereco"size="19" value="<?php echo $endereco; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Numero:</span>
-                    <input type="text" class="form-control" name="numero" value="<?php echo $numero; ?>">
+                    <input type="text" class="form-control" name="numero"size="22" value="<?php echo $numero; ?>">
                 </div>
                  <div class="input-group">
                     <span class="input-group-addon">Bairro:</span>
@@ -103,11 +103,11 @@ $result = "select * from fornecedor where id = $id";
                 <div class="form-inline">
                 <div class="input-group">
                     <span class="input-group-addon">Municipio:</span>
-                    <input type="text" class="form-control" name="cidade" value="<?php echo $cidade; ?>">
+                    <input type="text" class="form-control" name="cidade"size="19" value="<?php echo $cidade; ?>">
                 </div>
                 <div class="input-group">
                     <span class="input-group-addon">Cep:</span>
-                    <input type="text" class="form-control" name="cep" value="<?php echo $cep; ?>">
+                    <input type="text" class="form-control" name="cep"size="26" value="<?php echo $cep; ?>">
                 </div></div><br><br>
                 
                 <button type="submit"  name="sub" class="btn btn-default">Salvar</button>
