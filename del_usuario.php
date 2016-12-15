@@ -1,9 +1,9 @@
 <?php
+include ("conexao.php"); 
 
     $id = $_GET['tx'];
-     include ("conexao.php"); 
-
-$result = "delete from usuarios where id = $id";
+    
+$result = "delete from usuario where id = $id";
 
 $deleteusuario = mysqli_query($conn, $result);
 
