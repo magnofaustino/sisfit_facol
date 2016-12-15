@@ -9,7 +9,7 @@
     
     $id = $_COOKIE['login'];
     
-    $segunda = '';
+    $usuario = '';
    
 ?>
     
