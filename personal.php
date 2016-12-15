@@ -33,7 +33,7 @@
                         <th><input type="text" class="form-control" placeholder="Telefone" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Horario" disabled></th>
                         <th><input type="text" class="form-control" placeholder="Cpf" disabled></th>
-                        <th><input type="text" class="form-control" placeholder="Alterar / Excluir" disabled></th>
+                        <th><input type="text" class="form-control" placeholder="           Alterar / Excluir" disabled></th>
                     </tr>
                 </thead>
                 <tbody>
